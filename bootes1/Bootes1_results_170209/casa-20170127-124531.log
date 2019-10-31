@@ -1,0 +1,36 @@
+2017-01-27 12:47:10	INFO	casa::::	---
+2017-01-27 12:47:10	INFO	casa::::	CASA Version 4.7.38335-REL (r38335)
+2017-01-27 12:47:10	INFO	casa::::	  Tagged on: 2016-09-28 09:04:02 UTC
+2017-01-27 12:48:59	INFO	viewer::::	
+2017-01-27 12:48:59	INFO	viewer::::+	##########################################
+2017-01-27 12:48:59	INFO	viewer::::+	##### Begin Task: viewer             #####
+2017-01-27 12:48:59	INFO	viewer::::	viewer(infile="./H12-00_results_170127/H12-00_initial_clean.residual.tt0",displaytype="raster",channel=0,zoom=1,outfile="",
+2017-01-27 12:48:59	INFO	viewer::::+	        outscale=1.0,outdpi=300,outformat="jpg",outlandscape=False,gui=True)
+2017-01-27 12:49:05	INFO	viewer::::	##### End Task: viewer               #####
+2017-01-27 12:49:05	INFO	viewer::::+	##########################################
+2017-01-27 17:48:53	INFO	listobs::::	
+2017-01-27 17:48:53	INFO	listobs::::+	##########################################
+2017-01-27 17:48:53	INFO	listobs::::+	##### Begin Task: listobs            #####
+2017-01-27 17:48:53	INFO	listobs::::	listobs(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",selectdata=True,spw="",field="",antenna="",
+2017-01-27 17:48:53	INFO	listobs::::+	        uvrange="",timerange="",correlation="",scan="",intent="",
+2017-01-27 17:48:53	INFO	listobs::::+	        feed="",array="",observation="",verbose=True,listfile="",
+2017-01-27 17:48:53	INFO	listobs::::+	        listunfl=False,cachesize=50,overwrite=False)
+2017-01-27 17:48:53	SEVERE	listobs::ms::open	Exception Reported: Table file /homedisk/tc1815/16B-013.sb32753521.eb33105440.57746.79002927084.ms/ANTENNA/table.dat does not exist
+2017-01-27 17:48:53	SEVERE	listobs::::	*** Error *** Table file /homedisk/tc1815/16B-013.sb32753521.eb33105440.57746.79002927084.ms/ANTENNA/table.dat does not exist
+2017-01-27 17:48:53	SEVERE	ms::detached	ms is not attached to a file - cannot perform operation.
+2017-01-27 17:48:53	SEVERE	ms::detached+	Call ms.open('filename') to reattach.
+2017-01-27 17:48:53	INFO	listobs::::	##### End Task: listobs              #####
+2017-01-27 17:48:53	INFO	listobs::::+	##########################################
+2017-01-27 17:53:17	INFO	listobs::::	
+2017-01-27 17:53:17	INFO	listobs::::+	##########################################
+2017-01-27 17:53:17	INFO	listobs::::+	##### Begin Task: listobs            #####
+2017-01-27 17:53:17	INFO	listobs::::	listobs(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms/",selectdata=True,spw="",field="",antenna="",
+2017-01-27 17:53:17	INFO	listobs::::+	        uvrange="",timerange="",correlation="",scan="",intent="",
+2017-01-27 17:53:17	INFO	listobs::::+	        feed="",array="",observation="",verbose=True,listfile="",
+2017-01-27 17:53:17	INFO	listobs::::+	        listunfl=False,cachesize=50,overwrite=False)
+2017-01-27 17:53:17	SEVERE	listobs::ms::open	Exception Reported: Table file /homedisk/tc1815/16B-013.sb32753521.eb33105440.57746.79002927084.ms/ANTENNA/table.dat does not exist
+2017-01-27 17:53:17	SEVERE	listobs::::	*** Error *** Table file /homedisk/tc1815/16B-013.sb32753521.eb33105440.57746.79002927084.ms/ANTENNA/table.dat does not exist
+2017-01-27 17:53:17	SEVERE	ms::detached	ms is not attached to a file - cannot perform operation.
+2017-01-27 17:53:17	SEVERE	ms::detached+	Call ms.open('filename') to reattach.
+2017-01-27 17:53:17	INFO	listobs::::	##### End Task: listobs              #####
+2017-01-27 17:53:17	INFO	listobs::::+	##########################################

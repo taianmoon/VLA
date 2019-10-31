@@ -1,0 +1,4 @@
+taskname           = "plotants"
+vis                =  "16B-013.sb32753521.eb33105440.57746.79002927084.ms"
+figfile            =  "bootes1_plotants.png"
+#plotants(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",figfile="bootes1_plotants.png")

@@ -1,0 +1,210 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 8714 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="15">
+<DESCRIPTION>
+blobcat.py
+ Version 1.2 (July 2014)
+
+ SB image = bootes1_initial_clean.image.tt0.fits
+ RMS (constant) = 2.987e-06
+ Bandwidth smearing (constant) = 1.000e+00
+ Total image size (including blanks) along dimensions (RA , Dec) = (8400 , 8400) pixels
+ Image projection = SIN
+ Total non-blank pixels = 70560000
+ Pixel dimensions (RA , Dec) = (1.000e-01 , 1.000e-01) arcsec
+ Resolution (bmaj , bmin) = (3.894e-01 , 2.315e-01) arcsec, PA = 7.315e+01 deg
+ SNR blob detection threshold (T_d) = 5.000e+00
+ SNR blob flooding threshold (T_f)  = 2.000e+00
+
+ Phase calibrator positional error (RA , Dec) = (1.000e-02 , 1.000e-02) arcsec
+ SELFCAL standard error of the mean (SEM) of gain phases = 5.000e-01 deg
+ Absolute surface brightness error = 5.00 %
+ Pixellation error (affects peak errors) = 2.00 %
+ Clean bias correction = 0.000e+00 Jy/beam
+ Lambda factor for resolved blob peak bias correction = 3.50
+ Blob size limits (min , max) = (5 , 100000) pixels
+ Blob size limits along dimensions (RA , Dec) = (3 , 3) pixels
+ Edge buffer for extracting blobs = 10 pixels
+
+ Important: pixel coordinates start from 0, not 1.
+ Equinox (in years) for equatorial coordinate system = 2000.00
+
+     C1         C2         C3         C4              C5              C6         C7         C8             C9            C10             C11             C12        C13            C14            C15             C16             C17        C18        C19        C20        C21        C22        C23        C24      C25         C26         C27         C28            C29            C30            C31            C32            C33            C34            C35            C36            C37            C38            C39      C40         C41
+     ID       npix        x_p        y_p            RA_p           Dec_p     RA_err    Dec_err            x_c            y_c            RA_c           Dec_c      cFlag           x_wc           y_wc           RA_wc          Dec_wc     wcFlag       xmin       xmax       ymin       ymax        rms    BWScorr        M     SNR_OBS     SNR_FIT         SNR        S_p_OBS        S_p_FIT            S_p         S_p_CB      S_p_CBBWS  S_p_CBBWS_err      S_int_OBS    S_int_OBSCB          S_int       S_int_CB   S_int_CB_err    R_EST     VisArea
+             [pix]      [pix]      [pix]           [deg]           [deg]      [deg]      [deg]          [pix]          [pix]           [deg]           [deg]                     [pix]          [pix]           [deg]           [deg]                 [pix]      [pix]      [pix]      [pix]    [ Jy/b]                                                                 [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]           [Jy]           [Jy]           [Jy]           [Jy]           [Jy]
+</DESCRIPTION>
+<PARAM arraysize="14" datatype="char" name="ID" value="all_xid250_dr2"/>
+<PARAM arraysize="14" datatype="char" name="NAME" value="all_xid250_dr2"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="44" datatype="char" name="First input table" value="1: bootes1_initial_clean.image.tt0_blobs.txt"/>
+<PARAM arraysize="35" datatype="char" name="Second input table" value="2: L5-Bootes-HerMES_xID250_DR2.fits"/>
+<FIELD datatype="short" name="col1">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col2">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col3">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col4">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="col5"/>
+<FIELD datatype="double" name="col6"/>
+<FIELD datatype="float" name="col7"/>
+<FIELD datatype="float" name="col8"/>
+<FIELD datatype="float" name="col9"/>
+<FIELD datatype="float" name="col10"/>
+<FIELD datatype="double" name="col11"/>
+<FIELD datatype="double" name="col12"/>
+<FIELD datatype="short" name="col13">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="col14"/>
+<FIELD datatype="float" name="col15"/>
+<FIELD datatype="double" name="col16"/>
+<FIELD datatype="double" name="col17"/>
+<FIELD datatype="short" name="col18">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col19">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col20">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col21">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col22">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="col23"/>
+<FIELD datatype="float" name="col24"/>
+<FIELD datatype="float" name="col25"/>
+<FIELD datatype="float" name="col26"/>
+<FIELD datatype="float" name="col27"/>
+<FIELD datatype="float" name="col28"/>
+<FIELD datatype="double" name="col29"/>
+<FIELD datatype="double" name="col30"/>
+<FIELD datatype="double" name="col31"/>
+<FIELD datatype="double" name="col32"/>
+<FIELD datatype="double" name="col33"/>
+<FIELD datatype="double" name="col34"/>
+<FIELD datatype="double" name="col35"/>
+<FIELD datatype="double" name="col36"/>
+<FIELD datatype="double" name="col37"/>
+<FIELD datatype="double" name="col38"/>
+<FIELD datatype="double" name="col39"/>
+<FIELD datatype="float" name="col40"/>
+<FIELD datatype="float" name="col41"/>
+<FIELD arraysize="50" datatype="char" name="IAU_name">
+<DESCRIPTION>IAU Name</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="RA" unit="deg">
+<DESCRIPTION>Right Ascension (J2000)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Dec" unit="deg">
+<DESCRIPTION>Declination (J2000)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="F250" unit="mJy">
+<DESCRIPTION>Flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_F250" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="F350" unit="mJy">
+<DESCRIPTION>Flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_F350" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="F500" unit="mJy">
+<DESCRIPTION>Flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="e_F500" unit="mJy">
+<DESCRIPTION>Error (inst.) in flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et_F250" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 250 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Chi250">
+<DESCRIPTION>Local reduced chi2 statistic of photometry fit in 11x11 pixel window</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et_F350" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 350 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Chi350">
+<DESCRIPTION>Local reduced chi2 statistic of photometry fit in 11x11 pixel window</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="et_F500" unit="mJy">
+<DESCRIPTION>Total error (inst.+conf.) in flux density at 500 micron</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Chi500">
+<DESCRIPTION>Local reduced chi2 statistic of photometry fit in 11x11 pixel window</DESCRIPTION>
+</FIELD>
+<FIELD datatype="int" name="gID">
+<DESCRIPTION>ID of the segment where the source is</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="int" name="gSize">
+<DESCRIPTION>Number of sources in the segment gid</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="double" name="bkg250" unit="mJy/Beam">
+<DESCRIPTION>Background substracted from 250 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="bkg350" unit="mJy/Beam">
+<DESCRIPTION>Background substracted from 350 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="bkg500" unit="mJy/Beam">
+<DESCRIPTION>Background substracted from 500 micron map</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  414 / width of table in bytes                        NAXIS2  =                   15 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   62 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'col1    '           / label for column 1                             TFORM1  = 'I       '           / format for column 1                            TTYPE2  = 'col2    '           / label for column 2                             TFORM2  = 'I       '           / format for column 2                            TTYPE3  = 'col3    '           / label for column 3                             TFORM3  = 'I       '           / format for column 3                            TTYPE4  = 'col4    '           / label for column 4                             TFORM4  = 'I       '           / format for column 4                            TTYPE5  = 'col5    '           / label for column 5                             TFORM5  = 'D       '           / format for column 5                            TTYPE6  = 'col6    '           / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'col7    '           / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TTYPE8  = 'col8    '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TTYPE9  = 'col9    '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TTYPE10 = 'col10   '           / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TTYPE11 = 'col11   '           / label for column 11                            TFORM11 = 'D       '           / format for column 11                           TTYPE12 = 'col12   '           / label for column 12                            TFORM12 = 'D       '           / format for column 12                           TTYPE13 = 'col13   '           / label for column 13                            TFORM13 = 'I       '           / format for column 13                           TTYPE14 = 'col14   '           / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TTYPE15 = 'col15   '           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TTYPE16 = 'col16   '           / label for column 16                            TFORM16 = 'D       '           / format for column 16                           TTYPE17 = 'col17   '           / label for column 17                            TFORM17 = 'D       '           / format for column 17                           TTYPE18 = 'col18   '           / label for column 18                            TFORM18 = 'I       '           / format for column 18                           TTYPE19 = 'col19   '           / label for column 19                            TFORM19 = 'I       '           / format for column 19                           TTYPE20 = 'col20   '           / label for column 20                            TFORM20 = 'I       '           / format for column 20                           TTYPE21 = 'col21   '           / label for column 21                            TFORM21 = 'I       '           / format for column 21                           TTYPE22 = 'col22   '           / label for column 22                            TFORM22 = 'I       '           / format for column 22                           TTYPE23 = 'col23   '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TTYPE24 = 'col24   '           / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TTYPE25 = 'col25   '           / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TTYPE26 = 'col26   '           / label for column 26                            TFORM26 = 'E       '           / format for column 26                           TTYPE27 = 'col27   '           / label for column 27                            TFORM27 = 'E       '           / format for column 27                           TTYPE28 = 'col28   '           / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TTYPE29 = 'col29   '           / label for column 29                            TFORM29 = 'D       '           / format for column 29                           TTYPE30 = 'col30   '           / label for column 30                            TFORM30 = 'D       '           / format for column 30                           TTYPE31 = 'col31   '           / label for column 31                            TFORM31 = 'D       '           / format for column 31                           TTYPE32 = 'col32   '           / label for column 32                            TFORM32 = 'D       '           / format for column 32                           TTYPE33 = 'col33   '           / label for column 33                            TFORM33 = 'D       '           / format for column 33                           TTYPE34 = 'col34   '           / label for column 34                            TFORM34 = 'D       '           / format for column 34                           TTYPE35 = 'col35   '           / label for column 35                            TFORM35 = 'D       '           / format for column 35                           TTYPE36 = 'col36   '           / label for column 36                            TFORM36 = 'D       '           / format for column 36                           TTYPE37 = 'col37   '           / label for column 37                            TFORM37 = 'D       '           / format for column 37                           TTYPE38 = 'col38   '           / label for column 38                            TFORM38 = 'D       '           / format for column 38                           TTYPE39 = 'col39   '           / label for column 39                            TFORM39 = 'D       '           / format for column 39                           TTYPE40 = 'col40   '           / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 'col41   '           / label for column 41                            TFORM41 = 'E       '           / format for column 41                           TTYPE42 = 'IAU_name'           / label for column 42                            TFORM42 = '50A     '           / format for column 42                           TCOMM42 = 'IAU Name'                                                            TTYPE43 = 'RA      '           / label for column 43                            TFORM43 = 'D       '           / format for column 43                           TUNIT43 = 'deg     '           / units for column 43                            TCOMM43 = 'Right Ascension (J2000)'                                             TTYPE44 = 'Dec     '           / label for column 44                            TFORM44 = 'D       '           / format for column 44                           TUNIT44 = 'deg     '           / units for column 44                            TCOMM44 = 'Declination (J2000)'                                                 TTYPE45 = 'F250    '           / label for column 45                            TFORM45 = 'D       '           / format for column 45                           TUNIT45 = 'mJy     '           / units for column 45                            TCOMM45 = 'Flux density at 250 micron'                                          TTYPE46 = 'e_F250  '           / label for column 46                            TFORM46 = 'D       '           / format for column 46                           TUNIT46 = 'mJy     '           / units for column 46                            TCOMM46 = 'Error (inst.) in flux density at 250 micron'                         TTYPE47 = 'F350    '           / label for column 47                            TFORM47 = 'D       '           / format for column 47                           TUNIT47 = 'mJy     '           / units for column 47                            TCOMM47 = 'Flux density at 350 micron'                                          TTYPE48 = 'e_F350  '           / label for column 48                            TFORM48 = 'D       '           / format for column 48                           TUNIT48 = 'mJy     '           / units for column 48                            TCOMM48 = 'Error (inst.) in flux density at 350 micron'                         TTYPE49 = 'F500    '           / label for column 49                            TFORM49 = 'D       '           / format for column 49                           TUNIT49 = 'mJy     '           / units for column 49                            TCOMM49 = 'Flux density at 500 micron'                                          TTYPE50 = 'e_F500  '           / label for column 50                            TFORM50 = 'D       '           / format for column 50                           TUNIT50 = 'mJy     '           / units for column 50                            TCOMM50 = 'Error (inst.) in flux density at 500 micron'                         TTYPE51 = 'et_F250 '           / label for column 51                            TFORM51 = 'D       '           / format for column 51                           TUNIT51 = 'mJy     '           / units for column 51                            TCOMM51 = 'Total error (inst.+conf.) in flux density at 250 micron'             TTYPE52 = 'Chi250  '           / label for column 52                            TFORM52 = 'D       '           / format for column 52                           TCOMM52 = 'Local reduced chi2 statistic of photometry fit in 11x11 pixel window'TTYPE53 = 'et_F350 '           / label for column 53                            TFORM53 = 'D       '           / format for column 53                           TUNIT53 = 'mJy     '           / units for column 53                            TCOMM53 = 'Total error (inst.+conf.) in flux density at 350 micron'             TTYPE54 = 'Chi350  '           / label for column 54                            TFORM54 = 'D       '           / format for column 54                           TCOMM54 = 'Local reduced chi2 statistic of photometry fit in 11x11 pixel window'TTYPE55 = 'et_F500 '           / label for column 55                            TFORM55 = 'D       '           / format for column 55                           TUNIT55 = 'mJy     '           / units for column 55                            TCOMM55 = 'Total error (inst.+conf.) in flux density at 500 micron'             TTYPE56 = 'Chi500  '           / label for column 56                            TFORM56 = 'D       '           / format for column 56                           TCOMM56 = 'Local reduced chi2 statistic of photometry fit in 11x11 pixel window'TTYPE57 = 'gID     '           / label for column 57                            TFORM57 = 'J       '           / format for column 57                           TNULL57 =               999999 / blank value for column 57                      TCOMM57 = 'ID of the segment where the source is'                               TTYPE58 = 'gSize   '           / label for column 58                            TFORM58 = 'J       '           / format for column 58                           TNULL58 =               999999 / blank value for column 58                      TCOMM58 = 'Number of sources in the segment gid'                                TTYPE59 = 'bkg250  '           / label for column 59                            TFORM59 = 'D       '           / format for column 59                           TUNIT59 = 'mJy/Beam'           / units for column 59                            TCOMM59 = 'Background substracted from 250 micron map'                          TTYPE60 = 'bkg350  '           / label for column 60                            TFORM60 = 'D       '           / format for column 60                           TUNIT60 = 'mJy/Beam'           / units for column 60                            TCOMM60 = 'Background substracted from 350 micron map'                          TTYPE61 = 'bkg500  '           / label for column 61                            TFORM61 = 'D       '           / format for column 61                           TUNIT61 = 'mJy/Beam'           / units for column 61                            TCOMM61 = 'Background substracted from 500 micron map'                          TTYPE62 = 'Separation'         / label for column 62                            TFORM62 = 'D       '           / format for column 62                           TUNIT62 = 'arcsec  '           / units for column 62                            TCOMM62 = 'Distance between matched objects along a great circle'               TUCD62  = 'pos.angDistance'                                                     DATE-HDU= '2018-01-10T15:34:19' / Date of HDU creation (UTC)                    STILVERS= '3.1     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                               õ
+È±@kSÛCÊ◊@Aƒ£á)Õ6f⁄¿6N±ˇE.z=EZØ
+@kSÛ•#Ó˚@AƒûUı÷ E.Ä EZ∆·@kSÛã=ìË@Aƒü]'˘C 
+‚
+Ì†µ6Hßœ?Ä  >8QÏBp§Bp§Bp§?„O4	ã¥?„O4	ã¥?„O4	ã¥?„O4	ã¥?„O4	ã¥>€yîÖ⁄??∏~^Åu??∏~^Åu?@dŒ4 ±
+?@dŒ4 ±
+>˙jôπ¿yØ@®£◊øÄ  2HERMES S250 SF J143429.6+353203                  @kSÛ∂E°À@AƒeËí%1        @o”ıµ˙"@.Ù®~8Î@FÂ∞@ú6øØ≠ÿ@‰0`€†@lm§HIE@ g
+e¥èø@Oô^·6Á?ÙB£òˆ‹k@&°Èí‚?ˆ˝%‡dYFˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@@ﬁÏ—E  w⁄@kQG"≥Äò@A…V¿:›6û∂d6{®ÇE£∂REñÕÖ@kQG1Ü§é@A…U sÅ E£∂EñÕ√@kQG4=‰ @A…U–rÑÈ tzÿ‹6Hßœ?Ä  >8QÏAñ=qAñ=qAñ=q?kŒ”®U?kŒ”®U?kŒ”®U?kŒ”®U?kŒ”®U>—“d∏"≥?	¡¨~îŸ?	¡¨~îŸ?2öó}É?2öó}É>“õ 1£!i?¢è\øÄ  2HERMES S250 SF J143409.4+353424                  @kQA [¿@A…e∂ôÖ@:bs’∫≤@ˆ¬Ô‘8“@2%àT¸@QÖcÅØò@0àõ«qC9@©^„Kî@
+ùi1Û@âenÔ°‰@/V˛ÍVK?˜R¸&V´ﬁ@Ï“a≈C?ÔW£TYˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@.ƒ f'L 	 %¬@kR	d“@Aƒ,M™ù6Ω?;6éÒEé∏EPW◊@kR	cóÀ@Aƒ¥Æåµ Eé∏EPXˆ@kR	cA è@Aƒ≈Àjë Ω≈6Hßœ?Ä  >8QÏAjè\Ajè\Ajè\?ˆﬁWÙ?ˆﬁWÙ?ˆﬁWÙ?ˆﬁWÙ?ˆﬁWÙ>œÌyM˜€?ÆëäÃ?ÆëäÃ?SØ¯|8@?SØ¯|8@>”I;@ƒ?Ëı√øÄ  2HERMES S250 SF J143415.0+353151                  @kR£n.≤@A√˘do@KË\1Y>@I,‹◊‹À@Jƒ/@_k†@«∏Éi¨l@@˙∆£Ωﬂ @gˇ√ö$@ãæ√Ë@ËaP@ﬁ^≈à5@úQ9Æww@£9·>ù?¯¡Å$WŒˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@	£Ï §IM  ù]@kPeÂË=@AƒVÿ5ÿ˜6ÓËV6´ÃwEºÂ
+EU⁄·@kPeˇ_äÔ@AƒWw≥ÙA Eº‰EUÿÕ@kPf	‰∞@AƒWYö»e öü\`6Hßœ?Ä  ?ÆA)p§A/ÆA/Æ? ñ≈c™‘Í?2Z˚@)?2Z˚@)?2Z˚@)?2Z˚@)>ÕìÓ†G˜>˛˘qõ–∑›>˛˘qõ–∑›?∂Ÿ¡‚Ó‰?∂Ÿ¡‚Ó‰>Ã…«V1¬?ãÖøÄ  2HERMES S250 SF J143402.5+353202                  @kPVW˚iò@AƒZˇ*+@&ıe‰`gI@~û 0ßh@.%ÚÏÚB@L`{j⁄i?˘¢¡{_ÚØ@gAçi	Ø@¯’«GQŒ@S.{=é @º]È¿#?ÙóI‡@≤láB¢?ıœ(Ag©]ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@m#g¿)  >Ñ@kR-ˆõŸ@A∆LËDÛ7k.6√ı8EâÔ
+ExC3@kR-˛ò°Õ@A∆M´ä EâÓÕExB=@kR. á@A∆M	*£ :AÅá6Hßœ?Ä  ?∏RAáAáAá>¸À±ß~ıŸ>¸À±ß~ıŸ>¸À±ß~ıŸ>¸À±ß~ıŸ>¸À±ß~ıŸ>Àˆ<¿Bxä? ZghË°h? ZghË°h?Y≈wh–?Y≈wh–>Õté‡…Yﬂ?ÃÃÕøÄ  2HERMES S250 SF J143416.3+353257                  @kR.úÀ}A@A∆M++˝µ@`í≤Vˇ¡@Iú˘@Wˇ‡"&˛@÷∫åXhw@Py¬ejΩ‰@ûB·& %@8~Ãéπ?˛}ì©ïê @ÿ›|Gy@ à¸ìcı@rÖà#Õ?Ù⁄!u˛äˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ?ÀˇÆ∞Âä  	Ñ@kO≤õ◊,@A¿’÷\~¬7
+în6√IkE–¸{E8ˆ@kO≤s ˝Î@A¿’o∫` E–¸ÕE:∏@kO≤p√¿@A¿’àà$Q "	Å	Ü6Hßœ?Ä  ?c◊
+A7LAÎÖAÎÖ>¸m≈eÖVˆ>¸ı÷ú¥u >¸ı÷ú¥u >¸ı÷ú¥u >¸ı÷ú¥u >À˛O’7C?˝ø˛%ñ?˝ø˛%ñ?qÿˆ´‚T?qÿˆ´‚T>Œ‘õô?ÃÃÕøÄ  2HERMES S250 SF J143357.5+353022                  @kO≠ñ¶†@A¿…[ˇW@CƒÆ! @Õ\>≈8@D{Òíl@*Øˇ6¨d@;LÕcÀÅs@·<%J<d@oG∂w˜?Ùk“∂Òô@Ñ∞@•æ?˝L∏$ü∫@Ãvë9H?ıe õÄ˙fˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@áµ®–'A  ﬁΩ@kSÆúuó@A¿!w777=6‹sﬂE=– EÿR@kSÆ‰Î°@A¿!%˛~ E=“fEÿˆ@kSÆŸ¶hœ@A¿!˙Pæâ ⁄‡º¿6Hßœ?Ä  ?z·H@¯ ≈@˝“Ú@˝“Ú>¯I÷kd∞å>¯ÿ≤<‚aD>¯ÿ≤<‚aD>¯ÿ≤<‚aD>¯ÿ≤<‚aD>À?Ì«ÏW ? _
+âÏ1}? _
+âÏ1}?‡õsö?‡õsö>Õ√m5»´f?„◊
+øÄ  2HERMES S250 SF J143427.6+353000                  @kSØ¢Zq@A¿_ªQz@EO ! ·¯@úé@†@@A¯å∞/@›i”@8CKr≈z@ß∆É∞@¡ª ”?Ú¢FÁE@”VS…¨?ÚNÛ∏…‡â@P™`e?ıKâ5ûG~ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@	=ô6`ûk  Ô@kP,ı§@A…ÖªÀÛâ7%la6‰ÅtE«Ñ=Eòvˆ@kP§\…∏@A…ÖútÛ– E«Ä{Eòw@kP∆CNg@A…Ö°ÃÊE Óı6Hßœ?Ä  ?5¬è@Ú{@Û;d@Û;d>˜±ˇ?[wØ>˜œzµ&ä®>˜œzµ&ä®>˜œzµ&ä®>˜œzµ&ä®>À◊ÿW3>Û_P∆µ˛>Û_P∆µ˛>¯	wjàÀ>¯	wjàÀ> ◊ŸT=?åÃÕøÄ  2HERMES S250 SF J143359.7+353425                  @kO˜ŒŸá@A…sÍ≥g°        @dµ;∂èt@9‚ö=-á˘@>∆DèÉ@4VõH@'≠g<@˛{=é @ ^¡~∫Ò@ ÛEöN?ıæ-≤¿≤@¥&˚VÃÂ?ıníü™T”ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@≈4BÛò  ^@kSC~ı©e@A v∞BtÁ7+ ´6Í·ãEUÊ·E†æ@kSC`F¥@A wa“>7 EU„ÆE†º·@kSCnzd©@A w=Ê∑“ [b6Hßœ?Ä  ?LÃÕ@Èá@Î33@Î33>ˆ–À
+‡≈>˜Ttuƒè>˜Ttuƒè>˜Ttuƒè>˜Ttuƒè> Û{CÃ>˘Ç¨»Ólj>˘Ç¨»Ólj>ˇˆˆXÀµ>ˇˆˆXÀµ>Ã!ˆTBíÒ? =qøÄ  2HERMES S250 SF J143424.3+353451                  @kS>´6z@A `√è6i@Mgº@Öé<nEX@JÔˇ≈Gù@/è9ƒFÏ@?æûö@ (^√⁄∂@x∑°¬]?Ùˆ‚Jìå@\b◊e≠?ı˜Ò√˝r@a/T#N?Ò~o˜ﬂ†ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@˛üa˜.~  ◊ı@kRJ¡ïiΩ@A W’°T70)(6ÒÌnEÜª
+Eü©◊@kRJ¶ä5@A Xf≤ﬂ EÜ∫ˆEü™ @kRJß”Ì@A X∞ ’ŸÙ˜6Hßœ?Ä  ?LÃÕ@⁄·H@„33@„33>ımº]—≥>ˆ=+tH>ˆ=+tH>ˆ=+tH>ˆ=+tH> ‘rh|Ä>u¯6~]{>u¯6~]{>ÙŸ)ü/3ã>ÙŸ)ü/3ã> iœ∞0ã?Ä  øÄ  2HERMES S250 SF J143417.1+353451                  @kRH@·qü@A _c<Ê:@9Œ€ÁÚ√@|ÜhÕ@9&=Åjœ@ìö|®ì@:„=·‚ﬁá@´à Í·ã@
+ÏJ@ïÚ?ÙåÍî]v@y∂ı Úÿ?Ò9ë˚@Fò†tı?˜`"I÷„ßˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ?Ú—-±Â‘Y  øæ@kRQx42¸@AÀ 9/ﬁ7::#6˛ŒEÖÚÕE•ÍÕ@kRQ¶é®-@AÀ3rPﬁ EÖÛÆE•Ï @kRQû“#‡@AÀUø`d º¡ºø6Hßœ?Ä  ?c◊
+@‘£◊@÷∞!@÷∞!>Ù–¬÷ﬁM>ıï\XPê>ıï\XPê>ıï\XPê>ıï\XPê> §˙≥0<í>Û7ªfF®™>Û7ªfF®™>¯Õy√ÅÙ≥>¯Õy√ÅÙ≥> Û£¥¶>Ü?∞£◊øÄ  2HERMES S250 SF J143417.4+353515                  @kRS‚÷#é@AÀ5üÙ˝m@AçR~Rw@¶-·∫öõ@AΩ|˛X`@µæ˛≠i@0√u!Læ@
+„~_Åp@ä¡èÅÈ?˜Œ˛†Ñof@&ôcÙœ?ﬁ`s_@∫æ>‘ì?˚ﬂ€“˙xˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@ë4ùÔå  ˆj@kR—c1”ç@AœOeKë◊7Bùü7‡$Eo[\EÀTè@kR—w¨Ë_@AœOÍpn Eo\§EÀSÏ@kR—r{ùÖ@AœO÷ùÌ" Ù¯il6Hßœ?Ä  ?LÃÕ@ J@À∂F@À∂F>Û«T‚3R>Ûô–‚[>Ûô–‚[>Ûô–‚[>Ûô–‚[> }§E‡qw>Lcê‡‚>Lcê‡‚>ıpNœucy>ıpNœucy> |h∂éÙP?ó
+=øÄ  2HERMES S250 SF J143421.0+353715                  @kRœø∆T@Aœxª”ÄE@?0 Å«`@≈Å‹‰r@IrI—ëX@J1ÁŸòç@@ÄË˚ ºæ@ÊØfï@{ﬁùØ©?ÚÕµ_»Ωt@$^bãÊS?˘jÛ≤@hÁéK·?ıπ:!DÙˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@"xWº%  VÂ@kO£•@A√ w©7`–ê7™ÅE“´ÖE>cÖ@kO£=U\9@A√;bÒV E“¨∏E>_
+@kO£3: @A√ ˙ç
+¶ TX‰È6Hßœ?Ä  ?™=q@∏£◊@∏£◊@ØÆ>Ú]HÈ%>Ú]HÈ%>Ò2äıDòø>Ò2äıDòø>Ò2äıDòø> !Ø-„KO>Ò±r8o¢>Ò±r8o¢>¯À∂ˆƒf{>¯À∂ˆƒf{> Ûaº&ö?‡  øÄ  2HERMES S250 SF J143357.1+353124                  @kOù‹yh@A¬ˇ %ø≠@K…VlÙ!@ÿ“ È4@?ägÛ
+N@íˇƒp›π@8ûˆÉ{·@ıå∑^¶@˝ÃÍ(˛&@? ªzîÚ@µhaÈ)$?ı¡Å?/¿∏@€çe/é?Ù_–ö∑¶ÀˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ?˛¿ÈVïT ! ,Ω@kR2Ú([@AœöıØo7eŸ7ÜYEâb§EÕÁ\@kR2⁄'©<@Aœö‚Dc EâbREÕÁq@kR2›&ŸÄ@Aœö‰Œ≤f +.ªæ6Hßœ?Ä  ?àı√@™Ò™@™Ò™@™Ò™>ªÚç:e>ªÚç:e>ªÚç:e>ªÚç:e>ªÚç:e> `¥Ωç»>È¥Ê2¥[>È¥Ê2¥[>ÚB9√uV>ÚB9√uV> óÍ§·?ôôöøÄ  2HERMES S250 SF J143417.5+353728                  @kRW)≤ÄÒ@AœÛbbÀß@ClÇ‡±@+©Ån)©@JﬁNz∑VC@3ŸÅ5ÿ@EÉu∏e@f%z@ ¥øèÕh@+
+€%U$@9?=,±9@)ÒâÔ@gü«Ö?˙:e‹”´ˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@04’<âæ; ( 
+ö@kU∑ïvi@AÕ Îa◊7sE7$»DìIöE∏2f@kU∑î˙g@AÕ!1y∞◊ DìGÆE∏2R@kU∑ÉÃ≥@AÕ!/òßä ôú6Hßœ?Ä  ?c◊
+@†QÏ@°7L@°7L>Ôc.5ÂÄ>Ôè=”P∆´>Ôè=”P∆´>Ôè=”P∆´>Ôè=”P∆´>…˜«{é>‰Z%ﬂ;>‰Z%ﬂ;>Ó7uRú>Ó7uRú>…≈O}u÷?áÆøÄ  2HERMES S250 SF J143443.8+353556                  @kUŸ@xñ@AÃØ_‘{Ó        @ü˛mX»Ô@ì$ p∏–@5QBË≤‹?Úwlbˇ©ô@Œ_’—@J#tÉ?¯skL4î@FHSÇ^?ÛÈ/§2y–@.ı{xÂy?_áüúˇˇÙä   ë¿ €chÖ%¿∞E≠â;¿ç„‡ÂàÖ@1^M£v‡®                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

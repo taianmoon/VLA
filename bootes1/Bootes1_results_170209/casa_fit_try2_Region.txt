@@ -1,0 +1,6 @@
+#CRTF
+ann ellipse [[14:34:35.37283, +035.26.22.1487], [0.2130arcsec, 0.0580arcsec], -39.57317198deg] coord=J2000, corr=[I], linewidth=1, linestyle=-, symsize=1, symthick=1, color=green, font=Helvetica, fontsize=10, fontstyle=bold, usetex=false
+ann ellipse [[14:34:29.62627, +035.32.10.4150], [0.2543arcsec, 0.0479arcsec], -18.93270927deg] coord=J2000, corr=[I], linewidth=1, linestyle=-, symsize=1, symthick=1, color=green, font=Helvetica, fontsize=10, fontstyle=bold, usetex=false
+ann ellipse [[14:34:20.12531, +035.36.53.8530], [0.0692arcsec, 0.0503arcsec], 6.46308934deg] coord=J2000, corr=[I], linewidth=1, linestyle=-, symsize=1, symthick=1, color=green, font=Helvetica, fontsize=10, fontstyle=bold, usetex=false
+ann ellipse [[14:34:29.64356, +035.32.09.6025], [0.2765arcsec, 0.0937arcsec], -20.78800139deg] coord=J2000, corr=[I], linewidth=1, linestyle=-, symsize=1, symthick=1, color=green, font=Helvetica, fontsize=10, fontstyle=bold, usetex=false
+ann ellipse [[14:34:09.58585, +035.34.22.5588], [0.1947arcsec, 0.1157arcsec], 73.14523315deg] coord=J2000, corr=[I], linewidth=1, linestyle=-, symsize=1, symthick=1, color=green, font=Helvetica, fontsize=10, fontstyle=bold, usetex=false

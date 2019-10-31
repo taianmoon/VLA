@@ -1,0 +1,23 @@
+taskname           = "applycal"
+vis                =  "bootes1_spwall.ms"
+field              =  ""
+spw                =  ""
+intent             =  ""
+selectdata         =  True
+timerange          =  ""
+uvrange            =  ""
+antenna            =  ""
+scan               =  ""
+observation        =  ""
+msselect           =  ""
+docallib           =  False
+callib             =  ""
+gaintable          =  ['bootes1_target.ScG0']
+gainfield          =  []
+interp             =  []
+spwmap             =  []
+calwt              =  [True]
+parang             =  False
+applymode          =  "calflagstrict"
+flagbackup         =  True
+#applycal(vis="bootes1_spwall.ms",field="",spw="",intent="",selectdata=True,timerange="",uvrange="",antenna="",scan="",observation="",msselect="",docallib=False,callib="",gaintable=['bootes1_target.ScG0'],gainfield=[],interp=[],spwmap=[],calwt=[True],parang=False,applymode="calflagstrict",flagbackup=True)

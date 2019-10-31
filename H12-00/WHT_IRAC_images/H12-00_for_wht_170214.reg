@@ -1,0 +1,138 @@
+# Region file format: DS9 version 4.1
+# Filename: H12-00_initial_clean.image.tt0_170214.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+polygon(176.6725,-0.12647218,176.67008,-0.12647218,176.67008,-0.12508329,176.6725,-0.12508329) # width=2 font="helvetica 12 normal" text={1}
+polygon(176.54625,-0.12208307,176.54586,-0.12208306,176.54586,-0.12177751,176.54625,-0.12177751) # width=2 font="helvetica 12 normal" text={2}
+polygon(176.71961,-0.15999982,176.71936,-0.15999982,176.71936,-0.15972204,176.71961,-0.15972204) # width=2 font="helvetica 12 normal" text={3}
+polygon(176.69867,-0.17002768,176.69836,-0.17002768,176.69836,-0.16930546,176.69867,-0.16930545) # width=2 font="helvetica 12 normal" text={4}
+polygon(176.68389,-0.18591661,176.68375,-0.18591661,176.68375,-0.18572216,176.68389,-0.18572216) # width=2 font="helvetica 12 normal" text={5}
+polygon(176.64828,-0.14338888,176.64817,-0.14338888,176.64817,-0.14322221,176.64828,-0.14322221) # width=2 font="helvetica 12 normal" text={6}
+polygon(176.70708,-0.26266656,176.70692,-0.26266656,176.70692,-0.26252767,176.70708,-0.26252767) # width=2 font="helvetica 12 normal" text={7}
+polygon(176.57467,-0.1584721,176.57456,-0.1584721,176.57456,-0.15836098,176.57467,-0.15836099) # width=2 font="helvetica 12 normal" text={8}
+polygon(176.546,-0.12172195,176.54544,-0.12172195,176.54544,-0.12088862,176.546,-0.12088862) # width=2 font="helvetica 12 normal" text={9}
+polygon(176.54592,-0.12199973,176.54547,-0.12199973,176.54547,-0.12172195,176.54592,-0.12172195) # width=2 font="helvetica 12 normal" text={10}
+polygon(176.58644,-0.17730547,176.58633,-0.17730547,176.58633,-0.17719436,176.58644,-0.17719436) # width=2 font="helvetica 12 normal" text={11}
+polygon(176.6675,-0.20713886,176.66739,-0.20713887,176.66739,-0.20699998,176.6675,-0.20699998) # width=2 font="helvetica 12 normal" text={12}
+polygon(176.54622,-0.12236084,176.54608,-0.12236084,176.54608,-0.12213862,176.54622,-0.12213862) # width=2 font="helvetica 12 normal" text={13}
+polygon(176.65842,-0.19180554,176.65828,-0.19180554,176.65828,-0.19166665,176.65842,-0.19166665) # width=2 font="helvetica 12 normal" text={14}
+polygon(176.66764,-0.12555552,176.66644,-0.12555552,176.66644,-0.12461108,176.66764,-0.12461107) # width=2 font="helvetica 12 normal" text={15}
+polygon(176.68331,-0.22536106,176.68319,-0.22536106,176.68319,-0.22527772,176.68331,-0.22527772) # width=2 font="helvetica 12 normal" text={16}
+polygon(176.54625,-0.12172195,176.54611,-0.12172195,176.54611,-0.12161084,176.54625,-0.12161084) # width=2 font="helvetica 12 normal" text={17}
+polygon(176.54639,-0.1226664,176.54628,-0.1226664,176.54628,-0.1224164,176.54639,-0.1224164) # width=2 font="helvetica 12 normal" text={18}
+polygon(176.65683,-0.2722778,176.65675,-0.2722778,176.65675,-0.27216669,176.65683,-0.27216669) # width=2 font="helvetica 12 normal" text={19}
+polygon(176.54597,-0.12247195,176.54575,-0.12247195,176.54575,-0.12211084,176.54597,-0.12211084) # width=2 font="helvetica 12 normal" text={20}
+polygon(176.65992,-0.19408332,176.65981,-0.19408332,176.65981,-0.19399999,176.65992,-0.19399999) # width=2 font="helvetica 12 normal" text={21}
+polygon(176.54581,-0.12263862,176.54564,-0.12263862,176.54564,-0.12247195,176.54581,-0.12247195) # width=2 font="helvetica 12 normal" text={22}
+polygon(176.63597,-0.19536111,176.63583,-0.19536111,176.63583,-0.19522222,176.63597,-0.19522222) # width=2 font="helvetica 12 normal" text={23}
+polygon(176.73028,-0.16797199,176.73019,-0.16797199,176.73019,-0.16786088,176.73028,-0.16786088) # width=2 font="helvetica 12 normal" text={24}
+polygon(176.54653,-0.12155529,176.54614,-0.12155529,176.54614,-0.12113862,176.54653,-0.12113862) # width=2 font="helvetica 12 normal" text={25}
+polygon(176.60864,-0.13133329,176.60853,-0.13133329,176.60853,-0.13122218,176.60864,-0.13122218) # width=2 font="helvetica 12 normal" text={26}
+polygon(176.61594,-0.24613888,176.61583,-0.24613888,176.61583,-0.24605555,176.61594,-0.24605555) # width=2 font="helvetica 12 normal" text={27}
+polygon(176.65803,-0.19163888,176.65792,-0.19163888,176.65792,-0.19155554,176.65803,-0.19155554) # width=2 font="helvetica 12 normal" text={28}
+polygon(176.63586,-0.19555555,176.63564,-0.19555555,176.63564,-0.19541666,176.63586,-0.19541666) # width=2 font="helvetica 12 normal" text={29}
+polygon(176.65811,-0.19230554,176.65803,-0.19230554,176.65803,-0.19222221,176.65811,-0.19222221) # width=2 font="helvetica 12 normal" text={30}
+polygon(176.58683,-0.23669437,176.58675,-0.23669437,176.58675,-0.23658326,176.58683,-0.23658326) # width=2 font="helvetica 12 normal" text={31}
+polygon(176.54633,-0.12199973,176.54619,-0.12199973,176.54619,-0.12186084,176.54633,-0.12186084) # width=2 font="helvetica 12 normal" text={32}
+polygon(176.54664,-0.12299973,176.54644,-0.12299973,176.54644,-0.12269418,176.54664,-0.12269418) # width=2 font="helvetica 12 normal" text={33}
+polygon(176.59072,-0.13158325,176.59064,-0.13158325,176.59064,-0.13149992,176.59072,-0.13149992) # width=2 font="helvetica 12 normal" text={34}
+polygon(176.54656,-0.12527751,176.54642,-0.12527751,176.54642,-0.12477751,176.54656,-0.12477751) # width=2 font="helvetica 12 normal" text={35}
+polygon(176.65825,-0.19283332,176.65806,-0.19283332,176.65806,-0.19263888,176.65825,-0.19263888) # width=2 font="helvetica 12 normal" text={36}
+polygon(176.65847,-0.19255554,176.65839,-0.19255554,176.65839,-0.19247221,176.65847,-0.19247221) # width=2 font="helvetica 12 normal" text={37}
+polygon(176.54789,-0.1253053,176.54756,-0.1253053,176.54756,-0.12483307,176.54789,-0.12483308) # width=2 font="helvetica 12 normal" text={38}
+polygon(176.59678,-0.18274994,176.59667,-0.18274994,176.59667,-0.18266661,176.59678,-0.18266661) # width=2 font="helvetica 12 normal" text={39}
+polygon(176.54508,-0.11988861,176.54489,-0.11988861,176.54489,-0.11958306,176.54508,-0.11958306) # width=2 font="helvetica 12 normal" text={40}
+polygon(176.66044,-0.19374999,176.66036,-0.19374999,176.66036,-0.19366665,176.66044,-0.19366665) # width=2 font="helvetica 12 normal" text={41}
+polygon(176.58925,-0.22438882,176.58917,-0.22438881,176.58917,-0.22430548,176.58925,-0.22430548) # width=2 font="helvetica 12 normal" text={42}
+polygon(176.64711,-0.18055555,176.64694,-0.18055555,176.64694,-0.18044444,176.64711,-0.18044444) # width=2 font="helvetica 12 normal" text={43}
+polygon(176.59308,-0.23883327,176.59297,-0.23883327,176.59297,-0.23874994,176.59308,-0.23874994) # width=2 font="helvetica 12 normal" text={44}
+polygon(176.57786,-0.20119433,176.57778,-0.20119433,176.57778,-0.20108322,176.57786,-0.20108322) # width=2 font="helvetica 12 normal" text={45}
+polygon(176.59678,-0.11413881,176.59667,-0.11413881,176.59667,-0.1140277,176.59678,-0.1140277) # width=2 font="helvetica 12 normal" text={46}
+polygon(176.66839,-0.1250833,176.66828,-0.1250833,176.66828,-0.12497218,176.66839,-0.12497218) # width=2 font="helvetica 12 normal" text={47}
+polygon(176.54586,-0.11899973,176.54578,-0.11899973,176.54578,-0.11883306,176.54586,-0.11883306) # width=2 font="helvetica 12 normal" text={48}
+polygon(176.69228,-0.20297214,176.69219,-0.20297214,176.69219,-0.20288881,176.69228,-0.20288881) # width=2 font="helvetica 12 normal" text={49}
+polygon(176.72303,-0.089249752,176.72294,-0.089249753,176.72294,-0.089166419,176.72303,-0.089166419) # width=2 font="helvetica 12 normal" text={50}
+polygon(176.63781,-0.17144444,176.63772,-0.17144444,176.63772,-0.17136111,176.63781,-0.17136111) # width=2 font="helvetica 12 normal" text={51}
+polygon(176.59547,-0.14222216,176.59539,-0.14222216,176.59539,-0.14213882,176.59547,-0.14213882) # width=2 font="helvetica 12 normal" text={52}
+polygon(176.61117,-0.13722219,176.61108,-0.13722219,176.61108,-0.13713886,176.61117,-0.13713886) # width=2 font="helvetica 12 normal" text={53}
+polygon(176.57547,-0.12355542,176.57539,-0.12355542,176.57539,-0.12347209,176.57547,-0.12347209) # width=2 font="helvetica 12 normal" text={54}
+polygon(176.69106,-0.28988887,176.69097,-0.28988887,176.69097,-0.28980553,176.69106,-0.28980553) # width=2 font="helvetica 12 normal" text={55}
+polygon(176.75181,-0.22958298,176.75167,-0.22958298,176.75167,-0.22949964,176.75181,-0.22949964) # width=2 font="helvetica 12 normal" text={56}
+point(176.65816,-0.192264) # point=cross color=blue width=2
+point(176.79565,-0.113331) # point=cross color=blue width=2
+point(176.55001,-0.306717) # point=cross color=blue width=2
+point(176.75207,-0.293749) # point=cross color=blue width=2
+point(176.5049,-0.083892) # point=cross color=blue width=2
+point(176.66429,-0.227337) # point=cross color=blue width=2
+point(176.63426,-0.180473) # point=cross color=blue width=2
+point(176.68349,-0.225885) # point=cross color=blue width=2
+point(176.68284,-0.203725) # point=cross color=blue width=2
+point(176.61646,-0.303062) # point=cross color=blue width=2
+point(176.64659,-0.180329) # point=cross color=blue width=2
+point(176.79994,-0.23708) # point=cross color=blue width=2
+point(176.74934,-0.120319) # point=cross color=blue width=2
+point(176.73773,-0.204887) # point=cross color=blue width=2
+point(176.6068,-0.093486) # point=cross color=blue width=2
+point(176.59802,-0.155947) # point=cross color=blue width=2
+point(176.61905,-0.187046) # point=cross color=blue width=2
+point(176.66855,-0.313768) # point=cross color=blue width=2
+point(176.77828,-0.128605) # point=cross color=blue width=2
+point(176.67281,-0.22577) # point=cross color=blue width=2
+point(176.75604,-0.164501) # point=cross color=blue width=2
+point(176.6693,-0.104703) # point=cross color=blue width=2
+point(176.73683,-0.068417) # point=cross color=blue width=2
+point(176.67208,-0.178792) # point=cross color=blue width=2
+point(176.68235,-0.191937) # point=cross color=blue width=2
+point(176.57717,-0.201249) # point=cross color=blue width=2
+point(176.7873,-0.194051) # point=cross color=blue width=2
+point(176.58829,-0.224927) # point=cross color=blue width=2
+point(176.59994,-0.174996) # point=cross color=blue width=2
+point(176.7265,-0.069711) # point=cross color=blue width=2
+point(176.67741,-0.133598) # point=cross color=blue width=2
+point(176.52602,-0.197148) # point=cross color=blue width=2
+point(176.7276,-0.088371) # point=cross color=blue width=2
+point(176.72902,-0.180098) # point=cross color=blue width=2
+point(176.6336,-0.076544) # point=cross color=blue width=2
+point(176.50246,-0.065213) # point=cross color=blue width=2
+point(176.7695,-0.242398) # point=cross color=blue width=2
+point(176.60427,-0.110542) # point=cross color=blue width=2
+point(176.74383,-0.21641) # point=cross color=blue width=2
+point(176.59796,-0.183431) # point=cross color=blue width=2
+point(176.63952,-0.169781) # point=cross color=blue width=2
+point(176.52937,-0.154234) # point=cross color=blue width=2
+point(176.50662,-0.099973) # point=cross color=blue width=2
+point(176.74858,-0.246704) # point=cross color=blue width=2
+point(176.51589,-0.070064) # point=cross color=blue width=2
+point(176.67787,-0.084304) # point=cross color=blue width=2
+point(176.63689,-0.289822) # point=cross color=blue width=2
+point(176.69468,-0.116585) # point=cross color=blue width=2
+point(176.6362,-0.097335) # point=cross color=blue width=2
+point(176.75628,-0.154194) # point=cross color=blue width=2
+point(176.55345,-0.070845) # point=cross color=blue width=2
+point(176.51243,-0.205226) # point=cross color=blue width=2
+point(176.56593,-0.288488) # point=cross color=blue width=2
+point(176.57663,-0.118706) # point=cross color=blue width=2
+point(176.69488,-0.134892) # point=cross color=blue width=2
+point(176.79698,-0.29045) # point=cross color=blue width=2
+point(176.62059,-0.083408) # point=cross color=blue width=2
+point(176.59278,-0.26971) # point=cross color=blue width=2
+point(176.52386,-0.210746) # point=cross color=blue width=2
+point(176.50195,-0.276341) # point=cross color=blue width=2
+point(176.70182,-0.076017) # point=cross color=blue width=2
+point(176.74292,-0.176244) # point=cross color=blue width=2
+point(176.72144,-0.096885) # point=cross color=blue width=2
+point(176.51914,-0.085408) # point=cross color=blue width=2
+point(176.6976,-0.216416) # point=cross color=blue width=2
+point(176.56801,-0.215266) # point=cross color=blue width=2
+point(176.55985,-0.229711) # point=cross color=blue width=2
+point(176.7723,-0.159029) # point=cross color=blue width=2
+point(176.61716,-0.123642) # point=cross color=blue width=2
+point(176.62636,-0.232525) # point=cross color=blue width=2
+point(176.62189,-0.208703) # point=cross color=blue width=2
+point(176.62512,-0.253685) # point=cross color=blue width=2
+point(176.68556,-0.144853) # point=cross color=blue width=2
+point(176.64479,-0.282311) # point=cross color=blue width=2
+point(176.67013,-0.071684) # point=cross color=blue width=2
+point(176.67225,-0.14961) # point=cross color=blue width=2
+point(176.64258,-0.090237) # point=cross color=blue width=2
+point(176.65457,-0.290911) # point=cross color=blue width=2

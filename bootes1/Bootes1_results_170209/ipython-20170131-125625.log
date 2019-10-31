@@ -1,0 +1,27 @@
+#log# Automatic Logger file. *** THIS MUST BE THE FIRST LINE ***
+#log# DO NOT CHANGE THIS LINE OR THE TWO BELOW -* coding: UTF-8 *-
+#log# opts = Struct({'__allownew': True,
+ 'autocall': 2,
+ 'banner': 0,
+ 'colors': 'LightBG',
+ 'ipythondir': '/home/tc1815/.casa/ipython',
+ 'logfile': 'ipython-20170131-125625.log',
+ 'messages': 0,
+ 'prompt_in1': 'CASA <\\#>: '})
+#log# args = []
+#log# It is safe to make manual edits below here.
+#log#-----------------------------------------------------------------------
+execfile("/homedisk/tc1815/casa-release-4.7.0-1-el6/lib/python2.7/assignmentFilter.py")
+gaincal(vis='bootes1_spwall.ms', caltable='bootes1_target.ScG0', field='2', solint='inf', refant='ea10',spw='',minsnr=3.0, gaintype='G', parang=True, calmode='p')
+_ip.magic("pwd ")
+s("")
+_ip.system("ls -F ")
+gaincal(vis='bootes1_spwall.ms', caltable='bootes1_target.ScG0', field='Bootes1', solint='inf', refant='ea10',spw='',minsnr=3.0, gaintype='G', parang=True, calmode='p')
+applycal(vis='bootes1_spwall.ms', gaintable=['bootes1_target.ScG0'], applymode='calflagstrict')
+clean(vis='bootes1_spwall.ms', imagename='bootes1_clean_sc0', cell=['1.0arcsec','1.0arcsec'], imsize=[8400,8400], mode='mfs',nterms=2, gridmode='widefield', wprojplanes=128, stokes='I', niter=10000, spw='', interactive=True,minpb=0.1, usescratch=T, weighting='briggs', robust=0.0)
+viewer('bootes1_clean_sc0.image.tt0')
+_ip.magic("pwd ")
+split(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',outputvis='bootes1_spwall.ms',spw='16~47',datacolumn='corrected',field='2')
+clean(vis='bootes1_spwall.ms', imagename='bootes1_initial_clean', cell=['0.1arcsec','0.1arcsec'], imsize=[8400,8400], mode='mfs', nterms=2, gridmode='widefield', wprojplanes=128, stokes='I', niter=10000, spw='', interactive=True, minpb=0.1, usescratch=T, weighting='briggs', robust=0.0)
+viewer('bootes1_initial_clean.image.tt0')
+exit()

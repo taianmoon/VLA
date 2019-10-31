@@ -1,0 +1,43 @@
+#log# Automatic Logger file. *** THIS MUST BE THE FIRST LINE ***
+#log# DO NOT CHANGE THIS LINE OR THE TWO BELOW -* coding: UTF-8 *-
+#log# opts = Struct({'__allownew': True,
+ 'autocall': 2,
+ 'banner': 0,
+ 'colors': 'LightBG',
+ 'ipythondir': '/home/tc1815/.casa/ipython',
+ 'logfile': 'ipython-20170130-161503.log',
+ 'messages': 0,
+ 'prompt_in1': 'CASA <\\#>: '})
+#log# args = []
+#log# It is safe to make manual edits below here.
+#log#-----------------------------------------------------------------------
+execfile("/homedisk/tc1815/casa-release-4.7.0-1-el6/lib/python2.7/assignmentFilter.py")
+_ip.magic("pwd ")
+_ip.system("ls -F ")
+listobs(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms')
+listobs(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms', listfile='bootes.listobs')
+plotants(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms', figfile='bootes1_plotants.png')
+plotms(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',xaxis='time',yaxis='elevation',correlation='RR,LL',avgchannel='64',spw='32',coloraxis='field')
+flagdata(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms', mode='quack', quackinterval=2.0, quackmode='beg')
+gencal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='bootes1.antpos',caltype='antpos')
+setjy(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms', listmodels=T)
+setjy(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms', field='1331+305=3C286',standard='Perley-Butler 2013',model='3C286_C.im',usescratch=False,scalebychan=True,spw='')
+gaincal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='3c286spwall_all.G0_all',field='0,1',refant='ea10',spw='16~47',gaintype='G',calmode='p',solint='int',minsnr=5,gaintable='')
+plotcal(caltable='3c286spwall_all.G0_all',xaxis='time',yaxis='phase',poln='R',iteration='antenna',plotrange=[-1,-1,-180,180])
+gaincal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='3c286spwall_f0.G0',field='0',refant='ea10',spw='16~47',gaintype='G',calmode='p',solint='int',minsnr=5,gaintable='')
+gaincal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='3c286spwall_f0.K0',field='0',refant='ea10',spw='16~47',gaintype='K',solint='inf',combine='scan',minsnr=5,gaintable=['3c286spwall_f0.G0'])
+plotcal(caltable='3c286spwall_f0.K0',xaxis='antenna',yaxis='delay',figfile='plotcal_3c286spwall_f0_K0_delay.png')
+bandpass(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='3c286spwall_all.B0',field='0',spw='16~47',refant='ea10',combine='scan',solint='inf',bandtype='B',gaintable=['3c286spwall_f0.G0','3c286spwall_f0.K0'])
+plotcal(caltable='3c286spwall_all.B0',xaxis='chan',yaxis='amp',field='0',subplot=221,poln='R',iteration='antenna',figfile='plotcal_3c286spwall_f0_B0_amp.png')
+plotcal(caltable='3c286spwall_all.B0',xaxis='chan',yaxis='phase',field='0',subplot=221,poln='R',iteration='antenna',plotrange=[-1,-1,-180,180])
+gaincal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='3c286spwall_f0.G1',field='0',refant='ea10',spw='16~47',gaintype='G',solint='inf',calmode='ap',solnorm=F,gaintable=['3c286spwall_f0.K0','3c286spwall_all.B0'],interp=['linear','nearest'])
+gaincal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',caltable='3c286spwall_f0.G1',field='1',refant='ea10',spw='16~47',gaintype='G',solint='inf',calmode='ap',gaintable=['3c286spwall_f0.K0','3c286spwall_all.B0'],append=True)
+plotcal(caltable='3c286spwall_f0.G1',xaxis='time',yaxis='amp',subplot=221,poln='R',iteration='antenna')
+plotcal(caltable='3c286spwall_f0.G1',xaxis='time',yaxis='phase',subplot=221,poln='R',iteration='antenna',plotrange=[-1,-1,-180,180])
+myscale = fluxscale(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms', caltable='3c286spwall_f0.G1', fluxtable='3c286spwall.fluxscale1',reference=['1331+305=3C286'],transfer=['J1416+3444'],incremental=False)
+applycal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',field='0',gaintable=['3c286spwall_f0.K0','3c286spwall_all.B0','3c286spwall.fluxscale1'], gainfield=['','','1331+305=3C286'],interp=['','','nearest'],calwt=[False],parang=True)
+applycal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',field='1',gaintable=['3c286spwall_f0.K0','3c286spwall_all.B0','3c286spwall.fluxscale1'], gainfield=['','','1331+305=3C286'],interp=['','','nearest'],calwt=[False],parang=True)
+applycal(vis='16B-013.sb32753521.eb33105440.57746.79002927084.ms',field='2',gaintable=['3c286spwall_f0.K0','3c286spwall_all.B0','3c286spwall.fluxscale1'], gainfield=['','','J1416+3444'],interp=['','','linear'],calwt=[False],parang=True)
+viewer('bootes1_initial_clean.image.tt0')
+gaincal(vis='3C129_pband_target.ms', caltable='3C129_pband_target.ScG0', field='3C129', solint='inf', refant='ea09', 
+           spw='3~8',minsnr=3.0, gaintype='G', parang=True, calmode='p')

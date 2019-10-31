@@ -1,0 +1,17 @@
+taskname           = "fluxscale"
+vis                =  "16B-013.sb32753521.eb33105440.57746.79002927084.ms"
+caltable           =  "3c286spwall_f0.G1"
+fluxtable          =  "3c286spwall.fluxscale1"
+reference          =  ['1331+305=3C286']
+transfer           =  ['J1416+3444']
+listfile           =  ""
+append             =  False
+refspwmap          =  [-1]
+gainthreshold      =  -1.0
+antenna            =  ""
+timerange          =  ""
+scan               =  ""
+incremental        =  False
+fitorder           =  1
+display            =  False
+#fluxscale(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",caltable="3c286spwall_f0.G1",fluxtable="3c286spwall.fluxscale1",reference=['1331+305=3C286'],transfer=['J1416+3444'],listfile="",append=False,refspwmap=[-1],gainthreshold=-1.0,antenna="",timerange="",scan="",incremental=False,fitorder=1,display=False)

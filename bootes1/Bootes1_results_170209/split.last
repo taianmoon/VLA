@@ -1,0 +1,21 @@
+taskname           = "split"
+vis                =  "16B-013.sb32753521.eb33105440.57746.79002927084.ms"
+outputvis          =  "bootes1_spwall.ms"
+keepmms            =  True
+field              =  "2"
+spw                =  "16~47"
+scan               =  ""
+antenna            =  ""
+correlation        =  ""
+timerange          =  ""
+intent             =  ""
+array              =  ""
+uvrange            =  ""
+observation        =  ""
+feed               =  ""
+datacolumn         =  "corrected"
+keepflags          =  True
+width              =  1
+timebin            =  "0s"
+combine            =  ""
+#split(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",outputvis="bootes1_spwall.ms",keepmms=True,field="2",spw="16~47",scan="",antenna="",correlation="",timerange="",intent="",array="",uvrange="",observation="",feed="",datacolumn="corrected",keepflags=True,width=1,timebin="0s",combine="")

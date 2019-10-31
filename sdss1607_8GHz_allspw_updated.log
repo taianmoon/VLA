@@ -1,0 +1,138 @@
+; jvla script for 8GHz observations of SDSS1607
+
+; look at data sort out fields
+
+listobs(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',listfile = '16B-013.sb32753387.eb32984315.57696.85978436343.listobs')  ===================================HERE  
+
+plotants(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms', figfile='3C129_pband_plotants.png')  =================================HERE
+; ea10 looks near centre
+
+; check for low elevations that may indicate instrumentation issues
+
+plotms(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',xaxis='time',yaxis='elevation',correlation='RR,LL',avgchannel='64',spw='32',coloraxis='field')
+================================HERE: avgchannel (channel number? 64) and spw (central spw near 6GHz? 32) corrected
+
+;nothing looks too horrid. Log reports that antenna 14 is bad (not included in dataset) and antenna 9 has 9.9 mins of bad data, but plot of visibilities looks ok for that antenna. Flag later'
+
+; quack flagging
+
+;sampling time = 3s
+
+flagdata(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms', mode='quack', quackinterval=2.0, quackmode='beg') ============================HERE: quackinterval corrected to the scan sampling time (2s)
+
+; check for updated antenna positions
+
+gencal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='16B-013_sb3275.antpos',caltype='antpos')
+
+; some modifications received
+
+;look for calibrator models
+
+setjy(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms', listmodels=True)
+
+; want C band calibration data for 3C286: use 3C286_C.im
+
+;set up calibrator fluxes
+
+setjy(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms', field='1331+305=3C286',standard='Perley-Butler 2013',model='3C286_C.im',usescratch=False,scalebychan=True,spw='') ========================================HERE:model corrected to the band used (3C286_C.im)
+
+;initial phase calibration of calibrator - look at all calibration fields
+
+; use all observation spws 16~47 (exclude "SYSTEM_CONFIGURATION#UNSPECIFIED")
+
+gaincal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='3c286spwall_all.G0_all',field='0,1',refant='ea10',spw='16~47',gaintype='G',calmode='p',solint='int',minsnr=5,gaintable='16B-013_sb3275.antpos') =============================HERE:corrected refant,gaintable='' to match the observations
+
+; examine calibration
+
+plotcal(caltable='3c286spwall_all.G0_all',xaxis='time',yaxis='phase',poln='R',iteration='antenna',plotrange=[-1,-1,-180,180])
+
+; most antenna show smooth variation with time. ea15 has two points with extreme jumps
+
+; do phase calibration for bandpass calibrator
+
+gaincal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='3c286spwall_f0.G0',field='0',refant='ea10',spw='16~47',gaintype='G',calmode='p',solint='int',minsnr=5,gaintable='16B-013_sb3275.antpos') ==========================HERE:corrected refant,gaintable=''
+
+; delay calibration for bandpass calibrator
+
+gaincal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='3c286spwall_f0.K0',field='0',refant='ea10',spw='16~47',gaintype='K',solint='inf',combine='scan',minsnr=5,gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.G0']) ==============================HERE:corrected refant, gaintable
+
+; inspect
+
+plotcal(caltable='3c286spwall_f0.K0',xaxis='antenna',yaxis='delay',figfile='plotcal_3c286spwall_f0.K0_delay.png') ==========================HERE:corrected figfile to png
+
+;two antennas a bit high'
+
+; bandpass calibration
+
+bandpass(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='3c286spwall_all.B0',field='0',spw='16~47',refant='ea10',combine='scan',solint='inf',bandtype='B',gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.G0','3c286spwall_f0.K0']) ==============================HERE:corrected refant, gaintable
+
+; inspect
+
+plotcal(caltable='3c286spwall_all.B0',xaxis='chan',yaxis='amp',field='0',subplot=221,poln='R',iteration='antenna',figfile='plotcal_3c286spwall_f0.B0_amp.png') ===========================HERE:corrected figfile
+
+plotcal(caltable='3c286spwall_all.B0',xaxis='chan',yaxis='phase',field='0',subplot=221,poln='R',iteration='antenna',plotrange=[-1,-1,-180,180])
+
+; derive complex gains for flux density calibrator in field 0
+
+gaincal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='3c286spwall_f0.G1',field='0',refant='ea10',spw='16~47',gaintype='G',solint='inf',calmode='ap',solnorm=False,gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.K0','3c286spwall_all.B0'],interp=['linear','linear','nearest']) =============================HERE:corrected refant,gaintable,interp=['linear','nearest']
+
+; now derive complex gains for phase calibrator source in field 1
+
+gaincal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',caltable='3c286spwall_f0.G1',field='1',refant='ea10',spw='16~47',gaintype='G',solint='inf',calmode='ap',gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.K0','3c286spwall_all.B0'],append=True) ============================HERE:corrected refant,gaintable
+
+; inspect
+
+plotcal(caltable='3c286spwall_f0.G1',xaxis='time',yaxis='amp',subplot=221,poln='R',iteration='antenna')
+
+plotcal(caltable='3c286spwall_f0.G1',xaxis='time',yaxis='phase',subplot=221,poln='R',iteration='antenna',plotrange=[-1,-1,-180,180])
+
+;scale the amplitude gains
+
+myscale = fluxscale(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms', caltable='3c286spwall_f0.G1', fluxtable='3c286spwall.fluxscale1',reference=['1331+305=3C286'],transfer=['J1310+3220'],incremental=False) =============================HERE:corrected transfer=['J1310+3220(phase calibrator)'] 
+
+; apply calibration to flux calibrator
+
+applycal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',field='0',gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.K0','3c286spwall_all.B0','3c286spwall.fluxscale1'], gainfield=['','','','1331+305=3C286'],interp=['','','','nearest'],calwt=[False],parang=True) ===========================================HERE: corrected gaintable,gainfield,interp
+
+; apply calibration to phase calibrator
+
+applycal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',field='1',gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.K0','3c286spwall_all.B0','3c286spwall.fluxscale1'], gainfield=['','','','1331+305=3C286'],interp=['','','','nearest'],calwt=[False],parang=True) ===========================================HERE: corrected gaintable,gainfield,interp
+
+; apply to target
+
+applycal(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',field='2',gaintable=['16B-013_sb3275.antpos','3c286spwall_f0.K0','3c286spwall_all.B0','3c286spwall.fluxscale1'], gainfield=['','','','J1310+3220'],interp=['','','','linear'],calwt=[False],parang=True) ===========================================HERE: corrected gaintable,gainfield (phase calibrator name),interp
+
+; look at UV amplitudes
+
+plotms(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',xaxis='uvwave',yaxis='amp', ydatacolumn='data', field='2',spw='16~47',avgtime='30',correlation='RR', plotfile='plotms_sdss1607_spw32-uvwave.png',overwrite=True) ==========================HERE:corrected plotfile, avgtime='30'
+
+;split data
+
+split(vis='16B-013.sb32753387.eb32984315.57696.85978436343.ms',outputvis='NGP9_spwall.ms',spw='16~47',datacolumn='corrected',field='2') ======================HERE:corrected outputvis (e.g. H12-00_spwall.ms)
+
+; image
+
+
+===================HERE:corrected: can adjust weighting='briggs','natural','uniform'
+clean(vis='NGP9_spwall.ms', imagename='NGP9_initial_clean', cell=['0.1arcsec','0.1arcsec'], imsize=[8400,8400], mode='mfs', nterms=2, gridmode='widefield', wprojplanes=128, stokes='I', niter=10000, spw='', interactive=True, minpb=0.1, usescratch=True, weighting='briggs', robust=0.0)
+
+original:
+(clean(vis='sdss1607_spwall.ms',imagename='sdss1607_spwall2_im',field='',spw='',mode='mfs',niter=5000,gain=0.1,threshold='1.0mJy',psfmode='clark',imagermode='csclean',ftmachine='mosaic',multiscale=[0],interactive=True,imsize=[1280,1280],cell=['0.1arcsec','0.1arcsec'],stokes='I',weighting='briggs',robust=0.5,usescratch=False))
+
+
+
+
+;Adjust iteration=10000, Left mouse:enlarge, middle mouse:scale, Right mouse and double click: set clean region --> press green circle *2 or *3 --> press red arrow to end
+(Data--> Manage images --> options-->display options-->adjust "data range")
+
+viewer('NGP9_initial_clean.image.tt0')
+--> Data --> save as --> fits image --> .fits --> save
+
+;scp -r tc1815@eriu.ph.ic.ac.uk:/disk1/tc1815/.....fits ./
+
+;sextractor:default.param, default.sex (adjust BACK_SIZE) --> sex ...fits --> check.fits is rms_noise.fits
+
+;Blobcat: ...../blobcat.py ...../image.fits --rmsmap rms_noise.fits --write --ds9
+--> Save .reg as in wcs in ds9
+
+

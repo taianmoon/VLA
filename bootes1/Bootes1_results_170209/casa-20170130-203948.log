@@ -1,0 +1,736 @@
+2017-01-30 20:40:10	INFO	casa::::	---
+2017-01-30 20:40:10	INFO	casa::::	CASA Version 4.7.38335-REL (r38335)
+2017-01-30 20:40:10	INFO	casa::::	  Tagged on: 2016-09-28 09:04:02 UTC
+2017-01-30 20:41:56	INFO	plotms::::	
+2017-01-30 20:41:56	INFO	plotms::::+	##########################################
+2017-01-30 20:41:56	INFO	plotms::::+	##### Begin Task: plotms             #####
+2017-01-30 20:41:56	INFO	plotms::::	plotms(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",gridrows=1,gridcols=1,rowindex=0,colindex=0,
+2017-01-30 20:41:56	INFO	plotms::::+	        plotindex=0,xaxis="uvwave",xdatacolumn="",yaxis="amp",ydatacolumn="data",
+2017-01-30 20:41:56	INFO	plotms::::+	        yaxislocation="",selectdata=True,field="2",spw="16~47",timerange="",
+2017-01-30 20:41:56	INFO	plotms::::+	        uvrange="",antenna="",scan="",correlation="RR",array="",
+2017-01-30 20:41:56	INFO	plotms::::+	        observation="",intent="",feed="",msselect="",averagedata=True,
+2017-01-30 20:41:56	INFO	plotms::::+	        avgchannel="",avgtime="30",avgscan=False,avgfield=False,avgbaseline=False,
+2017-01-30 20:41:56	INFO	plotms::::+	        avgantenna=False,avgspw=False,scalar=False,transform=True,freqframe="",
+2017-01-30 20:41:56	INFO	plotms::::+	        restfreq="",veldef="RADIO",shift=[0.0, 0.0],extendflag=False,extcorr=False,
+2017-01-30 20:41:56	INFO	plotms::::+	        extchannel=False,iteraxis="",xselfscale=False,yselfscale=False,xsharedaxis=False,
+2017-01-30 20:41:56	INFO	plotms::::+	        ysharedaxis=False,customsymbol=False,symbolshape="autoscaling",symbolsize=2,symbolcolor="0000ff",
+2017-01-30 20:41:56	INFO	plotms::::+	        symbolfill="fill",symboloutline=False,coloraxis="",customflaggedsymbol=False,flaggedsymbolshape="circle",
+2017-01-30 20:41:56	INFO	plotms::::+	        flaggedsymbolsize=2,flaggedsymbolcolor="ff0000",flaggedsymbolfill="fill",flaggedsymboloutline=False,plotrange=[],
+2017-01-30 20:41:56	INFO	plotms::::+	        title="",titlefont=0,xlabel="",xaxisfont=0,ylabel="",
+2017-01-30 20:41:56	INFO	plotms::::+	        yaxisfont=0,showmajorgrid=False,majorwidth=1,majorstyle="",majorcolor="B0B0B0",
+2017-01-30 20:41:56	INFO	plotms::::+	        showminorgrid=False,minorwidth=1,minorstyle="",minorcolor="D0D0D0",showlegend=False,
+2017-01-30 20:41:56	INFO	plotms::::+	        legendposition="",plotfile="plotms_bootes1_uvwave.png",expformat="",exprange="",highres=False,
+2017-01-30 20:41:56	INFO	plotms::::+	        dpi=-1,width=-1,height=-1,overwrite=True,showgui=True,
+2017-01-30 20:41:56	INFO	plotms::::+	        clearplots=True,callib=[''])
+2017-01-30 20:41:56	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, ITERATION, LOG, PLOTMS_OPTIONS.
+2017-01-30 20:41:56	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-01-30 20:41:56	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-01-30 20:41:57	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, ITERATION, LOG, PLOTMS_OPTIONS.
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	START     Current memory usage: 8366.12 kilobytes.
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	Plot Data Transformations:
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 Frame      = 
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 VelDef     = RADIO
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 RestFreq   = 0 MHz
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 dX         = 0 arcsec
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 dY         = 0 arcsec
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 formStokes = false
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	Data Averaging: 
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 Using VECTOR averaging.
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 Time: 30 seconds.  Scan: false;  Field: false
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	Plot Data Calibration:
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 Use Calibration    = 0
+2017-01-30 20:41:57	INFO	PlotMS::load_cache+	 Calibration Library   = 
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17) vs. UVwave(29)...
+2017-01-30 20:41:57	INFO	plotms::::	Plot file /homedisk/tc1815/plotms_bootes1_uvwave.png
+2017-01-30 20:41:58	INFO	plotms::::	Will wait until drawing of the plot has completed before exporting it
+2017-01-30 20:44:19	INFO	PlotMS::load_cache	Data selection will yield a total of 113152000 plottable points (flagged and unflagged).
+2017-01-30 20:44:19	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 1.6097 GB of memory (14.226 bytes/point).
+2017-01-30 20:44:19	INFO	PlotMS::load_cache+	This is 5.15769% of the memory avail. to CASA (free=31.2096 GB).
+2017-01-30 20:44:19	INFO	PlotMS::load_cache	Loading chunks......
+2017-01-30 21:06:43	INFO	PlotMS::load_cache	Generating the plot mask.
+2017-01-30 21:06:44	INFO	PlotMS::load_cache	refTime = 2016/12/24/00:00:00.0
+2017-01-30 21:06:44	INFO	PlotMS::load_cache	Finished loading.
+2017-01-30 21:06:44	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2017-01-30 21:06:49	INFO	PlotMS::load_cache	Global ranges:
+2017-01-30 21:06:49	INFO	PlotMS::load_cache+	UVwave: 6400.4-918799 (unflagged); 6368.36-921095 (flagged).
+2017-01-30 21:06:49	INFO	PlotMS::load_cache+	Amp: 5.03339e-08-0.0388251 (unflagged); 0-1.2383(flagged).
+2017-01-30 21:06:49	INFO	PlotMS::plot	Plotting 97278301 unflagged points.
+2017-01-30 20:41:57	INFO	PlotMS::load_cache	END       Time: +1493 seconds.  Memory: +1957.11 kilobytes.
+2017-01-30 21:07:22	INFO	plotms::::	Exporting the plot.
+2017-01-30 21:07:22	INFO	plotms::::	Calling pm.save
+2017-01-30 21:07:22	INFO	QPExporter::export	START     Current memory usage: 10229.6 kilobytes.
+2017-01-30 21:07:22	INFO	QPExporter::export	END       Time: +36 seconds.  Memory: -8.21875 kilobytes.
+2017-01-30 21:07:57	INFO	PlotMS::export	Successfully exported plot to /homedisk/tc1815/plotms_bootes1_uvwave.png!
+2017-01-30 21:07:57	INFO	plotms::::	##### End Task: plotms               #####
+2017-01-30 21:07:57	INFO	plotms::::+	##########################################
+2017-01-30 21:16:32	INFO	split::::	
+2017-01-30 21:16:32	INFO	split::::+	##########################################
+2017-01-30 21:16:32	INFO	split::::+	##### Begin Task: split              #####
+2017-01-30 21:16:32	INFO	split::::	split(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",outputvis="bootes1_spwall.ms",keepmms=True,field="2",spw="16~47",
+2017-01-30 21:16:32	INFO	split::::+	        scan="",antenna="",correlation="",timerange="",intent="",
+2017-01-30 21:16:32	INFO	split::::+	        array="",uvrange="",observation="",feed="",datacolumn="corrected",
+2017-01-30 21:16:32	INFO	split::::+	        keepflags=True,width=1,timebin="0s",combine="")
+2017-01-30 21:16:32	INFO	MSTransformManager::parseMsSpecParams	Input file name is 16B-013.sb32753521.eb33105440.57746.79002927084.ms
+2017-01-30 21:16:32	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2017-01-30 21:16:32	INFO	MSTransformManager::parseMsSpecParams	Output file name is bootes1_spwall.ms
+2017-01-30 21:16:32	INFO	MSTransformManager::parseDataSelParams	field selection is 2
+2017-01-30 21:16:32	INFO	MSTransformManager::parseDataSelParams	spw selection is 16~47
+2017-01-30 21:16:32	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams	Selected Fields Ids are [2]
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [32, 4]  (NB: Matrix in Row/Column order)
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	[16, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 17, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 18, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 19, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 20, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 21, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 22, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 23, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 25, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 27, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 28, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 29, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 30, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 31, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 32, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 33, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 34, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 35, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 36, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 37, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 38, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 39, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 40, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 41, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 42, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 43, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 44, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 45, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 46, 0, 63, 1
+2017-01-30 21:16:32	INFO	MSTransformManager::initDataSelectionParams+	 47, 0, 63, 1]
+2017-01-30 21:16:32	INFO	MSTransformManager::open	Select data
+2017-01-30 21:16:32	INFO	MSTransformManager::open	Create output MS structure
+2017-01-30 21:16:57	INFO	MSTransformDataHandler::makeSelection	25261600 out of 34335600 rows are going to be considered due to the selection criteria.
+2017-01-30 22:11:32	INFO	split::::	##### End Task: split                #####
+2017-01-30 22:11:32	INFO	split::::+	##########################################
+2017-01-30 22:21:57	INFO	clean::::	
+2017-01-30 22:21:57	INFO	clean::::+	##########################################
+2017-01-30 22:21:57	INFO	clean::::+	##### Begin Task: clean              #####
+2017-01-30 22:21:57	INFO	clean::::	clean(vis="bootes1_spwall.ms",imagename="bootes1_initial_clean",outlierfile="",field="",spw="",
+2017-01-30 22:21:57	INFO	clean::::+	        selectdata=True,timerange="",uvrange="",antenna="",scan="",
+2017-01-30 22:21:57	INFO	clean::::+	        observation="",intent="",mode="mfs",resmooth=False,gridmode="widefield",
+2017-01-30 22:21:57	INFO	clean::::+	        wprojplanes=128,facets=1,cfcache="cfcache.dir",rotpainc=5.0,painc=360.0,
+2017-01-30 22:21:57	INFO	clean::::+	        aterm=True,psterm=False,mterm=True,wbawp=False,conjbeams=True,
+2017-01-30 22:21:57	INFO	clean::::+	        epjtable="",interpolation="linear",niter=10000,gain=0.1,threshold="0.0mJy",
+2017-01-30 22:21:57	INFO	clean::::+	        psfmode="clark",imagermode="csclean",ftmachine="mosaic",mosweight=False,scaletype="SAULT",
+2017-01-30 22:21:57	INFO	clean::::+	        multiscale=[0],negcomponent=-1,smallscalebias=0.6,interactive=True,mask=[],
+2017-01-30 22:21:57	INFO	clean::::+	        nchan=-1,start=0,width=1,outframe="",veltype="radio",
+2017-01-30 22:21:57	INFO	clean::::+	        imsize=[8400, 8400],cell=['0.1arcsec', '0.1arcsec'],phasecenter="",restfreq="",stokes="I",
+2017-01-30 22:21:57	INFO	clean::::+	        weighting="briggs",robust=0.0,uvtaper=False,outertaper=[''],innertaper=['1.0'],
+2017-01-30 22:21:57	INFO	clean::::+	        modelimage="",restoringbeam=[''],pbcor=False,minpb=0.1,usescratch=True,
+2017-01-30 22:21:57	INFO	clean::::+	        noise="1.0Jy",npixels=0,npercycle=100,cyclefactor=1.5,cyclespeedup=-1,
+2017-01-30 22:21:57	INFO	clean::::+	        nterms=2,reffreq="",chaniter=False,flatnoise=True,allowchunk=False)
+2017-01-30 22:21:57	INFO	clean::::	nchan=-1 start=0 width=1
+2017-01-30 22:21:57	INFO	clean::::	Use default channelization for clean
+2017-01-30 22:21:57	INFO	clean::::	clean image: bootes1_initial_clean
+2017-01-30 22:21:58	INFO	clean::::	FTMachine used is  wproject 
+2017-01-30 22:21:58	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /homedisk/tc1815/bootes1_spwall.ms
+2017-01-30 22:21:58	INFO		Clearing all model records in MS header.
+2017-01-30 22:22:05	INFO	VisSetUtil::addScrCols	Adding MODEL_DATA column(s).
+2017-01-30 22:40:54	INFO	VisSetUtil::initScrCols	Initializing MODEL_DATA to (unity).
+2017-01-30 23:22:51	INFO	VisSetUtil::initScrCols	Initialized 25261600 rows.
+2017-01-30 23:22:51	INFO		Clearing all model records in MS header.
+2017-01-30 23:23:00	INFO	imager::setDataOnThisMS()	Selecting on fields : 0
+2017-01-30 23:23:00	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :*
+2017-01-30 23:23:32	INFO	imager::setDataOnThisMS()	Selected all 25261600 rows
+2017-01-30 23:23:32	INFO	imager::setDataOnThisMS()	Selected : [64 chans in spw 0] [64 chans in spw 1] [64 chans in spw 2] [64 chans in spw 3] [64 chans in spw 4] [64 chans in spw 5] [64 chans in spw 6] [64 chans in spw 7] [64 chans in spw 8] [64 chans in spw 9] [64 chans in spw 10] [64 chans in spw 11] [64 chans in spw 12] [64 chans in spw 13] [64 chans in spw 14] [64 chans in spw 15] [64 chans in spw 16] [64 chans in spw 17] [64 chans in spw 18] [64 chans in spw 19] [64 chans in spw 20] [64 chans in spw 21] [64 chans in spw 22] [64 chans in spw 23] [64 chans in spw 24] [64 chans in spw 25] [64 chans in spw 26] [64 chans in spw 27] [64 chans in spw 28] [64 chans in spw 29] [64 chans in spw 30] [64 chans in spw 31]
+2017-01-30 23:23:54	INFO	msmetadata_cmpt.cc::open	Performing internal consistency checks on bootes1_spwall.ms...
+2017-01-30 23:24:01	INFO	msmetadata_cmpt.cc::open	Performing internal consistency checks on bootes1_spwall.ms...
+2017-01-30 23:24:02	INFO	imager::defineimage()	Defining image properties:nx=8400 ny=8400 cellx='0.1arcsec' celly='0.1arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=1 spwids=[-1] fieldid=-1 facets=1 frame=5 distance='0'
+2017-01-30 23:24:02	INFO	imager::defineimage()	 phaseCenter='14:34:18.10,   35.33.20.00, ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2017-01-30 23:24:09	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) 	Requested JD 57746.8 is outside the range of the IERS (Earth axis data) table.
+2017-01-30 23:24:09	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) +	Calculations will proceed with less precision
+2017-01-30 23:24:21	INFO	Imager::setvp() 	Setting voltage pattern parameters
+2017-01-30 23:24:21	INFO	Imager::setvp() 	Sky position tolerance is 180 degrees
+2017-01-30 23:24:21	INFO	Imager::setvp() 	Using system default voltage patterns for each telescope
+2017-01-30 23:24:21	INFO	imager::makeimage() 	Calculating image (without full skyequation)
+2017-01-30 23:25:21	INFO	Imager::setvp() 	Setting voltage pattern parameters
+2017-01-30 23:25:21	INFO	imager::weight()	Weighting MS: Imaging weights will be changed
+2017-01-30 23:25:21	INFO	imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2017-01-30 23:27:32	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0
+2017-01-30 23:27:33	INFO	clean::::	Used mask(s) : [''] to create mask image(s) : bootes1_initial_clean.mask
+2017-01-30 23:27:33	INFO	imager::setoptions() 	Setting processing options
+2017-01-30 23:27:42	INFO	clean::::	No model found. Making empty initial model : bootes1_initial_clean.model.tt0
+2017-01-30 23:27:49	INFO	clean::::	No model found. Making empty initial model : bootes1_initial_clean.model.tt1
+2017-01-30 23:27:49	INFO	clean::::	Running MS-MFS with 2 Taylor-terms on dataset : bootes1_spwall.ms
+2017-01-30 23:27:58	INFO	Imager::imagecoordinates() 	Setting center frequency as MS-MFS reference frequency
+2017-01-30 23:28:14	INFO	imager::clean()	Using multi frequency synthesis algorithm
+2017-01-30 23:28:14	INFO	imager::createFTMachine() 	Performing w-plane projection
+2017-01-30 23:28:14	INFO	imager::clean()	Clean gain = 0.1, Niter = 0, Threshold = 0 mJy
+2017-01-30 23:28:14	INFO	imager::clean()	Continuing deconvolution
+2017-01-30 23:28:14	INFO	WBCleanImageSkyModel::solve	MSMFS algorithm (v2.6) with 2 Taylor coefficients and Reference Frequency of 5.99832e+09 Hz
+2017-01-30 23:28:14	INFO	WBCleanImageSkyModel::solve	Fractional Bandwidth : 67.4779 %.
+2017-01-30 23:28:14	INFO	WBCleanImageSkyModel::solve	Calculating initial residual images...
+2017-01-30 23:28:55	INFO	WPConvFunc::findConvFunction	W projection using 128 planes
+2017-01-30 23:28:55	INFO	WPConvFunc::findConvFunction	Using maximum possible W = 515662 (wavelengths)
+2017-01-30 23:28:55	INFO	WPConvFunc::findConvFunction	Typical wavelength = 0.0754005 (m)
+2017-01-30 23:28:55	INFO	WPConvFunc::findConvFunction	Scaling in W (at maximum W) = 31.9711 wavelengths per pixel
+2017-01-30 23:40:44	INFO	WPConvFunc::findConvFunction	Convolution support = [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 40, 40, 40, 40, 40] pixels in Fourier plane
+2017-01-30 23:40:44	INFO	WPConvFunc::findConvFunction	Memory used in gridding function = 2 MB from maximum 32112 MB
+2017-01-31 01:00:16	INFO	WBCleanImageSkyModel::solve	Calculating spectral PSFs...
+2017-01-31 01:58:44	INFO	MultiTermMatrixCleaner::verifyScaleSizes() 	Scale sizes to be used for deconvolution : [0]
+2017-01-31 01:58:48	INFO	MultiTermMatrixCleaner::initialise() 	Using a PSF patch of 80 pixels on each side for minor-cycle updates.
+2017-01-31 01:58:48	INFO	MatrixCleaner::validatePsf() 	Peak of PSF = 1 at [4200, 4200]
+2017-01-31 01:58:56	INFO	imager::clean()	Image OK
+2017-01-31 01:58:56	INFO	imager::clean()	Fitted beam used in restoration: 0.38941 by 0.23147 (arcsec) at pa 73.1452 (deg) 
+2017-01-31 03:16:47	INFO	Imager::imagecoordinates() 	Center frequency = 5.99832 GHz, synthesized continuum bandwidth = 4.04754 GHz
+2017-01-31 03:16:48	INFO	imager::clean()	Clean gain = 0.1, Niter = 10000, Threshold = 0 mJy
+2017-01-31 03:16:48	INFO	imager::clean()	Starting deconvolution
+2017-01-31 03:16:48	INFO	WBCleanImageSkyModel::solve	MSMFS algorithm (v2.6) with 2 Taylor coefficients and Reference Frequency of 5.99832e+09 Hz
+2017-01-31 03:16:48	INFO	WBCleanImageSkyModel::solve	Fractional Bandwidth : 67.4779 %.
+2017-01-31 03:16:48	INFO	WBCleanImageSkyModel::solve	**** Major Cycle 1
+2017-01-31 03:16:48	INFO	WBCleanImageSkyModel::computeFluxLimit 	Peak Residual (all pixels) : 0.000203005  User Threshold : 0  Max PSF Sidelobe : 0.121615 User maxPsfFraction : 0.8  User cyclefactor : 1.5  fractionOfPsf = min(maxPsfFraction, PSFsidelobe x cyclefactor) : 0.182422
+2017-01-31 03:16:56	INFO	WBCleanImageSkyModel::solve	Starting Minor Cycle iterations for field : 0
+2017-01-31 03:16:56	INFO	MultiTermMatrixCleaner::computeHessianPeak 	Calculating PSF and Scale convolutions 
+2017-01-31 03:17:08	INFO	MultiTermMatrixCleaner::computeHessianPeak 	The Matrix [H] for 0 pixel scale is : Axis Lengths: [2, 2]  (NB: Matrix in Row/Column order)
+2017-01-31 03:17:08	INFO	MultiTermMatrixCleaner::computeHessianPeak +	[1, 0.04681
+2017-01-31 03:17:08	INFO	MultiTermMatrixCleaner::computeHessianPeak +	 0.04681, 0.0368865]
+2017-01-31 03:17:15	INFO	MultiTermMatrixCleaner::mtclean() 	Calculating convolutions of residual images with scales 
+2017-01-31 03:17:29	INFO	MultiTermMatrixCleaner::mtclean() 	Peak convolved residual (within mask)  : 9.91646e-05  : Minor cycle stopping threshold : 1.80898e-05
+2017-01-31 03:17:59	INFO		[20] Res: 5.96057e-05 Max: 4.14344e-09 Gain: 0.1 Pos: [2792, 3503] Scale: 0 Coeffs: 6.29188e-05  -0.00018653  
+2017-01-31 03:18:07	INFO		[40] Res: 4.66822e-05 Max: 2.4564e-09 Gain: 0.1 Pos: [4980, 2984] Scale: 0 Coeffs: 5.10954e-05  -6.93673e-05  
+2017-01-31 03:18:15	INFO		[60] Res: 4.11118e-05 Max: 1.80968e-09 Gain: 0.1 Pos: [2792, 3498] Scale: 0 Coeffs: 4.15916e-05  -0.000123135  
+2017-01-31 03:18:23	INFO		[80] Res: 3.58599e-05 Max: 1.29869e-09 Gain: 0.1 Pos: [3953, 6339] Scale: 0 Coeffs: 3.56564e-05  -9.8048e-05  
+2017-01-31 03:18:31	INFO		[100] Res: 3.12462e-05 Max: 1.02671e-09 Gain: 0.1 Pos: [4765, 4224] Scale: 0 Coeffs: 3.30324e-05  -4.51408e-05  
+2017-01-31 03:18:39	INFO		[120] Res: 2.81216e-05 Max: 8.31632e-10 Gain: 0.1 Pos: [4765, 4224] Scale: 0 Coeffs: 2.97292e-05  -4.06268e-05  
+2017-01-31 03:18:47	INFO		[140] Res: 2.53095e-05 Max: 6.85641e-10 Gain: 0.1 Pos: [5715, 3591] Scale: 0 Coeffs: 2.66692e-05  -1.26005e-05  
+2017-01-31 03:18:55	INFO		[160] Res: 2.35129e-05 Max: 5.80413e-10 Gain: 0.1 Pos: [3178, 3528] Scale: 0 Coeffs: 2.03202e-05  -9.7939e-05  
+2017-01-31 03:19:04	INFO		[180] Res: 2.21142e-05 Max: 4.958e-10 Gain: 0.1 Pos: [2791, 3496] Scale: 0 Coeffs: 2.29072e-05  -3.68497e-05  
+2017-01-31 03:19:12	INFO		[200] Res: 2.08301e-05 Max: 4.3853e-10 Gain: 0.1 Pos: [2795, 3504] Scale: 0 Coeffs: 1.23294e-05  -0.000105158  
+2017-01-31 03:19:20	INFO		[220] Res: 1.94742e-05 Max: 3.84829e-10 Gain: 0.1 Pos: [2791, 3495] Scale: 0 Coeffs: 1.96564e-05  -4.9034e-05  
+2017-01-31 03:19:28	INFO		[240] Res: 1.81551e-05 Max: 3.48277e-10 Gain: 0.1 Pos: [5715, 3590] Scale: 0 Coeffs: 1.89545e-05  -7.30717e-06  
+2017-01-31 03:19:31	INFO	MultiTermMatrixCleaner::mtclean() 	Reached stopping threshold at iteration 247. Peak residual 1.79201e-05 (within mask) 
+2017-01-31 03:19:31	INFO	MultiTermMatrixCleaner::mtclean() 	Total flux by scale :  [0]: 0.000845467 (in this run) 
+2017-01-31 03:19:31	INFO	MultiTermMatrixCleaner::mtclean() 	Total flux by Taylor coefficient :  [0]: 0.000845467  [1]: -0.00200813
+2017-01-31 03:19:32	INFO	WBCleanImageSkyModel::solve	Calculating new residual images...
+2017-01-31 04:38:53	INFO	WBCleanImageSkyModel::solve	**** Major Cycle 2
+2017-01-31 04:38:54	INFO	WBCleanImageSkyModel::computeFluxLimit 	Peak Residual (all pixels) : 0.000203015  User Threshold : 0  Max PSF Sidelobe : 0.121615 User maxPsfFraction : 0.8  User cyclefactor : 1.5  fractionOfPsf = min(maxPsfFraction, PSFsidelobe x cyclefactor) : 0.182422
+2017-01-31 04:38:55	INFO	WBCleanImageSkyModel::solve	Starting Minor Cycle iterations for field : 0
+2017-01-31 04:39:02	INFO	MultiTermMatrixCleaner::mtclean() 	Calculating convolutions of residual images with scales 
+2017-01-31 04:39:16	INFO	MultiTermMatrixCleaner::mtclean() 	Peak convolved residual (within mask)  : 2.45073e-05  : Minor cycle stopping threshold : 4.47067e-06
+2017-01-31 04:39:30	INFO		[260] Res: 1.79904e-05 Max: 3.60123e-10 Gain: 0.1 Pos: [3203, 3521] Scale: 0 Coeffs: 1.95356e-05  -3.03869e-05  
+2017-01-31 04:39:38	INFO		[280] Res: 1.67543e-05 Max: 3.0249e-10 Gain: 0.1 Pos: [4980, 2984] Scale: 0 Coeffs: 1.7924e-05  -2.56223e-05  
+2017-01-31 04:39:46	INFO		[300] Res: 1.62959e-05 Max: 2.74079e-10 Gain: 0.1 Pos: [2793, 3502] Scale: 0 Coeffs: 1.6505e-05  -4.29416e-05  
+2017-01-31 04:39:54	INFO		[320] Res: 1.52543e-05 Max: 2.51456e-10 Gain: 0.1 Pos: [2792, 3497] Scale: 0 Coeffs: 1.63301e-05  -1.66122e-05  
+2017-01-31 04:40:02	INFO		[340] Res: 1.51016e-05 Max: 2.35008e-10 Gain: 0.1 Pos: [2791, 3500] Scale: 0 Coeffs: 1.5755e-05  -2.64384e-05  
+2017-01-31 04:40:11	INFO		[360] Res: 1.45836e-05 Max: 2.196e-10 Gain: 0.1 Pos: [2832, 3500] Scale: 0 Coeffs: 5.31525e-06  6.55941e-05  
+2017-01-31 04:40:19	INFO		[380] Res: 1.40988e-05 Max: 2.05574e-10 Gain: 0.1 Pos: [3038, 2237] Scale: 0 Coeffs: 1.36483e-05  -4.60108e-05  
+2017-01-31 04:40:27	INFO		[400] Res: 1.39345e-05 Max: 1.99633e-10 Gain: 0.1 Pos: [4374, 3944] Scale: 0 Coeffs: -1.14456e-05  -3.09897e-05  
+2017-01-31 04:40:35	INFO		[420] Res: 1.3647e-05 Max: 1.9142e-10 Gain: 0.1 Pos: [5225, 3930] Scale: 0 Coeffs: 1.42367e-05  -1.34804e-05  
+2017-01-31 04:40:43	INFO		[440] Res: 1.32259e-05 Max: 1.84338e-10 Gain: 0.1 Pos: [3830, 6506] Scale: 0 Coeffs: 1.37148e-05  -3.15827e-05  
+2017-01-31 04:40:51	INFO		[460] Res: 1.32026e-05 Max: 1.77894e-10 Gain: 0.1 Pos: [4785, 4236] Scale: 0 Coeffs: -7.06827e-06  -5.06017e-05  
+2017-01-31 04:40:59	INFO		[480] Res: 1.31064e-05 Max: 1.7487e-10 Gain: 0.1 Pos: [3247, 3356] Scale: 0 Coeffs: 4.34651e-06  -7.0777e-05  
+2017-01-31 04:41:07	INFO		[500] Res: 1.28577e-05 Max: 1.68477e-10 Gain: 0.1 Pos: [5265, 4834] Scale: 0 Coeffs: -1.26877e-05  3.76081e-05  
+2017-01-31 04:41:15	INFO		[520] Res: 1.2797e-05 Max: 1.64645e-10 Gain: 0.1 Pos: [3241, 3497] Scale: 0 Coeffs: -7.68585e-06  -4.46269e-05  
+2017-01-31 04:41:23	INFO		[540] Res: 1.25484e-05 Max: 1.60896e-10 Gain: 0.1 Pos: [2793, 3503] Scale: 0 Coeffs: 1.2995e-05  -2.39601e-05  
+2017-01-31 04:41:32	INFO		[560] Res: 1.25518e-05 Max: 1.5804e-10 Gain: 0.1 Pos: [4791, 5120] Scale: 0 Coeffs: 6.76727e-06  4.72397e-05  
+2017-01-31 04:41:40	INFO		[580] Res: 1.24376e-05 Max: 1.54934e-10 Gain: 0.1 Pos: [5000, 2985] Scale: 0 Coeffs: 1.06896e-05  2.23022e-05  
+2017-01-31 04:41:48	INFO		[600] Res: 1.22351e-05 Max: 1.53212e-10 Gain: 0.1 Pos: [4432, 3959] Scale: 0 Coeffs: 4.0981e-06  5.58351e-05  
+2017-01-31 04:41:56	INFO		[620] Res: 1.20356e-05 Max: 1.50908e-10 Gain: 0.1 Pos: [3178, 3526] Scale: 0 Coeffs: 1.26497e-05  -1.27646e-05  
+2017-01-31 04:42:04	INFO		[640] Res: 1.20312e-05 Max: 1.47877e-10 Gain: 0.1 Pos: [3257, 3353] Scale: 0 Coeffs: 1.18928e-05  -3.51501e-05  
+2017-01-31 04:42:12	INFO		[660] Res: 1.20294e-05 Max: 1.45637e-10 Gain: 0.1 Pos: [2791, 3511] Scale: 0 Coeffs: 5.06634e-07  -6.34259e-05  
+2017-01-31 04:42:20	INFO		[680] Res: 1.19601e-05 Max: 1.4362e-10 Gain: 0.1 Pos: [4856, 2723] Scale: 0 Coeffs: -2.53515e-07  -6.20636e-05  
+2017-01-31 04:42:28	INFO		[700] Res: 1.17589e-05 Max: 1.41417e-10 Gain: 0.1 Pos: [3227, 3567] Scale: 0 Coeffs: 6.04137e-06  4.62141e-05  
+2017-01-31 04:42:36	INFO		[720] Res: 1.17399e-05 Max: 1.39314e-10 Gain: 0.1 Pos: [4414, 3992] Scale: 0 Coeffs: -9.07167e-06  -2.94552e-05  
+2017-01-31 04:42:44	INFO		[740] Res: 1.15801e-05 Max: 1.37704e-10 Gain: 0.1 Pos: [3171, 3517] Scale: 0 Coeffs: 1.17305e-05  -2.98619e-05  
+2017-01-31 04:42:53	INFO		[760] Res: 1.15674e-05 Max: 1.36381e-10 Gain: 0.1 Pos: [3558, 5955] Scale: 0 Coeffs: -9.04857e-06  -2.86354e-05  
+2017-01-31 04:43:01	INFO		[780] Res: 1.15575e-05 Max: 1.35291e-10 Gain: 0.1 Pos: [4990, 2987] Scale: 0 Coeffs: -7.57696e-06  -3.73294e-05  
+2017-01-31 04:43:09	INFO		[800] Res: 1.15149e-05 Max: 1.33158e-10 Gain: 0.1 Pos: [4366, 3978] Scale: 0 Coeffs: 3.91403e-06  5.17717e-05  
+2017-01-31 04:43:17	INFO		[820] Res: 1.14589e-05 Max: 1.3182e-10 Gain: 0.1 Pos: [3123, 3519] Scale: 0 Coeffs: -7.44634e-06  -3.70235e-05  
+2017-01-31 04:43:25	INFO		[840] Res: 1.14172e-05 Max: 1.30517e-10 Gain: 0.1 Pos: [5238, 4825] Scale: 0 Coeffs: 1.12201e-05  -3.2353e-05  
+2017-01-31 04:43:33	INFO		[860] Res: 1.13123e-05 Max: 1.29287e-10 Gain: 0.1 Pos: [5727, 3602] Scale: 0 Coeffs: 8.40866e-06  3.05848e-05  
+2017-01-31 04:43:41	INFO		[880] Res: 1.12079e-05 Max: 1.28217e-10 Gain: 0.1 Pos: [2824, 3452] Scale: 0 Coeffs: -9.43097e-06  -2.27873e-05  
+2017-01-31 04:43:49	INFO		[900] Res: 1.12079e-05 Max: 1.26607e-10 Gain: 0.1 Pos: [2771, 3507] Scale: 0 Coeffs: 5.26523e-06  4.55237e-05  
+2017-01-31 04:43:57	INFO		[920] Res: 1.11323e-05 Max: 1.25733e-10 Gain: 0.1 Pos: [3170, 3491] Scale: 0 Coeffs: -2.0905e-06  6.00742e-05  
+2017-01-31 04:44:05	INFO		[940] Res: 1.11323e-05 Max: 1.24935e-10 Gain: 0.1 Pos: [4546, 3346] Scale: 0 Coeffs: 2.02829e-06  5.47156e-05  
+2017-01-31 04:44:13	INFO		[960] Res: 1.1102e-05 Max: 1.23649e-10 Gain: 0.1 Pos: [3261, 3360] Scale: 0 Coeffs: 1.03809e-05  -3.77542e-05  
+2017-01-31 04:44:22	INFO		[980] Res: 1.09914e-05 Max: 1.2278e-10 Gain: 0.1 Pos: [4593, 3293] Scale: 0 Coeffs: 1.32338e-06  5.56262e-05  
+2017-01-31 04:44:30	INFO		[1000] Res: 1.09223e-05 Max: 1.21801e-10 Gain: 0.1 Pos: [4757, 4237] Scale: 0 Coeffs: -3.17789e-06  -5.11444e-05  
+2017-01-31 04:44:38	INFO		[1020] Res: 1.09021e-05 Max: 1.21099e-10 Gain: 0.1 Pos: [4791, 4228] Scale: 0 Coeffs: 4.73723e-06  4.60533e-05  
+2017-01-31 04:44:46	INFO		[1040] Res: 1.08982e-05 Max: 1.20205e-10 Gain: 0.1 Pos: [6060, 3421] Scale: 0 Coeffs: -1.01442e-05  -1.2321e-05  
+2017-01-31 04:44:54	INFO		[1060] Res: 1.08886e-05 Max: 1.19243e-10 Gain: 0.1 Pos: [2826, 3537] Scale: 0 Coeffs: 7.69661e-07  5.57471e-05  
+2017-01-31 04:45:02	INFO		[1080] Res: 1.08367e-05 Max: 1.18385e-10 Gain: 0.1 Pos: [3261, 3515] Scale: 0 Coeffs: 5.55754e-06  4.21597e-05  
+2017-01-31 04:45:10	INFO		[1100] Res: 1.08264e-05 Max: 1.17512e-10 Gain: 0.1 Pos: [4592, 3296] Scale: 0 Coeffs: 8.29858e-07  -5.734e-05  
+2017-01-31 04:45:18	INFO		[1120] Res: 1.07908e-05 Max: 1.16533e-10 Gain: 0.1 Pos: [5002, 2964] Scale: 0 Coeffs: -6.4345e-06  -3.76981e-05  
+2017-01-31 04:45:26	INFO		[1140] Res: 1.07046e-05 Max: 1.1617e-10 Gain: 0.1 Pos: [2781, 3508] Scale: 0 Coeffs: -8.63697e-06  -2.43548e-05  
+2017-01-31 04:45:34	INFO		[1160] Res: 1.07022e-05 Max: 1.15387e-10 Gain: 0.1 Pos: [4991, 3004] Scale: 0 Coeffs: 4.9639e-06  4.36992e-05  
+2017-01-31 04:45:43	INFO		[1180] Res: 1.06236e-05 Max: 1.14806e-10 Gain: 0.1 Pos: [4434, 3948] Scale: 0 Coeffs: -4.06817e-06  -4.67062e-05  
+2017-01-31 04:45:51	INFO		[1200] Res: 1.06271e-05 Max: 1.14088e-10 Gain: 0.1 Pos: [3167, 3498] Scale: 0 Coeffs: 4.78856e-06  4.40055e-05  
+2017-01-31 04:45:59	INFO		[1220] Res: 1.06216e-05 Max: 1.13328e-10 Gain: 0.1 Pos: [4578, 3373] Scale: 0 Coeffs: -3.62139e-06  -4.77297e-05  
+2017-01-31 04:46:07	INFO		[1240] Res: 1.05867e-05 Max: 1.12672e-10 Gain: 0.1 Pos: [4442, 3972] Scale: 0 Coeffs: 1.0304e-05  5.55734e-06  
+2017-01-31 04:46:15	INFO		[1260] Res: 1.05285e-05 Max: 1.11868e-10 Gain: 0.1 Pos: [4529, 3373] Scale: 0 Coeffs: -5.78654e-06  -3.93357e-05  
+2017-01-31 04:46:23	INFO		[1280] Res: 1.04929e-05 Max: 1.11113e-10 Gain: 0.1 Pos: [3529, 5958] Scale: 0 Coeffs: -1.05918e-05  1.12958e-06  
+2017-01-31 04:46:31	INFO		[1300] Res: 1.0441e-05 Max: 1.10594e-10 Gain: 0.1 Pos: [4814, 5109] Scale: 0 Coeffs: -2.57891e-06  -4.99122e-05  
+2017-01-31 04:46:39	INFO		[1320] Res: 1.04599e-05 Max: 1.09964e-10 Gain: 0.1 Pos: [4411, 3992] Scale: 0 Coeffs: 8.66462e-06  2.16652e-05  
+2017-01-31 04:46:47	INFO		[1340] Res: 1.0439e-05 Max: 1.09309e-10 Gain: 0.1 Pos: [2813, 3489] Scale: 0 Coeffs: 6.59504e-06  3.4692e-05  
+2017-01-31 04:46:56	INFO		[1360] Res: 1.03656e-05 Max: 1.08645e-10 Gain: 0.1 Pos: [3215, 3539] Scale: 0 Coeffs: -3.76065e-06  -4.60681e-05  
+2017-01-31 04:47:04	INFO		[1380] Res: 1.03354e-05 Max: 1.08117e-10 Gain: 0.1 Pos: [4986, 3013] Scale: 0 Coeffs: 5.11315e-06  4.10971e-05  
+2017-01-31 04:47:12	INFO		[1400] Res: 1.03156e-05 Max: 1.07464e-10 Gain: 0.1 Pos: [4762, 4203] Scale: 0 Coeffs: 3.16337e-06  4.75434e-05  
+2017-01-31 04:47:20	INFO		[1420] Res: 1.03206e-05 Max: 1.07028e-10 Gain: 0.1 Pos: [3025, 2239] Scale: 0 Coeffs: -7.82906e-07  -5.27272e-05  
+2017-01-31 04:47:28	INFO		[1440] Res: 1.02941e-05 Max: 1.0657e-10 Gain: 0.1 Pos: [2805, 3484] Scale: 0 Coeffs: -7.94827e-06  -2.5665e-05  
+2017-01-31 04:47:36	INFO		[1460] Res: 1.02676e-05 Max: 1.06052e-10 Gain: 0.1 Pos: [3136, 3559] Scale: 0 Coeffs: -1.0587e-05  9.31587e-06  
+2017-01-31 04:47:44	INFO		[1480] Res: 1.0222e-05 Max: 1.05387e-10 Gain: 0.1 Pos: [4571, 3345] Scale: 0 Coeffs: -1.02586e-05  -1.5382e-07  
+2017-01-31 04:47:52	INFO		[1500] Res: 1.0259e-05 Max: 1.04883e-10 Gain: 0.1 Pos: [3226, 3347] Scale: 0 Coeffs: -4.30258e-06  -4.32363e-05  
+2017-01-31 04:48:00	INFO		[1520] Res: 1.01964e-05 Max: 1.04426e-10 Gain: 0.1 Pos: [3128, 3529] Scale: 0 Coeffs: 6.59181e-06  3.31439e-05  
+2017-01-31 04:48:09	INFO		[1540] Res: 1.01426e-05 Max: 1.03889e-10 Gain: 0.1 Pos: [4562, 3337] Scale: 0 Coeffs: 7.48691e-06  2.77426e-05  
+2017-01-31 04:48:17	INFO		[1560] Res: 1.01348e-05 Max: 1.03409e-10 Gain: 0.1 Pos: [4789, 5108] Scale: 0 Coeffs: -6.89235e-06  -3.11542e-05  
+2017-01-31 04:48:25	INFO		[1580] Res: 1.00616e-05 Max: 1.02628e-10 Gain: 0.1 Pos: [2815, 3522] Scale: 0 Coeffs: 7.23957e-06  2.88363e-05  
+2017-01-31 04:48:33	INFO		[1600] Res: 1.00589e-05 Max: 1.02277e-10 Gain: 0.1 Pos: [2758, 3529] Scale: 0 Coeffs: -2.17275e-06  -4.87438e-05  
+2017-01-31 04:48:41	INFO		[1620] Res: 1.00469e-05 Max: 1.01956e-10 Gain: 0.1 Pos: [4509, 3332] Scale: 0 Coeffs: -7.12041e-06  -2.93201e-05  
+2017-01-31 04:48:49	INFO		[1640] Res: 1.00475e-05 Max: 1.01387e-10 Gain: 0.1 Pos: [3216, 3522] Scale: 0 Coeffs: 8.93579e-06  1.53532e-05  
+2017-01-31 04:48:57	INFO		[1660] Res: 1.00314e-05 Max: 1.0113e-10 Gain: 0.1 Pos: [4546, 3346] Scale: 0 Coeffs: 1.78551e-06  4.93128e-05  
+2017-01-31 04:49:05	INFO		[1680] Res: 1.00061e-05 Max: 1.00659e-10 Gain: 0.1 Pos: [3172, 3523] Scale: 0 Coeffs: 9.89548e-06  2.67207e-06  
+2017-01-31 04:49:13	INFO		[1700] Res: 1.00053e-05 Max: 1.00271e-10 Gain: 0.1 Pos: [3240, 3492] Scale: 0 Coeffs: -7.09244e-06  -2.88896e-05  
+2017-01-31 04:49:21	INFO		[1720] Res: 9.94747e-06 Max: 9.99226e-11 Gain: 0.1 Pos: [4890, 2750] Scale: 0 Coeffs: 5.54139e-06  -5.09172e-05  
+2017-01-31 04:49:30	INFO		[1740] Res: 9.94747e-06 Max: 9.93964e-11 Gain: 0.1 Pos: [3213, 3501] Scale: 0 Coeffs: 1.02795e-05  -1.269e-05  
+2017-01-31 04:49:38	INFO		[1760] Res: 9.94755e-06 Max: 9.90395e-11 Gain: 0.1 Pos: [5227, 3941] Scale: 0 Coeffs: -2.19645e-06  -4.78284e-05  
+2017-01-31 04:49:46	INFO		[1780] Res: 9.90418e-06 Max: 9.88605e-11 Gain: 0.1 Pos: [4399, 3976] Scale: 0 Coeffs: -7.29101e-06  -2.71425e-05  
+2017-01-31 04:49:54	INFO		[1800] Res: 9.90418e-06 Max: 9.83898e-11 Gain: 0.1 Pos: [3247, 3495] Scale: 0 Coeffs: 2.85934e-06  4.59585e-05  
+2017-01-31 04:50:02	INFO		[1820] Res: 9.88221e-06 Max: 9.81761e-11 Gain: 0.1 Pos: [4866, 2724] Scale: 0 Coeffs: 4.18134e-06  4.17655e-05  
+2017-01-31 04:50:10	INFO		[1840] Res: 9.88752e-06 Max: 9.77749e-11 Gain: 0.1 Pos: [4515, 3295] Scale: 0 Coeffs: 6.90769e-06  -4.66335e-05  
+2017-01-31 04:50:18	INFO		[1860] Res: 9.79537e-06 Max: 9.74215e-11 Gain: 0.1 Pos: [5705, 3599] Scale: 0 Coeffs: 6.99801e-06  2.84334e-05  
+2017-01-31 04:50:26	INFO		[1880] Res: 9.79537e-06 Max: 9.70869e-11 Gain: 0.1 Pos: [4503, 3318] Scale: 0 Coeffs: -6.76261e-06  -2.97047e-05  
+2017-01-31 04:50:34	INFO		[1900] Res: 9.79537e-06 Max: 9.67583e-11 Gain: 0.1 Pos: [5236, 3935] Scale: 0 Coeffs: 6.61505e-06  3.04292e-05  
+2017-01-31 04:50:43	INFO		[1920] Res: 9.78875e-06 Max: 9.62486e-11 Gain: 0.1 Pos: [3167, 3512] Scale: 0 Coeffs: -2.90666e-06  -4.52386e-05  
+2017-01-31 04:50:51	INFO		[1940] Res: 9.74578e-06 Max: 9.58087e-11 Gain: 0.1 Pos: [4576, 3372] Scale: 0 Coeffs: -7.09883e-07  5.17392e-05  
+2017-01-31 04:50:59	INFO		[1960] Res: 9.74578e-06 Max: 9.52972e-11 Gain: 0.1 Pos: [4538, 3346] Scale: 0 Coeffs: 3.47712e-06  4.32867e-05  
+2017-01-31 04:51:07	INFO		[1980] Res: 9.70984e-06 Max: 9.50786e-11 Gain: 0.1 Pos: [3562, 5959] Scale: 0 Coeffs: -3.31313e-06  -4.37298e-05  
+2017-01-31 04:51:15	INFO		[2000] Res: 9.71107e-06 Max: 9.45816e-11 Gain: 0.1 Pos: [6051, 3415] Scale: 0 Coeffs: 3.33016e-06  4.35372e-05  
+2017-01-31 04:51:23	INFO		[2020] Res: 9.69995e-06 Max: 9.42652e-11 Gain: 0.1 Pos: [4958, 2973] Scale: 0 Coeffs: -4.39254e-06  -3.9852e-05  
+2017-01-31 04:51:31	INFO		[2040] Res: 9.66424e-06 Max: 9.3999e-11 Gain: 0.1 Pos: [3279, 3356] Scale: 0 Coeffs: -7.72187e-06  -2.22608e-05  
+2017-01-31 04:51:39	INFO		[2060] Res: 9.66424e-06 Max: 9.37057e-11 Gain: 0.1 Pos: [4379, 3993] Scale: 0 Coeffs: -4.30341e-06  -4.00157e-05  
+2017-01-31 04:51:47	INFO		[2080] Res: 9.64897e-06 Max: 9.321e-11 Gain: 0.1 Pos: [2836, 3527] Scale: 0 Coeffs: -5.29657e-06  -3.58412e-05  
+2017-01-31 04:51:55	INFO		[2100] Res: 9.61897e-06 Max: 9.2927e-11 Gain: 0.1 Pos: [4592, 3378] Scale: 0 Coeffs: 7.59248e-06  2.2758e-05  
+2017-01-31 04:52:04	INFO		[2120] Res: 9.58521e-06 Max: 9.25346e-11 Gain: 0.1 Pos: [4821, 5130] Scale: 0 Coeffs: -6.01861e-06  -3.21735e-05  
+2017-01-31 04:52:12	INFO		[2140] Res: 9.57775e-06 Max: 9.2549e-11 Gain: 0.1 Pos: [3129, 3538] Scale: 0 Coeffs: -4.07419e-06  -4.04997e-05  
+2017-01-31 04:52:20	INFO		[2160] Res: 9.57615e-06 Max: 9.19421e-11 Gain: 0.1 Pos: [4793, 4245] Scale: 0 Coeffs: -8.56446e-06  -1.40746e-05  
+2017-01-31 04:52:28	INFO		[2180] Res: 9.51678e-06 Max: 9.1688e-11 Gain: 0.1 Pos: [3960, 6344] Scale: 0 Coeffs: -9.36849e-06  -3.84652e-06  
+2017-01-31 04:52:36	INFO		[2200] Res: 9.52576e-06 Max: 9.14125e-11 Gain: 0.1 Pos: [3034, 2224] Scale: 0 Coeffs: -4.88155e-06  -3.70552e-05  
+2017-01-31 04:52:44	INFO		[2220] Res: 9.51562e-06 Max: 9.10882e-11 Gain: 0.1 Pos: [4891, 2744] Scale: 0 Coeffs: 6.4386e-06  2.941e-05  
+2017-01-31 04:52:52	INFO		[2240] Res: 9.49345e-06 Max: 9.08142e-11 Gain: 0.1 Pos: [5005, 2994] Scale: 0 Coeffs: -6.32939e-06  -2.99209e-05  
+2017-01-31 04:53:00	INFO		[2260] Res: 9.49932e-06 Max: 9.04657e-11 Gain: 0.1 Pos: [4530, 3321] Scale: 0 Coeffs: -7.36889e-06  -2.33273e-05  
+2017-01-31 04:53:08	INFO		[2280] Res: 9.45772e-06 Max: 9.02191e-11 Gain: 0.1 Pos: [2829, 3484] Scale: 0 Coeffs: 1.17928e-07  4.93024e-05  
+2017-01-31 04:53:17	INFO		[2300] Res: 9.44957e-06 Max: 8.9957e-11 Gain: 0.1 Pos: [4469, 3128] Scale: 0 Coeffs: 2.27779e-06  4.51349e-05  
+2017-01-31 04:53:25	INFO		[2320] Res: 9.44957e-06 Max: 8.97621e-11 Gain: 0.1 Pos: [4377, 3938] Scale: 0 Coeffs: -7.88309e-06  -1.91309e-05  
+2017-01-31 04:53:33	INFO		[2340] Res: 9.44957e-06 Max: 8.97219e-11 Gain: 0.1 Pos: [4429, 3922] Scale: 0 Coeffs: -3.77945e-07  -4.88026e-05  
+2017-01-31 04:53:41	INFO		[2360] Res: 9.42113e-06 Max: 8.91129e-11 Gain: 0.1 Pos: [3070, 2226] Scale: 0 Coeffs: -7.36455e-06  -2.27921e-05  
+2017-01-31 04:53:49	INFO		[2380] Res: 9.42333e-06 Max: 8.90393e-11 Gain: 0.1 Pos: [4796, 5120] Scale: 0 Coeffs: -9.67179e-06  1.76156e-05  
+2017-01-31 04:53:57	INFO		[2400] Res: 9.3969e-06 Max: 8.84518e-11 Gain: 0.1 Pos: [4371, 3948] Scale: 0 Coeffs: -7.67245e-06  -2.02111e-05  
+2017-01-31 04:54:05	INFO		[2420] Res: 9.35137e-06 Max: 8.81329e-11 Gain: 0.1 Pos: [5241, 3925] Scale: 0 Coeffs: 9.25842e-06  2.51632e-06  
+2017-01-31 04:54:13	INFO		[2440] Res: 9.35137e-06 Max: 8.79046e-11 Gain: 0.1 Pos: [3821, 6510] Scale: 0 Coeffs: 8.33719e-06  1.41313e-05  
+2017-01-31 04:54:21	INFO		[2460] Res: 9.33997e-06 Max: 8.75622e-11 Gain: 0.1 Pos: [2794, 3508] Scale: 0 Coeffs: 8.87923e-06  7.7953e-06  
+2017-01-31 04:54:30	INFO		[2480] Res: 9.33252e-06 Max: 8.72832e-11 Gain: 0.1 Pos: [4758, 4191] Scale: 0 Coeffs: -9.39511e-06  1.17792e-06  
+2017-01-31 04:54:38	INFO		[2500] Res: 9.30026e-06 Max: 8.69562e-11 Gain: 0.1 Pos: [4976, 2996] Scale: 0 Coeffs: 7.44331e-06  2.12892e-05  
+2017-01-31 04:54:46	INFO		[2520] Res: 9.30026e-06 Max: 8.66401e-11 Gain: 0.1 Pos: [4988, 3004] Scale: 0 Coeffs: -7.68692e-06  -1.92637e-05  
+2017-01-31 04:54:54	INFO		[2540] Res: 9.25666e-06 Max: 8.77937e-11 Gain: 0.1 Pos: [4762, 4203] Scale: 0 Coeffs: 2.84176e-06  4.30218e-05  
+2017-01-31 04:55:02	INFO		[2560] Res: 9.24408e-06 Max: 8.62028e-11 Gain: 0.1 Pos: [4895, 2733] Scale: 0 Coeffs: 1.11608e-06  4.65963e-05  
+2017-01-31 04:55:10	INFO		[2580] Res: 9.24552e-06 Max: 8.58898e-11 Gain: 0.1 Pos: [4852, 2698] Scale: 0 Coeffs: -4.93445e-06  -3.50612e-05  
+2017-01-31 04:55:18	INFO		[2600] Res: 9.24456e-06 Max: 8.56692e-11 Gain: 0.1 Pos: [3154, 3504] Scale: 0 Coeffs: -7.5313e-06  -2.00424e-05  
+2017-01-31 04:55:26	INFO		[2620] Res: 9.21817e-06 Max: 8.5446e-11 Gain: 0.1 Pos: [4790, 4188] Scale: 0 Coeffs: 4.00255e-06  3.86006e-05  
+2017-01-31 04:55:34	INFO		[2640] Res: 9.21817e-06 Max: 8.55762e-11 Gain: 0.1 Pos: [3184, 3527] Scale: 0 Coeffs: 4.24697e-06  -4.85178e-05  
+2017-01-31 04:55:43	INFO		[2660] Res: 9.20792e-06 Max: 8.4983e-11 Gain: 0.1 Pos: [4562, 3337] Scale: 0 Coeffs: 6.77485e-06  2.50701e-05  
+2017-01-31 04:55:51	INFO		[2680] Res: 9.20163e-06 Max: 8.47782e-11 Gain: 0.1 Pos: [4782, 4189] Scale: 0 Coeffs: 4.9071e-06  3.48133e-05  
+2017-01-31 04:55:59	INFO		[2700] Res: 9.15494e-06 Max: 8.44751e-11 Gain: 0.1 Pos: [3418, 5149] Scale: 0 Coeffs: -1.48629e-06  -4.5377e-05  
+2017-01-31 04:56:07	INFO		[2720] Res: 9.16011e-06 Max: 8.41971e-11 Gain: 0.1 Pos: [3214, 3503] Scale: 0 Coeffs: -7.34313e-06  -2.0808e-05  
+2017-01-31 04:56:15	INFO		[2740] Res: 9.13091e-06 Max: 8.40059e-11 Gain: 0.1 Pos: [2759, 3529] Scale: 0 Coeffs: -7.47554e-07  -4.66241e-05  
+2017-01-31 04:56:23	INFO		[2760] Res: 9.12131e-06 Max: 8.3682e-11 Gain: 0.1 Pos: [2767, 3461] Scale: 0 Coeffs: -6.83726e-06  -2.41344e-05  
+2017-01-31 04:56:31	INFO		[2780] Res: 9.10952e-06 Max: 8.34261e-11 Gain: 0.1 Pos: [4527, 3376] Scale: 0 Coeffs: 6.81604e-06  2.41682e-05  
+2017-01-31 04:56:39	INFO		[2800] Res: 9.10952e-06 Max: 8.32576e-11 Gain: 0.1 Pos: [5254, 4838] Scale: 0 Coeffs: -2.04553e-06  4.89686e-05  
+2017-01-31 04:56:47	INFO		[2820] Res: 9.0916e-06 Max: 8.29549e-11 Gain: 0.1 Pos: [4418, 3961] Scale: 0 Coeffs: 6.0974e-06  2.833e-05  
+2017-01-31 04:56:55	INFO		[2840] Res: 9.08126e-06 Max: 8.26798e-11 Gain: 0.1 Pos: [3215, 3539] Scale: 0 Coeffs: -3.28427e-06  -4.01764e-05  
+2017-01-31 04:57:04	INFO		[2860] Res: 9.0528e-06 Max: 8.29275e-11 Gain: 0.1 Pos: [3143, 3562] Scale: 0 Coeffs: -7.66736e-06  -1.76394e-05  
+2017-01-31 04:57:12	INFO		[2880] Res: 9.05316e-06 Max: 8.22598e-11 Gain: 0.1 Pos: [4455, 3140] Scale: 0 Coeffs: -6.94901e-06  -2.27842e-05  
+2017-01-31 04:57:20	INFO		[2900] Res: 9.04082e-06 Max: 8.21846e-11 Gain: 0.1 Pos: [4560, 3351] Scale: 0 Coeffs: 4.26691e-06  3.65826e-05  
+2017-01-31 04:57:28	INFO		[2920] Res: 9.02784e-06 Max: 8.17975e-11 Gain: 0.1 Pos: [3264, 3342] Scale: 0 Coeffs: -9.20986e-06  1.9078e-05  
+2017-01-31 04:57:36	INFO		[2940] Res: 9.00062e-06 Max: 8.16031e-11 Gain: 0.1 Pos: [5239, 4826] Scale: 0 Coeffs: 8.94792e-06  1.70744e-06  
+2017-01-31 04:57:44	INFO		[2960] Res: 9.00192e-06 Max: 8.13776e-11 Gain: 0.1 Pos: [4574, 3335] Scale: 0 Coeffs: -7.42604e-06  -1.88596e-05  
+2017-01-31 04:57:52	INFO		[2980] Res: 9.00284e-06 Max: 8.12765e-11 Gain: 0.1 Pos: [4561, 3313] Scale: 0 Coeffs: 4.96845e-06  3.33679e-05  
+2017-01-31 04:58:00	INFO		[3000] Res: 8.97943e-06 Max: 8.10577e-11 Gain: 0.1 Pos: [3284, 3356] Scale: 0 Coeffs: 6.36819e-06  2.60269e-05  
+2017-01-31 04:58:08	INFO		[3020] Res: 8.97943e-06 Max: 8.08373e-11 Gain: 0.1 Pos: [4436, 3928] Scale: 0 Coeffs: -6.92085e-06  -2.2364e-05  
+2017-01-31 04:58:17	INFO		[3040] Res: 8.94862e-06 Max: 8.06625e-11 Gain: 0.1 Pos: [4587, 3379] Scale: 0 Coeffs: 7.01446e-06  2.16291e-05  
+2017-01-31 04:58:25	INFO		[3060] Res: 8.94862e-06 Max: 8.03616e-11 Gain: 0.1 Pos: [4425, 3921] Scale: 0 Coeffs: -2.25675e-06  -4.23992e-05  
+2017-01-31 04:58:33	INFO		[3080] Res: 8.91795e-06 Max: 8.01597e-11 Gain: 0.1 Pos: [3259, 3372] Scale: 0 Coeffs: 8.15344e-06  1.15153e-05  
+2017-01-31 04:58:41	INFO		[3100] Res: 8.92268e-06 Max: 8.1049e-11 Gain: 0.1 Pos: [3219, 3539] Scale: 0 Coeffs: 4.57408e-06  3.49843e-05  
+2017-01-31 04:58:49	INFO		[3120] Res: 8.91368e-06 Max: 7.9743e-11 Gain: 0.1 Pos: [3122, 3507] Scale: 0 Coeffs: -4.57241e-06  -3.45549e-05  
+2017-01-31 04:58:57	INFO		[3140] Res: 8.86777e-06 Max: 7.95043e-11 Gain: 0.1 Pos: [4583, 3317] Scale: 0 Coeffs: 2.01257e-06  4.2746e-05  
+2017-01-31 04:59:05	INFO		[3160] Res: 8.86658e-06 Max: 7.93127e-11 Gain: 0.1 Pos: [3246, 3322] Scale: 0 Coeffs: 1.48928e-06  4.38662e-05  
+2017-01-31 04:59:13	INFO		[3180] Res: 8.86747e-06 Max: 7.91265e-11 Gain: 0.1 Pos: [4400, 3929] Scale: 0 Coeffs: 6.2204e-06  -4.19301e-05  
+2017-01-31 04:59:21	INFO		[3200] Res: 8.86747e-06 Max: 7.89267e-11 Gain: 0.1 Pos: [3225, 3540] Scale: 0 Coeffs: 6.20507e-06  2.61536e-05  
+2017-01-31 04:59:30	INFO		[3220] Res: 8.86747e-06 Max: 7.88085e-11 Gain: 0.1 Pos: [4906, 2746] Scale: 0 Coeffs: 3.06154e-06  3.96751e-05  
+2017-01-31 04:59:38	INFO		[3240] Res: 8.85762e-06 Max: 7.86391e-11 Gain: 0.1 Pos: [4536, 3336] Scale: 0 Coeffs: 5.22687e-06  3.12518e-05  
+2017-01-31 04:59:46	INFO		[3260] Res: 8.84333e-06 Max: 7.8398e-11 Gain: 0.1 Pos: [3047, 2223] Scale: 0 Coeffs: -8.59278e-06  -4.67072e-06  
+2017-01-31 04:59:54	INFO		[3280] Res: 8.84333e-06 Max: 7.82219e-11 Gain: 0.1 Pos: [3554, 5977] Scale: 0 Coeffs: -6.47486e-06  -2.4211e-05  
+2017-01-31 05:00:02	INFO		[3300] Res: 8.81935e-06 Max: 7.80811e-11 Gain: 0.1 Pos: [3165, 3537] Scale: 0 Coeffs: -8.29048e-06  -8.56162e-06  
+2017-01-31 05:00:10	INFO		[3320] Res: 8.81935e-06 Max: 7.80045e-11 Gain: 0.1 Pos: [3033, 2252] Scale: 0 Coeffs: 9.85724e-07  4.44649e-05  
+2017-01-31 05:00:18	INFO		[3340] Res: 8.80342e-06 Max: 7.77419e-11 Gain: 0.1 Pos: [4370, 3994] Scale: 0 Coeffs: -5.28169e-07  -4.51608e-05  
+2017-01-31 05:00:26	INFO		[3360] Res: 8.78703e-06 Max: 7.75722e-11 Gain: 0.1 Pos: [4899, 2738] Scale: 0 Coeffs: -6.85954e-07  -4.48569e-05  
+2017-01-31 05:00:34	INFO		[3380] Res: 8.78545e-06 Max: 7.74248e-11 Gain: 0.1 Pos: [3274, 3343] Scale: 0 Coeffs: 4.11316e-06  3.56165e-05  
+2017-01-31 05:00:42	INFO		[3400] Res: 8.773e-06 Max: 7.72307e-11 Gain: 0.1 Pos: [4547, 3378] Scale: 0 Coeffs: -1.45164e-06  -4.33242e-05  
+2017-01-31 05:00:51	INFO		[3420] Res: 8.76278e-06 Max: 7.70889e-11 Gain: 0.1 Pos: [4550, 3366] Scale: 0 Coeffs: -1.86616e-06  -4.23653e-05  
+2017-01-31 05:00:59	INFO		[3440] Res: 8.76278e-06 Max: 7.71977e-11 Gain: 0.1 Pos: [4439, 3926] Scale: 0 Coeffs: 3.00824e-06  3.93343e-05  
+2017-01-31 05:01:07	INFO		[3460] Res: 8.72789e-06 Max: 7.6874e-11 Gain: 0.1 Pos: [3240, 3541] Scale: 0 Coeffs: 6.07072e-07  -4.63189e-05  
+2017-01-31 05:01:15	INFO		[3480] Res: 8.72789e-06 Max: 7.65211e-11 Gain: 0.1 Pos: [2820, 3528] Scale: 0 Coeffs: 6.57017e-06  2.28672e-05  
+2017-01-31 05:01:23	INFO		[3500] Res: 8.732e-06 Max: 7.62731e-11 Gain: 0.1 Pos: [3153, 3485] Scale: 0 Coeffs: 7.0589e-06  1.92763e-05  
+2017-01-31 05:01:31	INFO		[3520] Res: 8.71774e-06 Max: 7.63692e-11 Gain: 0.1 Pos: [4592, 3296] Scale: 0 Coeffs: 7.51187e-07  -4.62963e-05  
+2017-01-31 05:01:39	INFO		[3540] Res: 8.70322e-06 Max: 7.59142e-11 Gain: 0.1 Pos: [3037, 2237] Scale: 0 Coeffs: 8.64068e-06  -2.33831e-05  
+2017-01-31 05:01:47	INFO		[3560] Res: 8.68662e-06 Max: 7.57423e-11 Gain: 0.1 Pos: [4792, 4198] Scale: 0 Coeffs: -6.78853e-06  -2.10206e-05  
+2017-01-31 05:01:55	INFO		[3580] Res: 8.68662e-06 Max: 7.55819e-11 Gain: 0.1 Pos: [4788, 4241] Scale: 0 Coeffs: -8.95862e-06  9.7852e-06  
+2017-01-31 05:02:03	INFO		[3600] Res: 8.66403e-06 Max: 7.54145e-11 Gain: 0.1 Pos: [4848, 2734] Scale: 0 Coeffs: 5.63786e-06  2.79734e-05  
+2017-01-31 05:02:12	INFO		[3620] Res: 8.66403e-06 Max: 7.51984e-11 Gain: 0.1 Pos: [4818, 5130] Scale: 0 Coeffs: 4.80949e-06  3.19597e-05  
+2017-01-31 05:02:20	INFO		[3640] Res: 8.64148e-06 Max: 7.50244e-11 Gain: 0.1 Pos: [3850, 6501] Scale: 0 Coeffs: 1.17894e-07  4.49455e-05  
+2017-01-31 05:02:28	INFO		[3660] Res: 8.62228e-06 Max: 7.48374e-11 Gain: 0.1 Pos: [3216, 3542] Scale: 0 Coeffs: 6.76265e-06  2.07892e-05  
+2017-01-31 05:02:36	INFO		[3680] Res: 8.60731e-06 Max: 7.46603e-11 Gain: 0.1 Pos: [6051, 3415] Scale: 0 Coeffs: 3.00715e-06  3.85331e-05  
+2017-01-31 05:02:44	INFO		[3700] Res: 8.60227e-06 Max: 7.45712e-11 Gain: 0.1 Pos: [5721, 3584] Scale: 0 Coeffs: -7.27032e-06  -1.67311e-05  
+2017-01-31 05:02:52	INFO		[3720] Res: 8.60227e-06 Max: 7.4339e-11 Gain: 0.1 Pos: [4367, 3979] Scale: 0 Coeffs: -7.60999e-06  3.28651e-05  
+2017-01-31 05:03:00	INFO		[3740] Res: 8.59602e-06 Max: 7.42168e-11 Gain: 0.1 Pos: [3209, 3521] Scale: 0 Coeffs: 7.69855e-06  -3.21464e-05  
+2017-01-31 05:03:08	INFO		[3760] Res: 8.59755e-06 Max: 7.40525e-11 Gain: 0.1 Pos: [6051, 3426] Scale: 0 Coeffs: -2.45104e-06  4.6173e-05  
+2017-01-31 05:03:16	INFO		[3780] Res: 8.56884e-06 Max: 7.39565e-11 Gain: 0.1 Pos: [3562, 5954] Scale: 0 Coeffs: -1.59208e-06  -4.20289e-05  
+2017-01-31 05:03:25	INFO		[3800] Res: 8.57053e-06 Max: 7.39314e-11 Gain: 0.1 Pos: [3164, 3514] Scale: 0 Coeffs: -7.81986e-07  4.55872e-05  
+2017-01-31 05:03:33	INFO		[3820] Res: 8.57053e-06 Max: 7.3539e-11 Gain: 0.1 Pos: [4448, 3966] Scale: 0 Coeffs: -2.07104e-06  4.60365e-05  
+2017-01-31 05:03:41	INFO		[3840] Res: 8.55096e-06 Max: 7.33905e-11 Gain: 0.1 Pos: [3943, 6335] Scale: 0 Coeffs: 7.16111e-06  1.70268e-05  
+2017-01-31 05:03:49	INFO		[3860] Res: 8.54574e-06 Max: 7.32449e-11 Gain: 0.1 Pos: [4757, 4216] Scale: 0 Coeffs: 8.61856e-06  -2.05065e-05  
+2017-01-31 05:03:57	INFO		[3880] Res: 8.54136e-06 Max: 7.3466e-11 Gain: 0.1 Pos: [6040, 3434] Scale: 0 Coeffs: -8.82694e-06  8.9954e-06  
+2017-01-31 05:04:05	INFO		[3900] Res: 8.53686e-06 Max: 7.29341e-11 Gain: 0.1 Pos: [4798, 4190] Scale: 0 Coeffs: -2.1863e-06  4.58485e-05  
+2017-01-31 05:04:13	INFO		[3920] Res: 8.52165e-06 Max: 7.2696e-11 Gain: 0.1 Pos: [3134, 3490] Scale: 0 Coeffs: -4.85971e-06  -3.08272e-05  
+2017-01-31 05:04:21	INFO		[3940] Res: 8.51024e-06 Max: 7.26307e-11 Gain: 0.1 Pos: [3950, 6332] Scale: 0 Coeffs: 3.74806e-06  3.53785e-05  
+2017-01-31 05:04:29	INFO		[3960] Res: 8.48944e-06 Max: 7.24622e-11 Gain: 0.1 Pos: [5219, 3926] Scale: 0 Coeffs: 4.89991e-06  -4.29909e-05  
+2017-01-31 05:04:37	INFO		[3980] Res: 8.48953e-06 Max: 7.23396e-11 Gain: 0.1 Pos: [4887, 2696] Scale: 0 Coeffs: 6.73654e-06  1.98049e-05  
+2017-01-31 05:04:46	INFO		[4000] Res: 8.48953e-06 Max: 7.27828e-11 Gain: 0.1 Pos: [2824, 3477] Scale: 0 Coeffs: 6.05138e-06  2.45599e-05  
+2017-01-31 05:04:54	INFO		[4020] Res: 8.46379e-06 Max: 7.21608e-11 Gain: 0.1 Pos: [4524, 3353] Scale: 0 Coeffs: -4.73128e-06  -3.12179e-05  
+2017-01-31 05:05:02	INFO		[4040] Res: 8.46379e-06 Max: 7.17619e-11 Gain: 0.1 Pos: [4519, 3343] Scale: 0 Coeffs: -1.26562e-06  -4.2036e-05  
+2017-01-31 05:05:10	INFO		[4060] Res: 8.45486e-06 Max: 7.16744e-11 Gain: 0.1 Pos: [3251, 3362] Scale: 0 Coeffs: -8.60031e-06  1.84645e-05  
+2017-01-31 05:05:18	INFO		[4080] Res: 8.44922e-06 Max: 7.15238e-11 Gain: 0.1 Pos: [4445, 3941] Scale: 0 Coeffs: -8.40515e-06  -1.06211e-06  
+2017-01-31 05:05:26	INFO		[4100] Res: 8.438e-06 Max: 7.13952e-11 Gain: 0.1 Pos: [4417, 3929] Scale: 0 Coeffs: -7.74613e-06  -1.03066e-05  
+2017-01-31 05:05:34	INFO		[4120] Res: 8.40381e-06 Max: 7.12042e-11 Gain: 0.1 Pos: [2756, 3496] Scale: 0 Coeffs: -1.98439e-06  4.52961e-05  
+2017-01-31 05:05:42	INFO		[4140] Res: 8.40381e-06 Max: 7.10275e-11 Gain: 0.1 Pos: [5700, 3590] Scale: 0 Coeffs: -7.02573e-06  -1.69082e-05  
+2017-01-31 05:05:50	INFO		[4160] Res: 8.40381e-06 Max: 7.09017e-11 Gain: 0.1 Pos: [3245, 3354] Scale: 0 Coeffs: 8.60881e-06  -5.23895e-06  
+2017-01-31 05:05:58	INFO		[4180] Res: 8.40381e-06 Max: 7.07762e-11 Gain: 0.1 Pos: [3853, 6519] Scale: 0 Coeffs: -3.7622e-06  -3.4695e-05  
+2017-01-31 05:06:07	INFO		[4200] Res: 8.38673e-06 Max: 7.08025e-11 Gain: 0.1 Pos: [3139, 3567] Scale: 0 Coeffs: 7.51423e-06  1.23653e-05  
+2017-01-31 05:06:15	INFO		[4220] Res: 8.38668e-06 Max: 7.04796e-11 Gain: 0.1 Pos: [4772, 4230] Scale: 0 Coeffs: -7.50714e-07  -4.25943e-05  
+2017-01-31 05:06:23	INFO		[4240] Res: 8.38496e-06 Max: 7.03681e-11 Gain: 0.1 Pos: [4429, 3987] Scale: 0 Coeffs: -8.42498e-06  8.06624e-07  
+2017-01-31 05:06:31	INFO		[4260] Res: 8.35028e-06 Max: 7.02539e-11 Gain: 0.1 Pos: [3225, 3523] Scale: 0 Coeffs: -6.26131e-06  -2.21359e-05  
+2017-01-31 05:06:39	INFO		[4280] Res: 8.35545e-06 Max: 7.12363e-11 Gain: 0.1 Pos: [3238, 3321] Scale: 0 Coeffs: -5.90784e-06  -2.47708e-05  
+2017-01-31 05:06:47	INFO		[4300] Res: 8.36123e-06 Max: 6.99969e-11 Gain: 0.1 Pos: [4449, 3930] Scale: 0 Coeffs: 8.04413e-06  5.52687e-06  
+2017-01-31 05:06:55	INFO		[4320] Res: 8.3238e-06 Max: 6.97784e-11 Gain: 0.1 Pos: [4825, 5120] Scale: 0 Coeffs: -2.32987e-06  -3.89156e-05  
+2017-01-31 05:07:03	INFO		[4340] Res: 8.3238e-06 Max: 6.96823e-11 Gain: 0.1 Pos: [3227, 3502] Scale: 0 Coeffs: 5.72797e-06  2.51727e-05  
+2017-01-31 05:07:11	INFO		[4360] Res: 8.31589e-06 Max: 6.95194e-11 Gain: 0.1 Pos: [3857, 6522] Scale: 0 Coeffs: 3.83245e-06  3.39972e-05  
+2017-01-31 05:07:19	INFO		[4380] Res: 8.31516e-06 Max: 6.93471e-11 Gain: 0.1 Pos: [4990, 2975] Scale: 0 Coeffs: -1.39508e-06  -4.10126e-05  
+2017-01-31 05:07:28	INFO		[4400] Res: 8.31564e-06 Max: 6.91748e-11 Gain: 0.1 Pos: [3167, 3514] Scale: 0 Coeffs: 7.16415e-06  1.47111e-05  
+2017-01-31 05:07:36	INFO		[4420] Res: 8.28417e-06 Max: 6.90407e-11 Gain: 0.1 Pos: [4369, 3929] Scale: 0 Coeffs: -2.06094e-06  -3.93774e-05  
+2017-01-31 05:07:44	INFO		[4440] Res: 8.28417e-06 Max: 6.89201e-11 Gain: 0.1 Pos: [4367, 3931] Scale: 0 Coeffs: 2.9504e-06  3.68325e-05  
+2017-01-31 05:07:52	INFO		[4460] Res: 8.28417e-06 Max: 6.87232e-11 Gain: 0.1 Pos: [3049, 2224] Scale: 0 Coeffs: -6.98133e-06  -1.60457e-05  
+2017-01-31 05:08:00	INFO		[4480] Res: 8.26147e-06 Max: 6.85999e-11 Gain: 0.1 Pos: [4560, 3358] Scale: 0 Coeffs: 6.61522e-06  1.88789e-05  
+2017-01-31 05:08:08	INFO		[4500] Res: 8.26147e-06 Max: 6.84548e-11 Gain: 0.1 Pos: [5239, 4843] Scale: 0 Coeffs: 4.46883e-06  3.10247e-05  
+2017-01-31 05:08:16	INFO		[4520] Res: 8.26324e-06 Max: 6.83402e-11 Gain: 0.1 Pos: [5712, 3600] Scale: 0 Coeffs: -1.79405e-06  4.43557e-05  
+2017-01-31 05:08:24	INFO		[4540] Res: 8.24191e-06 Max: 6.8162e-11 Gain: 0.1 Pos: [4763, 4190] Scale: 0 Coeffs: -6.44728e-06  -1.98882e-05  
+2017-01-31 05:08:32	INFO		[4560] Res: 8.23403e-06 Max: 6.80015e-11 Gain: 0.1 Pos: [2766, 3534] Scale: 0 Coeffs: -5.59147e-07  -4.21339e-05  
+2017-01-31 05:08:40	INFO		[4580] Res: 8.2273e-06 Max: 6.78669e-11 Gain: 0.1 Pos: [4758, 4224] Scale: 0 Coeffs: 2.62321e-06  3.74683e-05  
+2017-01-31 05:08:49	INFO		[4600] Res: 8.2273e-06 Max: 6.77974e-11 Gain: 0.1 Pos: [4574, 3376] Scale: 0 Coeffs: 1.56095e-06  4.01602e-05  
+2017-01-31 05:08:57	INFO		[4620] Res: 8.18085e-06 Max: 6.76433e-11 Gain: 0.1 Pos: [3137, 3483] Scale: 0 Coeffs: -2.91657e-06  -3.65096e-05  
+2017-01-31 05:09:05	INFO		[4640] Res: 8.17975e-06 Max: 6.74877e-11 Gain: 0.1 Pos: [4889, 2722] Scale: 0 Coeffs: 2.74325e-06  3.69873e-05  
+2017-01-31 05:09:13	INFO		[4660] Res: 8.16581e-06 Max: 6.73498e-11 Gain: 0.1 Pos: [2826, 3517] Scale: 0 Coeffs: -3.41237e-07  4.31284e-05  
+2017-01-31 05:09:21	INFO		[4680] Res: 8.16852e-06 Max: 6.72065e-11 Gain: 0.1 Pos: [3165, 3500] Scale: 0 Coeffs: 1.55446e-07  -4.28747e-05  
+2017-01-31 05:09:29	INFO		[4700] Res: 8.16931e-06 Max: 6.70904e-11 Gain: 0.1 Pos: [4477, 3138] Scale: 0 Coeffs: 2.10717e-07  4.23671e-05  
+2017-01-31 05:09:37	INFO		[4720] Res: 8.17304e-06 Max: 6.69512e-11 Gain: 0.1 Pos: [3135, 3519] Scale: 0 Coeffs: -5.39467e-06  -2.591e-05  
+2017-01-31 05:09:45	INFO		[4740] Res: 8.15052e-06 Max: 6.67993e-11 Gain: 0.1 Pos: [5427, 2968] Scale: 0 Coeffs: 7.47618e-06  1.01512e-05  
+2017-01-31 05:09:53	INFO		[4760] Res: 8.15052e-06 Max: 6.70429e-11 Gain: 0.1 Pos: [2805, 3484] Scale: 0 Coeffs: -6.59015e-06  -1.82844e-05  
+2017-01-31 05:10:02	INFO		[4780] Res: 8.15052e-06 Max: 6.65884e-11 Gain: 0.1 Pos: [4790, 4248] Scale: 0 Coeffs: 2.22452e-06  3.81531e-05  
+2017-01-31 05:10:10	INFO		[4800] Res: 8.12608e-06 Max: 6.64316e-11 Gain: 0.1 Pos: [4909, 2712] Scale: 0 Coeffs: -8.15714e-06  1.41544e-07  
+2017-01-31 05:10:18	INFO		[4820] Res: 8.11838e-06 Max: 6.6392e-11 Gain: 0.1 Pos: [3273, 3363] Scale: 0 Coeffs: -3.90113e-06  4.25249e-05  
+2017-01-31 05:10:26	INFO		[4840] Res: 8.14748e-06 Max: 6.62992e-11 Gain: 0.1 Pos: [4570, 3365] Scale: 0 Coeffs: -2.2821e-06  -3.79032e-05  
+2017-01-31 05:10:34	INFO		[4860] Res: 8.10372e-06 Max: 6.61893e-11 Gain: 0.1 Pos: [4375, 3961] Scale: 0 Coeffs: -7.27125e-06  -1.18961e-05  
+2017-01-31 05:10:42	INFO		[4880] Res: 8.10372e-06 Max: 6.60864e-11 Gain: 0.1 Pos: [4379, 3939] Scale: 0 Coeffs: 7.66371e-06  7.41956e-06  
+2017-01-31 05:10:50	INFO		[4900] Res: 8.10508e-06 Max: 6.5945e-11 Gain: 0.1 Pos: [3028, 2249] Scale: 0 Coeffs: -8.33132e-06  6.35129e-06  
+2017-01-31 05:10:58	INFO		[4920] Res: 8.10508e-06 Max: 6.58434e-11 Gain: 0.1 Pos: [4400, 3982] Scale: 0 Coeffs: -8.26978e-06  4.08242e-06  
+2017-01-31 05:11:06	INFO		[4940] Res: 8.09635e-06 Max: 6.56965e-11 Gain: 0.1 Pos: [3264, 3369] Scale: 0 Coeffs: -7.76733e-06  -5.71891e-06  
+2017-01-31 05:11:14	INFO		[4960] Res: 8.08338e-06 Max: 6.55787e-11 Gain: 0.1 Pos: [4886, 2716] Scale: 0 Coeffs: -8.33391e-06  7.97041e-06  
+2017-01-31 05:11:23	INFO		[4980] Res: 8.08e-06 Max: 6.55092e-11 Gain: 0.1 Pos: [2778, 3494] Scale: 0 Coeffs: -6.81845e-06  -1.56464e-05  
+2017-01-31 05:11:31	INFO		[5000] Res: 8.08e-06 Max: 6.53723e-11 Gain: 0.1 Pos: [2814, 3519] Scale: 0 Coeffs: -7.41369e-06  -9.84584e-06  
+2017-01-31 05:11:39	INFO		[5020] Res: 8.05651e-06 Max: 6.52464e-11 Gain: 0.1 Pos: [3264, 3332] Scale: 0 Coeffs: -5.34835e-07  4.26495e-05  
+2017-01-31 05:11:47	INFO		[5040] Res: 8.04906e-06 Max: 6.54851e-11 Gain: 0.1 Pos: [3235, 3347] Scale: 0 Coeffs: -7.24181e-06  -1.17385e-05  
+2017-01-31 05:11:55	INFO		[5060] Res: 8.05177e-06 Max: 6.50464e-11 Gain: 0.1 Pos: [5720, 3590] Scale: 0 Coeffs: 6.50849e-06  1.78793e-05  
+2017-01-31 05:12:03	INFO		[5080] Res: 8.05177e-06 Max: 6.49095e-11 Gain: 0.1 Pos: [3051, 2249] Scale: 0 Coeffs: 4.87834e-06  2.7763e-05  
+2017-01-31 05:12:11	INFO		[5100] Res: 8.04141e-06 Max: 6.48223e-11 Gain: 0.1 Pos: [5433, 2981] Scale: 0 Coeffs: 1.66474e-06  3.89565e-05  
+2017-01-31 05:12:19	INFO		[5120] Res: 8.03262e-06 Max: 6.51153e-11 Gain: 0.1 Pos: [4509, 3332] Scale: 0 Coeffs: -5.68997e-06  -2.34341e-05  
+2017-01-31 05:12:27	INFO		[5140] Res: 8.03072e-06 Max: 6.46169e-11 Gain: 0.1 Pos: [4784, 4246] Scale: 0 Coeffs: -3.73258e-06  4.21066e-05  
+2017-01-31 05:12:35	INFO		[5160] Res: 8.02757e-06 Max: 6.44678e-11 Gain: 0.1 Pos: [2795, 3540] Scale: 0 Coeffs: 7.71703e-06  5.34492e-06  
+2017-01-31 05:12:44	INFO		[5180] Res: 8.01862e-06 Max: 6.43562e-11 Gain: 0.1 Pos: [4433, 3999] Scale: 0 Coeffs: 4.5226e-06  2.92341e-05  
+2017-01-31 05:12:52	INFO		[5200] Res: 8.00546e-06 Max: 6.42801e-11 Gain: 0.1 Pos: [3281, 3328] Scale: 0 Coeffs: -8.23656e-06  1.40187e-05  
+2017-01-31 05:13:00	INFO		[5220] Res: 8.00546e-06 Max: 6.42882e-11 Gain: 0.1 Pos: [5230, 4831] Scale: 0 Coeffs: 4.74366e-06  2.81717e-05  
+2017-01-31 05:13:08	INFO		[5240] Res: 7.98054e-06 Max: 6.42101e-11 Gain: 0.1 Pos: [4798, 5122] Scale: 0 Coeffs: 4.30261e-06  3.01585e-05  
+2017-01-31 05:13:16	INFO		[5260] Res: 7.98054e-06 Max: 6.4857e-11 Gain: 0.1 Pos: [3265, 3344] Scale: 0 Coeffs: 1.23268e-06  3.9903e-05  
+2017-01-31 05:13:24	INFO		[5280] Res: 7.95307e-06 Max: 6.385e-11 Gain: 0.1 Pos: [5208, 3940] Scale: 0 Coeffs: -7.03876e-06  -1.26922e-05  
+2017-01-31 05:13:32	INFO		[5300] Res: 7.95307e-06 Max: 6.37352e-11 Gain: 0.1 Pos: [4789, 4200] Scale: 0 Coeffs: 5.38927e-06  2.45815e-05  
+2017-01-31 05:13:40	INFO		[5320] Res: 7.95307e-06 Max: 6.41636e-11 Gain: 0.1 Pos: [2826, 3537] Scale: 0 Coeffs: 4.86993e-07  4.10166e-05  
+2017-01-31 05:13:48	INFO		[5340] Res: 7.9516e-06 Max: 6.34754e-11 Gain: 0.1 Pos: [5705, 3597] Scale: 0 Coeffs: -5.11647e-06  -2.59615e-05  
+2017-01-31 05:13:56	INFO		[5360] Res: 7.94738e-06 Max: 6.3395e-11 Gain: 0.1 Pos: [4814, 5109] Scale: 0 Coeffs: -2.06637e-06  -3.74997e-05  
+2017-01-31 05:14:05	INFO		[5380] Res: 7.94738e-06 Max: 6.32336e-11 Gain: 0.1 Pos: [4874, 2736] Scale: 0 Coeffs: 5.23192e-07  4.06554e-05  
+2017-01-31 05:14:13	INFO		[5400] Res: 7.91474e-06 Max: 6.31056e-11 Gain: 0.1 Pos: [3158, 3534] Scale: 0 Coeffs: 7.04836e-06  1.21266e-05  
+2017-01-31 05:14:21	INFO		[5420] Res: 7.90478e-06 Max: 6.29909e-11 Gain: 0.1 Pos: [4411, 3928] Scale: 0 Coeffs: 8.07605e-06  -3.57523e-06  
+2017-01-31 05:14:29	INFO		[5440] Res: 7.90478e-06 Max: 6.29203e-11 Gain: 0.1 Pos: [5440, 2976] Scale: 0 Coeffs: 6.72266e-06  -3.20544e-05  
+2017-01-31 05:14:37	INFO		[5460] Res: 7.91534e-06 Max: 6.28538e-11 Gain: 0.1 Pos: [4548, 3367] Scale: 0 Coeffs: 4.78747e-06  2.73839e-05  
+2017-01-31 05:14:45	INFO		[5480] Res: 7.91511e-06 Max: 6.27844e-11 Gain: 0.1 Pos: [3830, 6506] Scale: 0 Coeffs: 8.11078e-06  -1.52527e-05  
+2017-01-31 05:14:53	INFO		[5500] Res: 7.90558e-06 Max: 6.26609e-11 Gain: 0.1 Pos: [4569, 3314] Scale: 0 Coeffs: 2.609e-06  3.57426e-05  
+2017-01-31 05:15:01	INFO		[5520] Res: 7.90203e-06 Max: 6.2501e-11 Gain: 0.1 Pos: [2815, 3476] Scale: 0 Coeffs: -4.97281e-06  -2.63059e-05  
+2017-01-31 05:15:09	INFO		[5540] Res: 7.89265e-06 Max: 6.24301e-11 Gain: 0.1 Pos: [3187, 3526] Scale: 0 Coeffs: 7.80442e-06  1.89963e-06  
+2017-01-31 05:15:17	INFO		[5560] Res: 7.88644e-06 Max: 6.22475e-11 Gain: 0.1 Pos: [3959, 6347] Scale: 0 Coeffs: 5.49561e-06  2.33146e-05  
+2017-01-31 05:15:26	INFO		[5580] Res: 7.87419e-06 Max: 6.22131e-11 Gain: 0.1 Pos: [3221, 3515] Scale: 0 Coeffs: 3.8539e-06  3.12738e-05  
+2017-01-31 05:15:34	INFO		[5600] Res: 7.87631e-06 Max: 6.20796e-11 Gain: 0.1 Pos: [2816, 3504] Scale: 0 Coeffs: 7.48702e-06  6.42315e-06  
+2017-01-31 05:15:42	INFO		[5620] Res: 7.86615e-06 Max: 6.19861e-11 Gain: 0.1 Pos: [4958, 2973] Scale: 0 Coeffs: -3.29318e-06  -3.32896e-05  
+2017-01-31 05:15:50	INFO		[5640] Res: 7.86146e-06 Max: 6.18374e-11 Gain: 0.1 Pos: [3159, 3485] Scale: 0 Coeffs: -4.21862e-07  4.1424e-05  
+2017-01-31 05:15:58	INFO		[5660] Res: 7.83474e-06 Max: 6.16865e-11 Gain: 0.1 Pos: [4960, 3017] Scale: 0 Coeffs: 6.06254e-06  1.94192e-05  
+2017-01-31 05:16:06	INFO		[5680] Res: 7.83474e-06 Max: 6.16413e-11 Gain: 0.1 Pos: [4370, 3994] Scale: 0 Coeffs: -4.54423e-07  -4.0238e-05  
+2017-01-31 05:16:14	INFO		[5700] Res: 7.8349e-06 Max: 6.15196e-11 Gain: 0.1 Pos: [4413, 3948] Scale: 0 Coeffs: -8.07762e-06  8.25022e-06  
+2017-01-31 05:16:22	INFO		[5720] Res: 7.8339e-06 Max: 6.14254e-11 Gain: 0.1 Pos: [2806, 3491] Scale: 0 Coeffs: -6.71002e-06  -1.42256e-05  
+2017-01-31 05:16:30	INFO		[5740] Res: 7.81823e-06 Max: 6.13214e-11 Gain: 0.1 Pos: [5720, 3587] Scale: 0 Coeffs: 8.05325e-06  -1.3161e-05  
+2017-01-31 05:16:38	INFO		[5760] Res: 7.81081e-06 Max: 6.12273e-11 Gain: 0.1 Pos: [3232, 3376] Scale: 0 Coeffs: 2.44105e-06  -4.19299e-05  
+2017-01-31 05:16:47	INFO		[5780] Res: 7.81265e-06 Max: 6.11611e-11 Gain: 0.1 Pos: [5205, 3927] Scale: 0 Coeffs: -5.65428e-06  -2.18563e-05  
+2017-01-31 05:16:55	INFO		[5800] Res: 7.81024e-06 Max: 6.14213e-11 Gain: 0.1 Pos: [3252, 3351] Scale: 0 Coeffs: 5.99438e-06  1.97585e-05  
+2017-01-31 05:17:03	INFO		[5820] Res: 7.78541e-06 Max: 6.09627e-11 Gain: 0.1 Pos: [4805, 4213] Scale: 0 Coeffs: 8.02265e-06  -1.35676e-05  
+2017-01-31 05:17:11	INFO		[5840] Res: 7.78576e-06 Max: 6.08804e-11 Gain: 0.1 Pos: [5209, 3921] Scale: 0 Coeffs: -5.88425e-06  -2.02377e-05  
+2017-01-31 05:17:19	INFO		[5860] Res: 7.74849e-06 Max: 6.07835e-11 Gain: 0.1 Pos: [4375, 3947] Scale: 0 Coeffs: -3.96054e-06  -3.02991e-05  
+2017-01-31 05:17:27	INFO		[5880] Res: 7.74792e-06 Max: 6.07033e-11 Gain: 0.1 Pos: [4436, 3981] Scale: 0 Coeffs: -4.91357e-06  -2.58587e-05  
+2017-01-31 05:17:35	INFO		[5900] Res: 7.74506e-06 Max: 6.06228e-11 Gain: 0.1 Pos: [3189, 3563] Scale: 0 Coeffs: 3.35528e-06  3.25717e-05  
+2017-01-31 05:17:43	INFO		[5920] Res: 7.74696e-06 Max: 6.05262e-11 Gain: 0.1 Pos: [4408, 3931] Scale: 0 Coeffs: 6.4408e-06  1.59728e-05  
+2017-01-31 05:17:51	INFO		[5940] Res: 7.74696e-06 Max: 6.04496e-11 Gain: 0.1 Pos: [4903, 2707] Scale: 0 Coeffs: -4.52204e-06  -2.76884e-05  
+2017-01-31 05:17:59	INFO		[5960] Res: 7.74761e-06 Max: 6.03753e-11 Gain: 0.1 Pos: [4400, 3932] Scale: 0 Coeffs: -7.91732e-06  3.85361e-06  
+2017-01-31 05:18:08	INFO		[5980] Res: 7.74254e-06 Max: 6.0236e-11 Gain: 0.1 Pos: [4986, 3013] Scale: 0 Coeffs: 4.3826e-06  2.82501e-05  
+2017-01-31 05:18:16	INFO		[6000] Res: 7.7372e-06 Max: 6.0136e-11 Gain: 0.1 Pos: [4462, 3135] Scale: 0 Coeffs: -7.83564e-06  1.79862e-05  
+2017-01-31 05:18:24	INFO		[6020] Res: 7.73685e-06 Max: 6.10063e-11 Gain: 0.1 Pos: [4803, 4217] Scale: 0 Coeffs: 2.05665e-06  3.67097e-05  
+2017-01-31 05:18:32	INFO		[6040] Res: 7.72628e-06 Max: 5.9884e-11 Gain: 0.1 Pos: [4524, 3353] Scale: 0 Coeffs: -4.37473e-06  -2.81447e-05  
+2017-01-31 05:18:40	INFO		[6060] Res: 7.72628e-06 Max: 5.98575e-11 Gain: 0.1 Pos: [3164, 3516] Scale: 0 Coeffs: -7.36115e-07  -3.91773e-05  
+2017-01-31 05:18:48	INFO		[6080] Res: 7.72628e-06 Max: 5.98317e-11 Gain: 0.1 Pos: [5236, 4821] Scale: 0 Coeffs: -1.15513e-07  4.0417e-05  
+2017-01-31 05:18:56	INFO		[6100] Res: 7.71045e-06 Max: 5.97033e-11 Gain: 0.1 Pos: [4898, 2754] Scale: 0 Coeffs: 7.87792e-06  -1.59981e-05  
+2017-01-31 05:19:04	INFO		[6120] Res: 7.69383e-06 Max: 5.96247e-11 Gain: 0.1 Pos: [3131, 3505] Scale: 0 Coeffs: -7.8563e-06  3.44664e-06  
+2017-01-31 05:19:12	INFO		[6140] Res: 7.6941e-06 Max: 5.95042e-11 Gain: 0.1 Pos: [2790, 3508] Scale: 0 Coeffs: -5.4414e-06  -2.23889e-05  
+2017-01-31 05:19:20	INFO		[6160] Res: 7.6941e-06 Max: 5.94284e-11 Gain: 0.1 Pos: [2829, 3499] Scale: 0 Coeffs: 5.48397e-06  -3.6015e-05  
+2017-01-31 05:19:29	INFO		[6180] Res: 7.69172e-06 Max: 5.9293e-11 Gain: 0.1 Pos: [3127, 3503] Scale: 0 Coeffs: -7.67699e-06  -4.84572e-07  
+2017-01-31 05:19:37	INFO		[6200] Res: 7.68465e-06 Max: 5.91819e-11 Gain: 0.1 Pos: [4903, 2716] Scale: 0 Coeffs: -1.08934e-06  -3.82935e-05  
+2017-01-31 05:19:45	INFO		[6220] Res: 7.67203e-06 Max: 5.90953e-11 Gain: 0.1 Pos: [3039, 2227] Scale: 0 Coeffs: 7.92565e-06  -1.05995e-05  
+2017-01-31 05:19:53	INFO		[6240] Res: 7.67008e-06 Max: 5.89805e-11 Gain: 0.1 Pos: [3255, 3482] Scale: 0 Coeffs: -4.05118e-06  3.9499e-05  
+2017-01-31 05:20:01	INFO		[6260] Res: 7.67008e-06 Max: 5.88821e-11 Gain: 0.1 Pos: [3174, 3525] Scale: 0 Coeffs: 7.82014e-06  -1.59967e-05  
+2017-01-31 05:20:09	INFO		[6280] Res: 7.65729e-06 Max: 5.87961e-11 Gain: 0.1 Pos: [4962, 3016] Scale: 0 Coeffs: -2.81489e-06  -3.37363e-05  
+2017-01-31 05:20:17	INFO		[6300] Res: 7.65658e-06 Max: 5.87051e-11 Gain: 0.1 Pos: [4795, 4232] Scale: 0 Coeffs: 4.48217e-06  2.71635e-05  
+2017-01-31 05:20:25	INFO		[6320] Res: 7.6402e-06 Max: 5.86414e-11 Gain: 0.1 Pos: [3225, 3523] Scale: 0 Coeffs: -5.63535e-06  -2.07767e-05  
+2017-01-31 05:20:33	INFO		[6340] Res: 7.6402e-06 Max: 5.85268e-11 Gain: 0.1 Pos: [3829, 6501] Scale: 0 Coeffs: -5.4425e-06  -2.19264e-05  
+2017-01-31 05:20:41	INFO		[6360] Res: 7.64176e-06 Max: 5.84296e-11 Gain: 0.1 Pos: [2779, 3533] Scale: 0 Coeffs: -3.34975e-06  -3.17756e-05  
+2017-01-31 05:20:50	INFO		[6380] Res: 7.59826e-06 Max: 5.83509e-11 Gain: 0.1 Pos: [2783, 3461] Scale: 0 Coeffs: 7.83968e-06  -6.11837e-06  
+2017-01-31 05:20:58	INFO		[6400] Res: 7.61203e-06 Max: 5.82559e-11 Gain: 0.1 Pos: [3142, 3528] Scale: 0 Coeffs: -1.15147e-06  -3.78518e-05  
+2017-01-31 05:21:06	INFO		[6420] Res: 7.61203e-06 Max: 5.81753e-11 Gain: 0.1 Pos: [6043, 3430] Scale: 0 Coeffs: -6.33255e-06  -1.55132e-05  
+2017-01-31 05:21:14	INFO		[6440] Res: 7.61041e-06 Max: 5.81184e-11 Gain: 0.1 Pos: [4428, 3936] Scale: 0 Coeffs: 7.79471e-06  -4.76333e-06  
+2017-01-31 05:21:22	INFO		[6460] Res: 7.61208e-06 Max: 5.80569e-11 Gain: 0.1 Pos: [2776, 3462] Scale: 0 Coeffs: 3.6746e-06  3.04028e-05  
+2017-01-31 05:21:30	INFO		[6480] Res: 7.59808e-06 Max: 5.79871e-11 Gain: 0.1 Pos: [4974, 3015] Scale: 0 Coeffs: -1.31578e-06  4.0758e-05  
+2017-01-31 05:21:38	INFO		[6500] Res: 7.59808e-06 Max: 5.79142e-11 Gain: 0.1 Pos: [4504, 3325] Scale: 0 Coeffs: 7.55153e-06  -2.03499e-05  
+2017-01-31 05:21:46	INFO		[6520] Res: 7.59808e-06 Max: 5.7833e-11 Gain: 0.1 Pos: [3254, 3503] Scale: 0 Coeffs: -6.85542e-06  -1.05216e-05  
+2017-01-31 05:21:54	INFO		[6540] Res: 7.59546e-06 Max: 5.77231e-11 Gain: 0.1 Pos: [6032, 3415] Scale: 0 Coeffs: 5.30959e-06  2.23481e-05  
+2017-01-31 05:22:03	INFO		[6560] Res: 7.58468e-06 Max: 5.76272e-11 Gain: 0.1 Pos: [3282, 3331] Scale: 0 Coeffs: 6.94316e-06  -2.70594e-05  
+2017-01-31 05:22:11	INFO		[6580] Res: 7.56362e-06 Max: 5.75243e-11 Gain: 0.1 Pos: [3252, 3353] Scale: 0 Coeffs: 4.55732e-06  -3.78752e-05  
+2017-01-31 05:22:19	INFO		[6600] Res: 7.56207e-06 Max: 5.74598e-11 Gain: 0.1 Pos: [3194, 3501] Scale: 0 Coeffs: -7.76479e-06  1.4361e-05  
+2017-01-31 05:22:27	INFO		[6620] Res: 7.56207e-06 Max: 5.73942e-11 Gain: 0.1 Pos: [4541, 3308] Scale: 0 Coeffs: -9.44814e-07  4.03551e-05  
+2017-01-31 05:22:35	INFO		[6640] Res: 7.56286e-06 Max: 5.72627e-11 Gain: 0.1 Pos: [4404, 3922] Scale: 0 Coeffs: 3.45267e-06  -3.97145e-05  
+2017-01-31 05:22:43	INFO		[6660] Res: 7.54641e-06 Max: 5.72045e-11 Gain: 0.1 Pos: [4565, 3350] Scale: 0 Coeffs: 6.38378e-06  1.45183e-05  
+2017-01-31 05:22:51	INFO		[6680] Res: 7.54641e-06 Max: 5.70922e-11 Gain: 0.1 Pos: [3275, 3325] Scale: 0 Coeffs: 5.05427e-06  2.35255e-05  
+2017-01-31 05:22:59	INFO		[6700] Res: 7.53407e-06 Max: 5.69947e-11 Gain: 0.1 Pos: [3420, 5154] Scale: 0 Coeffs: -6.11618e-06  -1.6554e-05  
+2017-01-31 05:23:07	INFO		[6720] Res: 7.53407e-06 Max: 5.6936e-11 Gain: 0.1 Pos: [4470, 3126] Scale: 0 Coeffs: -6.12595e-06  -1.6446e-05  
+2017-01-31 05:23:15	INFO		[6740] Res: 7.52627e-06 Max: 5.6864e-11 Gain: 0.1 Pos: [3832, 6523] Scale: 0 Coeffs: 4.14114e-06  2.79758e-05  
+2017-01-31 05:23:23	INFO		[6760] Res: 7.52604e-06 Max: 5.6743e-11 Gain: 0.1 Pos: [5726, 3584] Scale: 0 Coeffs: -7.43086e-06  -1.98395e-06  
+2017-01-31 05:23:32	INFO		[6780] Res: 7.52604e-06 Max: 5.67016e-11 Gain: 0.1 Pos: [4503, 3377] Scale: 0 Coeffs: -5.29129e-06  -2.19776e-05  
+2017-01-31 05:23:40	INFO		[6800] Res: 7.51088e-06 Max: 5.66419e-11 Gain: 0.1 Pos: [3125, 3531] Scale: 0 Coeffs: 5.40912e-06  2.12335e-05  
+2017-01-31 05:23:48	INFO		[6820] Res: 7.51088e-06 Max: 5.65256e-11 Gain: 0.1 Pos: [4566, 3332] Scale: 0 Coeffs: -1.75251e-06  -3.59087e-05  
+2017-01-31 05:23:56	INFO		[6840] Res: 7.50861e-06 Max: 5.64707e-11 Gain: 0.1 Pos: [3150, 3543] Scale: 0 Coeffs: 4.96654e-07  -3.96769e-05  
+2017-01-31 05:24:04	INFO		[6860] Res: 7.50278e-06 Max: 5.6362e-11 Gain: 0.1 Pos: [4789, 5133] Scale: 0 Coeffs: -5.88059e-06  -1.79572e-05  
+2017-01-31 05:24:12	INFO		[6880] Res: 7.49915e-06 Max: 5.63744e-11 Gain: 0.1 Pos: [3018, 2232] Scale: 0 Coeffs: 6.84911e-06  9.5324e-06  
+2017-01-31 05:24:20	INFO		[6900] Res: 7.47052e-06 Max: 5.61778e-11 Gain: 0.1 Pos: [5263, 4842] Scale: 0 Coeffs: -7.55689e-06  1.41761e-06  
+2017-01-31 05:24:28	INFO		[6920] Res: 7.46496e-06 Max: 5.61016e-11 Gain: 0.1 Pos: [3203, 3542] Scale: 0 Coeffs: -8.73147e-07  3.9857e-05  
+2017-01-31 05:24:36	INFO		[6940] Res: 7.46496e-06 Max: 5.60178e-11 Gain: 0.1 Pos: [3259, 3367] Scale: 0 Coeffs: 4.99e-06  -3.60597e-05  
+2017-01-31 05:24:45	INFO		[6960] Res: 7.47291e-06 Max: 5.71035e-11 Gain: 0.1 Pos: [2825, 3529] Scale: 0 Coeffs: -5.65652e-06  -1.98807e-05  
+2017-01-31 05:24:53	INFO		[6980] Res: 7.46638e-06 Max: 5.58274e-11 Gain: 0.1 Pos: [3143, 3562] Scale: 0 Coeffs: -6.321e-06  -1.42191e-05  
+2017-01-31 05:25:01	INFO		[7000] Res: 7.45945e-06 Max: 5.57741e-11 Gain: 0.1 Pos: [3564, 5978] Scale: 0 Coeffs: -5.36859e-06  -2.10636e-05  
+2017-01-31 05:25:09	INFO		[7020] Res: 7.44264e-06 Max: 5.56808e-11 Gain: 0.1 Pos: [4766, 4209] Scale: 0 Coeffs: 1.33589e-06  3.65671e-05  
+2017-01-31 05:25:17	INFO		[7040] Res: 7.44207e-06 Max: 5.55886e-11 Gain: 0.1 Pos: [3953, 6350] Scale: 0 Coeffs: 7.40927e-06  -1.97538e-05  
+2017-01-31 05:25:25	INFO		[7060] Res: 7.44207e-06 Max: 5.55252e-11 Gain: 0.1 Pos: [6053, 3412] Scale: 0 Coeffs: 2.42384e-06  3.3741e-05  
+2017-01-31 05:25:33	INFO		[7080] Res: 7.42726e-06 Max: 5.54233e-11 Gain: 0.1 Pos: [2830, 3455] Scale: 0 Coeffs: -4.20757e-06  -2.70811e-05  
+2017-01-31 05:25:41	INFO		[7100] Res: 7.42789e-06 Max: 5.60118e-11 Gain: 0.1 Pos: [3236, 3325] Scale: 0 Coeffs: -6.55866e-06  -1.22096e-05  
+2017-01-31 05:25:49	INFO		[7120] Res: 7.42789e-06 Max: 5.57077e-11 Gain: 0.1 Pos: [3134, 3541] Scale: 0 Coeffs: -4.52335e-06  -2.57002e-05  
+2017-01-31 05:25:57	INFO		[7140] Res: 7.42718e-06 Max: 5.52156e-11 Gain: 0.1 Pos: [4588, 3329] Scale: 0 Coeffs: 4.4998e-06  2.56039e-05  
+2017-01-31 05:26:06	INFO		[7160] Res: 7.38787e-06 Max: 5.51054e-11 Gain: 0.1 Pos: [4563, 3358] Scale: 0 Coeffs: -1.14498e-06  -3.67633e-05  
+2017-01-31 05:26:14	INFO		[7180] Res: 7.38787e-06 Max: 5.50071e-11 Gain: 0.1 Pos: [3939, 6347] Scale: 0 Coeffs: 1.40107e-07  -3.8788e-05  
+2017-01-31 05:26:22	INFO		[7200] Res: 7.38537e-06 Max: 5.49546e-11 Gain: 0.1 Pos: [3242, 3360] Scale: 0 Coeffs: 6.59456e-06  -2.78851e-05  
+2017-01-31 05:26:30	INFO		[7220] Res: 7.37663e-06 Max: 5.48371e-11 Gain: 0.1 Pos: [3169, 3521] Scale: 0 Coeffs: 7.50734e-06  -1.65607e-05  
+2017-01-31 05:26:38	INFO		[7240] Res: 7.37657e-06 Max: 5.52751e-11 Gain: 0.1 Pos: [4788, 4189] Scale: 0 Coeffs: -6.36018e-06  -1.35391e-05  
+2017-01-31 05:26:46	INFO		[7260] Res: 7.37459e-06 Max: 5.46602e-11 Gain: 0.1 Pos: [3258, 3504] Scale: 0 Coeffs: 5.15473e-06  2.18185e-05  
+2017-01-31 05:26:54	INFO		[7280] Res: 7.37478e-06 Max: 5.45724e-11 Gain: 0.1 Pos: [4397, 3931] Scale: 0 Coeffs: 6.28883e-06  1.37211e-05  
+2017-01-31 05:27:02	INFO		[7300] Res: 7.37219e-06 Max: 5.44974e-11 Gain: 0.1 Pos: [4572, 3302] Scale: 0 Coeffs: -3.96411e-06  -2.7783e-05  
+2017-01-31 05:27:10	INFO		[7320] Res: 7.44227e-06 Max: 5.44534e-11 Gain: 0.1 Pos: [4582, 3335] Scale: 0 Coeffs: -3.54798e-06  -2.94864e-05  
+2017-01-31 05:27:18	INFO		[7340] Res: 7.36977e-06 Max: 5.43712e-11 Gain: 0.1 Pos: [3239, 3537] Scale: 0 Coeffs: -6.39754e-06  2.88634e-05  
+2017-01-31 05:27:26	INFO		[7360] Res: 7.3632e-06 Max: 5.50106e-11 Gain: 0.1 Pos: [4800, 4210] Scale: 0 Coeffs: -2.21782e-06  -3.41439e-05  
+2017-01-31 05:27:35	INFO		[7380] Res: 7.36036e-06 Max: 5.42059e-11 Gain: 0.1 Pos: [4575, 3347] Scale: 0 Coeffs: -4.4965e-06  -2.51801e-05  
+2017-01-31 05:27:43	INFO		[7400] Res: 7.35451e-06 Max: 5.41335e-11 Gain: 0.1 Pos: [4881, 2741] Scale: 0 Coeffs: -5.64208e-06  3.27692e-05  
+2017-01-31 05:27:51	INFO		[7420] Res: 7.31601e-06 Max: 5.44505e-11 Gain: 0.1 Pos: [3132, 3558] Scale: 0 Coeffs: 1.83027e-06  3.497e-05  
+2017-01-31 05:27:59	INFO		[7440] Res: 7.31354e-06 Max: 5.40068e-11 Gain: 0.1 Pos: [4849, 2755] Scale: 0 Coeffs: 2.64274e-06  3.25077e-05  
+2017-01-31 05:28:07	INFO		[7460] Res: 7.31271e-06 Max: 5.43448e-11 Gain: 0.1 Pos: [3541, 5955] Scale: 0 Coeffs: 1.90046e-06  3.47528e-05  
+2017-01-31 05:28:15	INFO		[7480] Res: 7.31249e-06 Max: 5.38716e-11 Gain: 0.1 Pos: [4369, 3992] Scale: 0 Coeffs: 3.38259e-06  2.98937e-05  
+2017-01-31 05:28:23	INFO		[7500] Res: 7.31072e-06 Max: 5.37894e-11 Gain: 0.1 Pos: [2790, 3451] Scale: 0 Coeffs: -1.14254e-06  -3.62986e-05  
+2017-01-31 05:28:31	INFO		[7520] Res: 7.31072e-06 Max: 5.3768e-11 Gain: 0.1 Pos: [3244, 3481] Scale: 0 Coeffs: -7.56056e-06  9.38533e-06  
+2017-01-31 05:28:39	INFO		[7540] Res: 7.31072e-06 Max: 5.45128e-11 Gain: 0.1 Pos: [4367, 3934] Scale: 0 Coeffs: 2.35218e-06  3.35768e-05  
+2017-01-31 05:28:48	INFO		[7560] Res: 7.308e-06 Max: 5.3576e-11 Gain: 0.1 Pos: [4992, 3003] Scale: 0 Coeffs: 4.79585e-06  2.33411e-05  
+2017-01-31 05:28:56	INFO		[7580] Res: 7.308e-06 Max: 5.36143e-11 Gain: 0.1 Pos: [4959, 2960] Scale: 0 Coeffs: -4.54709e-06  -2.46642e-05  
+2017-01-31 05:29:04	INFO		[7600] Res: 7.2964e-06 Max: 5.34906e-11 Gain: 0.1 Pos: [3227, 3558] Scale: 0 Coeffs: -1.06198e-06  -3.63535e-05  
+2017-01-31 05:29:12	INFO		[7620] Res: 7.29974e-06 Max: 5.33721e-11 Gain: 0.1 Pos: [4558, 3313] Scale: 0 Coeffs: -2.26186e-07  -3.77343e-05  
+2017-01-31 05:29:20	INFO		[7640] Res: 7.29089e-06 Max: 5.32516e-11 Gain: 0.1 Pos: [4408, 3995] Scale: 0 Coeffs: -7.18991e-06  -2.07644e-06  
+2017-01-31 05:29:28	INFO		[7660] Res: 7.28705e-06 Max: 5.31716e-11 Gain: 0.1 Pos: [4889, 2722] Scale: 0 Coeffs: 2.55241e-06  3.24732e-05  
+2017-01-31 05:29:36	INFO		[7680] Res: 7.28236e-06 Max: 5.3149e-11 Gain: 0.1 Pos: [4804, 5116] Scale: 0 Coeffs: 4.08921e-06  2.66616e-05  
+2017-01-31 05:29:44	INFO		[7700] Res: 7.27803e-06 Max: 5.30334e-11 Gain: 0.1 Pos: [2804, 3523] Scale: 0 Coeffs: -4.46416e-06  -2.48236e-05  
+2017-01-31 05:29:52	INFO		[7720] Res: 7.26284e-06 Max: 5.3009e-11 Gain: 0.1 Pos: [3034, 2254] Scale: 0 Coeffs: -5.54659e-06  -1.85071e-05  
+2017-01-31 05:30:00	INFO		[7740] Res: 7.26136e-06 Max: 5.292e-11 Gain: 0.1 Pos: [3152, 3559] Scale: 0 Coeffs: 5.23825e-06  2.0463e-05  
+2017-01-31 05:30:09	INFO		[7760] Res: 7.25834e-06 Max: 5.28671e-11 Gain: 0.1 Pos: [4513, 3330] Scale: 0 Coeffs: -4.86454e-06  3.49798e-05  
+2017-01-31 05:30:17	INFO		[7780] Res: 7.25834e-06 Max: 5.28188e-11 Gain: 0.1 Pos: [4758, 4229] Scale: 0 Coeffs: -4.23386e-06  3.65952e-05  
+2017-01-31 05:30:25	INFO		[7800] Res: 7.25761e-06 Max: 5.27355e-11 Gain: 0.1 Pos: [5237, 4824] Scale: 0 Coeffs: 6.23215e-06  1.30499e-05  
+2017-01-31 05:30:33	INFO		[7820] Res: 7.24564e-06 Max: 5.26443e-11 Gain: 0.1 Pos: [4395, 3930] Scale: 0 Coeffs: -3.66327e-06  -2.82906e-05  
+2017-01-31 05:30:41	INFO		[7840] Res: 7.24546e-06 Max: 5.25436e-11 Gain: 0.1 Pos: [3234, 3563] Scale: 0 Coeffs: 5.30217e-06  1.9872e-05  
+2017-01-31 05:30:49	INFO		[7860] Res: 7.24172e-06 Max: 5.24749e-11 Gain: 0.1 Pos: [4867, 2704] Scale: 0 Coeffs: 7.80023e-07  -3.8501e-05  
+2017-01-31 05:30:57	INFO		[7880] Res: 7.2382e-06 Max: 5.24514e-11 Gain: 0.1 Pos: [3281, 3375] Scale: 0 Coeffs: -2.40058e-06  -3.2661e-05  
+2017-01-31 05:31:05	INFO		[7900] Res: 7.22089e-06 Max: 5.24027e-11 Gain: 0.1 Pos: [5711, 3576] Scale: 0 Coeffs: -7.26476e-06  5.67497e-07  
+2017-01-31 05:31:13	INFO		[7920] Res: 7.22569e-06 Max: 5.23321e-11 Gain: 0.1 Pos: [3406, 5142] Scale: 0 Coeffs: -7.07295e-07  -3.65988e-05  
+2017-01-31 05:31:21	INFO		[7940] Res: 7.22569e-06 Max: 5.22435e-11 Gain: 0.1 Pos: [2775, 3496] Scale: 0 Coeffs: 6.47028e-06  1.04651e-05  
+2017-01-31 05:31:30	INFO		[7960] Res: 7.21896e-06 Max: 5.21606e-11 Gain: 0.1 Pos: [5245, 4830] Scale: 0 Coeffs: 3.59014e-06  2.83896e-05  
+2017-01-31 05:31:38	INFO		[7980] Res: 7.2132e-06 Max: 5.20872e-11 Gain: 0.1 Pos: [3283, 3362] Scale: 0 Coeffs: -5.42369e-06  -1.88462e-05  
+2017-01-31 05:31:46	INFO		[8000] Res: 7.20312e-06 Max: 5.20141e-11 Gain: 0.1 Pos: [3847, 6516] Scale: 0 Coeffs: -3.46434e-06  3.76239e-05  
+2017-01-31 05:31:54	INFO		[8020] Res: 7.20312e-06 Max: 5.193e-11 Gain: 0.1 Pos: [4398, 3936] Scale: 0 Coeffs: 2.7315e-06  -3.83601e-05  
+2017-01-31 05:32:02	INFO		[8040] Res: 7.20168e-06 Max: 5.18667e-11 Gain: 0.1 Pos: [3262, 3355] Scale: 0 Coeffs: 7.26153e-06  -1.3717e-06  
+2017-01-31 05:32:10	INFO		[8060] Res: 7.19636e-06 Max: 5.18109e-11 Gain: 0.1 Pos: [3181, 3513] Scale: 0 Coeffs: 3.82352e-06  2.72697e-05  
+2017-01-31 05:32:18	INFO		[8080] Res: 7.19024e-06 Max: 5.17482e-11 Gain: 0.1 Pos: [4528, 3373] Scale: 0 Coeffs: -4.18611e-06  -2.56079e-05  
+2017-01-31 05:32:26	INFO		[8100] Res: 7.18054e-06 Max: 5.16889e-11 Gain: 0.1 Pos: [2792, 3495] Scale: 0 Coeffs: 7.4077e-06  -7.97888e-06  
+2017-01-31 05:32:34	INFO		[8120] Res: 7.18054e-06 Max: 5.16365e-11 Gain: 0.1 Pos: [4448, 3966] Scale: 0 Coeffs: -1.25076e-06  3.84652e-05  
+2017-01-31 05:32:42	INFO		[8140] Res: 7.17128e-06 Max: 5.16709e-11 Gain: 0.1 Pos: [3975, 6335] Scale: 0 Coeffs: -6.63244e-06  -8.28935e-06  
+2017-01-31 05:32:51	INFO		[8160] Res: 7.16193e-06 Max: 5.15328e-11 Gain: 0.1 Pos: [4906, 2709] Scale: 0 Coeffs: -4.11048e-06  -2.58678e-05  
+2017-01-31 05:32:59	INFO		[8180] Res: 7.16193e-06 Max: 5.1406e-11 Gain: 0.1 Pos: [4802, 4197] Scale: 0 Coeffs: 5.99701e-06  1.42196e-05  
+2017-01-31 05:33:07	INFO		[8200] Res: 7.15548e-06 Max: 5.1691e-11 Gain: 0.1 Pos: [4798, 5115] Scale: 0 Coeffs: -4.66204e-06  -2.31891e-05  
+2017-01-31 05:33:15	INFO		[8220] Res: 7.15548e-06 Max: 5.13008e-11 Gain: 0.1 Pos: [5219, 3925] Scale: 0 Coeffs: 2.74548e-07  -3.76157e-05  
+2017-01-31 05:33:23	INFO		[8240] Res: 7.14594e-06 Max: 5.12463e-11 Gain: 0.1 Pos: [4763, 4222] Scale: 0 Coeffs: 3.90741e-06  2.66637e-05  
+2017-01-31 05:33:31	INFO		[8260] Res: 7.15218e-06 Max: 5.11856e-11 Gain: 0.1 Pos: [3956, 6336] Scale: 0 Coeffs: -5.5543e-07  -3.64406e-05  
+2017-01-31 05:33:39	INFO		[8280] Res: 7.14794e-06 Max: 5.11479e-11 Gain: 0.1 Pos: [4413, 3945] Scale: 0 Coeffs: -1.41467e-06  -3.47506e-05  
+2017-01-31 05:33:47	INFO		[8300] Res: 7.13976e-06 Max: 5.10572e-11 Gain: 0.1 Pos: [4982, 2973] Scale: 0 Coeffs: -6.27925e-06  -1.14927e-05  
+2017-01-31 05:33:55	INFO		[8320] Res: 7.13871e-06 Max: 5.09828e-11 Gain: 0.1 Pos: [4417, 3984] Scale: 0 Coeffs: 7.34892e-06  -7.09088e-06  
+2017-01-31 05:34:03	INFO		[8340] Res: 7.12516e-06 Max: 5.0987e-11 Gain: 0.1 Pos: [3245, 3354] Scale: 0 Coeffs: 7.23503e-06  -2.29201e-06  
+2017-01-31 05:34:12	INFO		[8360] Res: 7.11705e-06 Max: 5.08751e-11 Gain: 0.1 Pos: [4389, 3968] Scale: 0 Coeffs: 5.87296e-06  1.49011e-05  
+2017-01-31 05:34:20	INFO		[8380] Res: 7.11713e-06 Max: 5.08021e-11 Gain: 0.1 Pos: [3818, 6499] Scale: 0 Coeffs: -6.63154e-06  -7.57956e-06  
+2017-01-31 05:34:28	INFO		[8400] Res: 7.11694e-06 Max: 5.07175e-11 Gain: 0.1 Pos: [4369, 3929] Scale: 0 Coeffs: -1.88089e-06  -3.34565e-05  
+2017-01-31 05:34:36	INFO		[8420] Res: 7.1104e-06 Max: 5.06477e-11 Gain: 0.1 Pos: [4906, 2722] Scale: 0 Coeffs: -5.38444e-06  -1.83419e-05  
+2017-01-31 05:34:44	INFO		[8440] Res: 7.09873e-06 Max: 5.05817e-11 Gain: 0.1 Pos: [4390, 3981] Scale: 0 Coeffs: 6.534e-06  8.51933e-06  
+2017-01-31 05:34:52	INFO		[8460] Res: 7.07976e-06 Max: 5.05014e-11 Gain: 0.1 Pos: [3164, 3514] Scale: 0 Coeffs: -7.7998e-07  3.7781e-05  
+2017-01-31 05:35:00	INFO		[8480] Res: 7.07976e-06 Max: 5.04529e-11 Gain: 0.1 Pos: [3139, 3553] Scale: 0 Coeffs: -6.78086e-06  -5.37013e-06  
+2017-01-31 05:35:08	INFO		[8500] Res: 7.07976e-06 Max: 5.04099e-11 Gain: 0.1 Pos: [4515, 3359] Scale: 0 Coeffs: 4.63075e-06  2.27558e-05  
+2017-01-31 05:35:16	INFO		[8520] Res: 7.0795e-06 Max: 5.03552e-11 Gain: 0.1 Pos: [5713, 3591] Scale: 0 Coeffs: 6.15606e-06  -2.77815e-05  
+2017-01-31 05:35:24	INFO		[8540] Res: 7.08239e-06 Max: 5.02829e-11 Gain: 0.1 Pos: [4999, 3015] Scale: 0 Coeffs: 3.86026e-06  2.64571e-05  
+2017-01-31 05:35:33	INFO		[8560] Res: 7.0795e-06 Max: 5.05969e-11 Gain: 0.1 Pos: [3208, 3536] Scale: 0 Coeffs: 7.06765e-06  9.27209e-07  
+2017-01-31 05:35:41	INFO		[8580] Res: 7.0795e-06 Max: 5.0152e-11 Gain: 0.1 Pos: [4798, 4196] Scale: 0 Coeffs: -5.02392e-06  -2.03831e-05  
+2017-01-31 05:35:49	INFO		[8600] Res: 7.07186e-06 Max: 5.00741e-11 Gain: 0.1 Pos: [4502, 3312] Scale: 0 Coeffs: -7.31814e-07  3.75874e-05  
+2017-01-31 05:35:57	INFO		[8620] Res: 7.04798e-06 Max: 5.05601e-11 Gain: 0.1 Pos: [3181, 3562] Scale: 0 Coeffs: -4.12994e-07  -3.644e-05  
+2017-01-31 05:36:05	INFO		[8640] Res: 7.04798e-06 Max: 4.99463e-11 Gain: 0.1 Pos: [5246, 4839] Scale: 0 Coeffs: -5.75598e-06  -1.52613e-05  
+2017-01-31 05:36:13	INFO		[8660] Res: 7.04814e-06 Max: 4.98947e-11 Gain: 0.1 Pos: [3251, 3535] Scale: 0 Coeffs: -2.5886e-06  -3.10921e-05  
+2017-01-31 05:36:21	INFO		[8680] Res: 7.04905e-06 Max: 4.98499e-11 Gain: 0.1 Pos: [6040, 3432] Scale: 0 Coeffs: 6.16739e-06  1.17058e-05  
+2017-01-31 05:36:29	INFO		[8700] Res: 7.0497e-06 Max: 4.97653e-11 Gain: 0.1 Pos: [4505, 3316] Scale: 0 Coeffs: 2.04604e-06  3.26512e-05  
+2017-01-31 05:36:37	INFO		[8720] Res: 7.038e-06 Max: 4.96918e-11 Gain: 0.1 Pos: [4810, 4228] Scale: 0 Coeffs: 2.59049e-06  3.10059e-05  
+2017-01-31 05:36:45	INFO		[8740] Res: 7.03279e-06 Max: 4.9622e-11 Gain: 0.1 Pos: [4962, 3016] Scale: 0 Coeffs: -2.74475e-06  -3.0475e-05  
+2017-01-31 05:36:54	INFO		[8760] Res: 7.02711e-06 Max: 4.95853e-11 Gain: 0.1 Pos: [3122, 3535] Scale: 0 Coeffs: 5.65034e-06  -3.01954e-05  
+2017-01-31 05:37:02	INFO		[8780] Res: 7.02711e-06 Max: 4.95308e-11 Gain: 0.1 Pos: [4754, 4192] Scale: 0 Coeffs: 6.64252e-06  6.32392e-06  
+2017-01-31 05:37:10	INFO		[8800] Res: 7.02711e-06 Max: 4.95258e-11 Gain: 0.1 Pos: [3193, 3556] Scale: 0 Coeffs: 4.86445e-06  2.10161e-05  
+2017-01-31 05:37:18	INFO		[8820] Res: 7.01988e-06 Max: 4.94015e-11 Gain: 0.1 Pos: [4586, 3363] Scale: 0 Coeffs: 7.02486e-06  7.98718e-08  
+2017-01-31 05:37:26	INFO		[8840] Res: 7.01691e-06 Max: 5.02718e-11 Gain: 0.1 Pos: [4849, 2703] Scale: 0 Coeffs: 5.05316e-06  2.02661e-05  
+2017-01-31 05:37:34	INFO		[8860] Res: 7.01658e-06 Max: 4.93401e-11 Gain: 0.1 Pos: [4571, 3296] Scale: 0 Coeffs: 2.03405e-06  3.25203e-05  
+2017-01-31 05:37:42	INFO		[8880] Res: 7.00495e-06 Max: 4.92326e-11 Gain: 0.1 Pos: [4583, 3292] Scale: 0 Coeffs: 6.31502e-06  -2.58405e-05  
+2017-01-31 05:37:50	INFO		[8900] Res: 7.00495e-06 Max: 4.9185e-11 Gain: 0.1 Pos: [3273, 3337] Scale: 0 Coeffs: 2.10201e-06  3.22717e-05  
+2017-01-31 05:37:58	INFO		[8920] Res: 6.99431e-06 Max: 4.91241e-11 Gain: 0.1 Pos: [2813, 3527] Scale: 0 Coeffs: -5.82133e-06  -1.42373e-05  
+2017-01-31 05:38:06	INFO		[8940] Res: 6.99413e-06 Max: 4.90738e-11 Gain: 0.1 Pos: [4893, 2720] Scale: 0 Coeffs: 4.37e-06  2.34963e-05  
+2017-01-31 05:38:15	INFO		[8960] Res: 6.99413e-06 Max: 4.90099e-11 Gain: 0.1 Pos: [3230, 3373] Scale: 0 Coeffs: -5.87398e-07  -3.55846e-05  
+2017-01-31 05:38:23	INFO		[8980] Res: 6.98692e-06 Max: 4.89547e-11 Gain: 0.1 Pos: [4847, 2723] Scale: 0 Coeffs: 3.59562e-06  2.70203e-05  
+2017-01-31 05:38:31	INFO		[9000] Res: 6.98692e-06 Max: 4.88867e-11 Gain: 0.1 Pos: [5716, 3575] Scale: 0 Coeffs: -5.16351e-06  -1.88532e-05  
+2017-01-31 05:38:39	INFO		[9020] Res: 6.98679e-06 Max: 4.88326e-11 Gain: 0.1 Pos: [4375, 3991] Scale: 0 Coeffs: -7.18427e-06  1.18959e-05  
+2017-01-31 05:38:47	INFO		[9040] Res: 6.98439e-06 Max: 4.8955e-11 Gain: 0.1 Pos: [4366, 3926] Scale: 0 Coeffs: 5.16303e-06  1.88927e-05  
+2017-01-31 05:38:55	INFO		[9060] Res: 6.97528e-06 Max: 4.87585e-11 Gain: 0.1 Pos: [3177, 3519] Scale: 0 Coeffs: -1.35412e-06  -3.399e-05  
+2017-01-31 05:39:03	INFO		[9080] Res: 6.9657e-06 Max: 4.86538e-11 Gain: 0.1 Pos: [3033, 2257] Scale: 0 Coeffs: -2.46123e-07  -3.59846e-05  
+2017-01-31 05:39:11	INFO		[9100] Res: 6.9625e-06 Max: 4.86859e-11 Gain: 0.1 Pos: [3189, 3563] Scale: 0 Coeffs: 3.04848e-06  2.90389e-05  
+2017-01-31 05:39:19	INFO		[9120] Res: 6.95096e-06 Max: 4.85298e-11 Gain: 0.1 Pos: [4804, 5115] Scale: 0 Coeffs: 4.20895e-06  2.40512e-05  
+2017-01-31 05:39:27	INFO		[9140] Res: 6.94532e-06 Max: 4.84553e-11 Gain: 0.1 Pos: [2762, 3535] Scale: 0 Coeffs: 2.46127e-06  3.0923e-05  
+2017-01-31 05:39:36	INFO		[9160] Res: 6.94532e-06 Max: 4.84196e-11 Gain: 0.1 Pos: [6056, 3421] Scale: 0 Coeffs: 7.16157e-06  -1.12858e-05  
+2017-01-31 05:39:44	INFO		[9180] Res: 6.94532e-06 Max: 4.83581e-11 Gain: 0.1 Pos: [4389, 3931] Scale: 0 Coeffs: -5.45992e-06  -1.6541e-05  
+2017-01-31 05:39:52	INFO		[9200] Res: 6.94532e-06 Max: 4.89676e-11 Gain: 0.1 Pos: [4571, 3357] Scale: 0 Coeffs: 5.51793e-06  1.64734e-05  
+2017-01-31 05:40:00	INFO		[9220] Res: 6.9177e-06 Max: 4.8234e-11 Gain: 0.1 Pos: [3146, 3532] Scale: 0 Coeffs: 2.80788e-06  2.97021e-05  
+2017-01-31 05:40:08	INFO		[9240] Res: 6.91645e-06 Max: 4.8181e-11 Gain: 0.1 Pos: [4852, 2697] Scale: 0 Coeffs: -2.89061e-06  -2.93942e-05  
+2017-01-31 05:40:16	INFO		[9260] Res: 6.92039e-06 Max: 4.81407e-11 Gain: 0.1 Pos: [3250, 3550] Scale: 0 Coeffs: 7.13996e-06  -6.79165e-06  
+2017-01-31 05:40:24	INFO		[9280] Res: 6.91999e-06 Max: 4.8177e-11 Gain: 0.1 Pos: [3193, 3516] Scale: 0 Coeffs: 6.84836e-06  -1.91859e-05  
+2017-01-31 05:40:32	INFO		[9300] Res: 6.91999e-06 Max: 4.80247e-11 Gain: 0.1 Pos: [3258, 3487] Scale: 0 Coeffs: 3.08914e-06  2.86162e-05  
+2017-01-31 05:40:40	INFO		[9320] Res: 6.9139e-06 Max: 4.79807e-11 Gain: 0.1 Pos: [4996, 2985] Scale: 0 Coeffs: -7.14167e-06  8.62424e-06  
+2017-01-31 05:40:48	INFO		[9340] Res: 6.9139e-06 Max: 4.79055e-11 Gain: 0.1 Pos: [3270, 3370] Scale: 0 Coeffs: 4.59726e-06  2.17303e-05  
+2017-01-31 05:40:57	INFO		[9360] Res: 6.92109e-06 Max: 4.81283e-11 Gain: 0.1 Pos: [4546, 3317] Scale: 0 Coeffs: 4.1888e-06  2.39647e-05  
+2017-01-31 05:41:05	INFO		[9380] Res: 6.91129e-06 Max: 4.77698e-11 Gain: 0.1 Pos: [4586, 3359] Scale: 0 Coeffs: -6.62446e-06  -4.8611e-06  
+2017-01-31 05:41:13	INFO		[9400] Res: 6.90454e-06 Max: 4.77224e-11 Gain: 0.1 Pos: [4591, 3332] Scale: 0 Coeffs: 5.95603e-06  1.21692e-05  
+2017-01-31 05:41:21	INFO		[9420] Res: 6.89922e-06 Max: 4.76482e-11 Gain: 0.1 Pos: [3545, 5971] Scale: 0 Coeffs: -5.40126e-06  -1.65514e-05  
+2017-01-31 05:41:29	INFO		[9440] Res: 6.89017e-06 Max: 4.75882e-11 Gain: 0.1 Pos: [3016, 2219] Scale: 0 Coeffs: 7.1066e-06  -7.50468e-06  
+2017-01-31 05:41:37	INFO		[9460] Res: 6.89204e-06 Max: 4.75512e-11 Gain: 0.1 Pos: [3015, 2258] Scale: 0 Coeffs: -5.58633e-06  -1.51222e-05  
+2017-01-31 05:41:45	INFO		[9480] Res: 6.87769e-06 Max: 4.74984e-11 Gain: 0.1 Pos: [3223, 3324] Scale: 0 Coeffs: 7.07365e-06  -1.24075e-05  
+2017-01-31 05:41:53	INFO		[9500] Res: 6.88527e-06 Max: 4.77803e-11 Gain: 0.1 Pos: [3421, 5144] Scale: 0 Coeffs: 6.74352e-06  3.09261e-06  
+2017-01-31 05:42:01	INFO		[9520] Res: 6.86812e-06 Max: 4.7397e-11 Gain: 0.1 Pos: [4785, 4203] Scale: 0 Coeffs: -6.00103e-06  -1.15322e-05  
+2017-01-31 05:42:09	INFO		[9540] Res: 6.86812e-06 Max: 4.73068e-11 Gain: 0.1 Pos: [3953, 6342] Scale: 0 Coeffs: 4.68396e-06  -3.28336e-05  
+2017-01-31 05:42:18	INFO		[9560] Res: 6.86115e-06 Max: 4.7303e-11 Gain: 0.1 Pos: [3829, 6501] Scale: 0 Coeffs: -4.80526e-06  -2.02381e-05  
+2017-01-31 05:42:26	INFO		[9580] Res: 6.85921e-06 Max: 4.71913e-11 Gain: 0.1 Pos: [4462, 3135] Scale: 0 Coeffs: -6.90803e-06  1.66718e-05  
+2017-01-31 05:42:34	INFO		[9600] Res: 6.8453e-06 Max: 4.71449e-11 Gain: 0.1 Pos: [4450, 3926] Scale: 0 Coeffs: 5.74931e-06  1.3566e-05  
+2017-01-31 05:42:42	INFO		[9620] Res: 6.84566e-06 Max: 4.70925e-11 Gain: 0.1 Pos: [3231, 3508] Scale: 0 Coeffs: -1.83156e-06  3.68373e-05  
+2017-01-31 05:42:50	INFO		[9640] Res: 6.84731e-06 Max: 4.71126e-11 Gain: 0.1 Pos: [3814, 6514] Scale: 0 Coeffs: -3.6507e-06  -2.59838e-05  
+2017-01-31 05:42:58	INFO		[9660] Res: 6.86422e-06 Max: 4.73547e-11 Gain: 0.1 Pos: [3031, 2235] Scale: 0 Coeffs: -4.32109e-06  3.39031e-05  
+2017-01-31 05:43:06	INFO		[9680] Res: 6.84194e-06 Max: 4.70552e-11 Gain: 0.1 Pos: [3149, 3548] Scale: 0 Coeffs: -3.63401e-06  -2.60302e-05  
+2017-01-31 05:43:14	INFO		[9700] Res: 6.84322e-06 Max: 4.69274e-11 Gain: 0.1 Pos: [3142, 3498] Scale: 0 Coeffs: -3.87797e-06  -2.48903e-05  
+2017-01-31 05:43:22	INFO		[9720] Res: 6.83779e-06 Max: 4.6896e-11 Gain: 0.1 Pos: [4504, 3325] Scale: 0 Coeffs: 6.82427e-06  -1.78154e-05  
+2017-01-31 05:43:31	INFO		[9740] Res: 6.83779e-06 Max: 4.68392e-11 Gain: 0.1 Pos: [4417, 3929] Scale: 0 Coeffs: -6.23708e-06  -8.75376e-06  
+2017-01-31 05:43:36	INFO		[9753] Res: 6.82764e-06 Max: 4.68014e-11 Gain: 0.1 Pos: [3263, 3526] Scale: 0 Coeffs: -1.79509e-06  3.67254e-05  
+2017-01-31 05:43:39	INFO		[9760] Res: 6.82764e-06 Max: 4.67726e-11 Gain: 0.1 Pos: [5003, 2954] Scale: 0 Coeffs: -7.04905e-06  9.9216e-06  
+2017-01-31 05:43:47	INFO		[9780] Res: 6.82764e-06 Max: 4.67057e-11 Gain: 0.1 Pos: [4863, 2717] Scale: 0 Coeffs: -7.04635e-06  8.60775e-06  
+2017-01-31 05:43:55	INFO		[9800] Res: 6.82764e-06 Max: 4.66784e-11 Gain: 0.1 Pos: [2788, 3514] Scale: 0 Coeffs: 6.73754e-06  1.83804e-06  
+2017-01-31 05:44:03	INFO		[9820] Res: 6.82601e-06 Max: 4.66106e-11 Gain: 0.1 Pos: [5725, 3601] Scale: 0 Coeffs: -3.73603e-06  -2.53869e-05  
+2017-01-31 05:44:11	INFO		[9840] Res: 6.82134e-06 Max: 4.66357e-11 Gain: 0.1 Pos: [3234, 3529] Scale: 0 Coeffs: 2.80748e-06  2.90457e-05  
+2017-01-31 05:44:19	INFO		[9860] Res: 6.81752e-06 Max: 4.65592e-11 Gain: 0.1 Pos: [3069, 2231] Scale: 0 Coeffs: 6.42443e-06  6.33075e-06  
+2017-01-31 05:44:27	INFO		[9880] Res: 6.80754e-06 Max: 4.65102e-11 Gain: 0.1 Pos: [3130, 3490] Scale: 0 Coeffs: -2.83029e-06  3.60976e-05  
+2017-01-31 05:44:35	INFO		[9900] Res: 6.80754e-06 Max: 4.66536e-11 Gain: 0.1 Pos: [4547, 3312] Scale: 0 Coeffs: -5.81591e-06  -1.2676e-05  
+2017-01-31 05:44:44	INFO		[9920] Res: 6.80162e-06 Max: 4.68179e-11 Gain: 0.1 Pos: [4578, 3351] Scale: 0 Coeffs: -4.92491e-06  -1.926e-05  
+2017-01-31 05:44:52	INFO		[9940] Res: 6.80162e-06 Max: 4.63435e-11 Gain: 0.1 Pos: [4382, 3989] Scale: 0 Coeffs: -3.74756e-06  3.47267e-05  
+2017-01-31 05:45:00	INFO		[9960] Res: 6.79545e-06 Max: 4.63e-11 Gain: 0.1 Pos: [4411, 3933] Scale: 0 Coeffs: 3.79216e-06  2.49954e-05  
+2017-01-31 05:45:08	INFO		[9980] Res: 6.78872e-06 Max: 4.62379e-11 Gain: 0.1 Pos: [5439, 2961] Scale: 0 Coeffs: 5.95111e-06  1.11676e-05  
+2017-01-31 05:45:16	INFO		[10000] Res: 6.78692e-06 Max: 4.62422e-11 Gain: 0.1 Pos: [3149, 3561] Scale: 0 Coeffs: -6.5808e-06  -3.86834e-06  
+2017-01-31 05:45:16	INFO	MultiTermMatrixCleaner::mtclean() 	Reached max number of iterations for this minor cycle 
+2017-01-31 05:45:16	INFO	MultiTermMatrixCleaner::mtclean() 	Total flux by scale :  [0]: 0.00137287 (in this run) 
+2017-01-31 05:45:16	INFO	MultiTermMatrixCleaner::mtclean() 	Total flux by Taylor coefficient :  [0]: 0.00137287  [1]: -0.00263744
+2017-01-31 05:45:18	INFO	WBCleanImageSkyModel::solve	Calculating final residual images...
+2017-01-31 07:31:03	INFO	imager::clean()	Threshhold not reached yet.
+2017-01-31 07:31:03	INFO	imager::clean()	Beam used in restoration: 0.38941 by 0.23147 (arcsec) at pa 73.1452 (deg) 
+2017-01-31 08:53:31	INFO	imager::iClean()	Restoring Image(s) with the clean-beam
+2017-01-31 08:53:31	INFO	MultiTermMatrixCleaner::computeprincipalsolution() 	MTMC :: Computing principal solution on residuals
+2017-01-31 08:53:35	INFO	WBCleanImageSkyModel::solve	Converting final residuals to 'coefficient residuals', for restoration
+2017-01-31 08:54:59	INFO	WBCleanImageSkyModel::calculateAlphaBeta 	Calculating spectral parameters for  Intensity > MAX(threshold*5,peakresidual/5) = 4.59487e-05 Jy/beam
+2017-01-31 08:55:01	INFO	WBCleanImageSkyModel::calculateAlphaBeta 	Written Spectral Index Image : bootes1_initial_clean.image.alpha
+2017-01-31 08:55:07	INFO	WBCleanImageSkyModel::calculateAlphaBeta 	Written Spectral Index Error Image : bootes1_initial_clean.image.alpha.error
+2017-01-31 08:55:27	INFO	clean::::	##### End Task: clean                #####
+2017-01-31 08:55:27	INFO	clean::::+	##########################################
+2017-01-31 09:09:29	INFO	viewer::::	
+2017-01-31 09:09:29	INFO	viewer::::+	##########################################
+2017-01-31 09:09:29	INFO	viewer::::+	##### Begin Task: viewer             #####
+2017-01-31 09:09:29	INFO	viewer::::	viewer(infile="bootes1_initial_clean.image.tt0",displaytype="raster",channel=0,zoom=1,outfile="",
+2017-01-31 09:09:29	INFO	viewer::::+	        outscale=1.0,outdpi=300,outformat="jpg",outlandscape=False,gui=True)
+2017-01-31 09:09:33	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) 	Requested JD 57746.8 is outside the range of the IERS (Earth axis data) table.
+2017-01-31 09:09:33	INFO	MeasIERS::fillMeas(MeasIERS::Files, Double) +	Calculations will proceed with less precision
+2017-01-31 09:09:37	INFO	viewer::::	##### End Task: viewer               #####
+2017-01-31 09:09:37	INFO	viewer::::+	##########################################
+2017-01-31 09:12:05	INFO	ImageFitsConverter::ImageToFITS 	Copying '/homedisk/tc1815/bootes1_initial_clean.image.tt0' to file Copying row by row (8400 pixels).

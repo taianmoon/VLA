@@ -1,0 +1,169 @@
+****** Fit performed at Thu Feb 9 13:29:26 2017******
+
+Input parameters ---
+       --- imagename:           /homedisk/tc1815/bootes1_initial_clean.image.tt0
+       --- region:              
+       --- channel:             0
+       --- stokes:              I
+       --- mask:                
+       --- include pixel range: []
+       --- exclude pixel range: []
+       --- initial estimates:   Peak, X, Y, a, b, PA
+                                0.000229766, 2089, 22, 1arcsec, 1arcsec, -57.2958deg
+0.000105805, 2793, 3505, 1arcsec, 1arcsec, -57.2958deg
+9.12247e-05, 3952, 6338, 1arcsec, 1arcsec, -57.2958deg
+7.56597e-05, 2791, 3496, 1arcsec, 1arcsec, -57.2958deg
+5.54648e-05, 5238, 4825, 1arcsec, 1arcsec, -57.2958deg
+
+*** Details of fit for channel number 0
+Number of pixels used in fit: 70560000
+Input and residual image statistics (to be used as a rough guide only as to goodness of fit)
+       --- Standard deviation of input image: 2.98683e-06 Jy
+       --- Standard deviation of residual image: 2.98457e-06 Jy
+       --- RMS of input image: 2.98683e-06 Jy
+       --- RMS of residual image: 2.98457e-06 Jy
+
+Fit on bootes1_initial_clean.image.tt0 component 0
+Position ---
+       --- ra:    14:34:35.37283 +/- 0.00023 s (0.00286 arcsec along great circle)
+       --- dec: +035.26.22.14866 +/- 0.00235 arcsec
+       --- ra:  2089.100 +/- 0.029 pixels
+       --- dec: 22.260 +/- 0.023 pixels
+
+Image component size (convolved with beam) ---
+       --- major axis FWHM:     510.6 +/- 7.5 marcsec
+       --- minor axis FWHM:     373.3 +/- 4.5 marcsec
+       --- position angle: 122.8 +/- 1.5 deg
+
+Clean beam size ---
+       --- major axis FWHM: 0.39 arcsec
+       --- minor axis FWHM: 0.23 arcsec
+       --- position angle: 73.15 deg
+Image component size (deconvolved from beam) ---
+       --- major axis FWHM:     426 +/- 11 marcsec
+       --- minor axis FWHM:     116 +/- 27 marcsec
+       --- position angle: 140.4 +/- 2.0 deg
+
+Flux ---
+       --- Integrated:   509.8 +/- 9.5 uJy
+       --- Peak:         241.1 +/- 3.2 uJy/beam
+       --- Polarization: I
+
+Spectrum ---
+      --- frequency:        5.999001 GHz (4.997373 cm)
+
+Fit on bootes1_initial_clean.image.tt0 component 1
+Position ---
+       --- ra:    14:34:29.62627 +/- 0.00042 s (0.00507 arcsec along great circle)
+       --- dec: +035.32.10.41498 +/- 0.00744 arcsec
+       --- ra:  2793.078 +/- 0.051 pixels
+       --- dec: 3504.493 +/- 0.074 pixels
+
+Image component size (convolved with beam) ---
+       --- major axis FWHM:     559 +/- 18 marcsec
+       --- minor axis FWHM:     401 +/- 11 marcsec
+       --- position angle: 159.7 +/- 3.2 deg
+
+Clean beam size ---
+       --- major axis FWHM: 0.39 arcsec
+       --- minor axis FWHM: 0.23 arcsec
+       --- position angle: 73.15 deg
+Image component size (deconvolved from beam) ---
+       --- major axis FWHM:     509 +/- 21 marcsec
+       --- minor axis FWHM:     96 +/- 75 marcsec
+       --- position angle: 161.1 +/- 3.2 deg
+
+Flux ---
+       --- Integrated:   266 +/- 11 uJy
+       --- Peak:         106.9 +/- 3.2 uJy/beam
+       --- Polarization: I
+
+Spectrum ---
+      --- frequency:        5.999001 GHz (4.997373 cm)
+
+Fit on bootes1_initial_clean.image.tt0 component 2
+Position ---
+       --- ra:    14:34:20.12531 +/- 0.00050 s (0.00615 arcsec along great circle)
+       --- dec: +035.36.53.85297 +/- 0.00345 arcsec
+       --- ra:  3953.030 +/- 0.062 pixels
+       --- dec: 6338.540 +/- 0.035 pixels
+
+Image component size (convolved with beam) ---
+       --- major axis FWHM:     404.1 +/- 15.1 marcsec
+       --- minor axis FWHM:     266.9 +/- 6.8 marcsec
+       --- position angle: 71.1 +/- 2.4 deg
+
+Clean beam size ---
+       --- major axis FWHM: 0.39 arcsec
+       --- minor axis FWHM: 0.23 arcsec
+       --- position angle: 73.15 deg
+Image component size (deconvolved from beam) ---
+       --- major axis FWHM:     138 +/- 37 marcsec
+       --- minor axis FWHM:     101 +/- 45 marcsec
+       --- position angle: 6.5 +/- 79.7 deg
+
+Flux ---
+       --- Integrated:   116.0 +/- 6.0 uJy
+       --- Peak:         96.9 +/- 3.0 uJy/beam
+       --- Polarization: I
+
+Spectrum ---
+      --- frequency:        5.999001 GHz (4.997373 cm)
+
+Fit on bootes1_initial_clean.image.tt0 component 3
+Position ---
+       --- ra:    14:34:29.64356 +/- 0.00062 s (0.00753 arcsec along great circle)
+       --- dec: +035.32.09.60246 +/- 0.01051 arcsec
+       --- ra:  2790.963 +/- 0.075 pixels
+       --- dec: 3496.369 +/- 0.105 pixels
+
+Image component size (convolved with beam) ---
+       --- major axis FWHM:     600 +/- 26 marcsec
+       --- minor axis FWHM:     431 +/- 16 marcsec
+       --- position angle: 157.0 +/- 4.4 deg
+
+Clean beam size ---
+       --- major axis FWHM: 0.39 arcsec
+       --- minor axis FWHM: 0.23 arcsec
+       --- position angle: 73.15 deg
+Image component size (deconvolved from beam) ---
+       --- major axis FWHM:     553 +/- 30 marcsec
+       --- minor axis FWHM:     187 +/- 42 marcsec
+       --- position angle: 159.2 +/- 4.4 deg
+
+Flux ---
+       --- Integrated:   226 +/- 12 uJy
+       --- Peak:         78.6 +/- 3.1 uJy/beam
+       --- Polarization: I
+
+Spectrum ---
+      --- frequency:        5.999001 GHz (4.997373 cm)
+
+Fit on bootes1_initial_clean.image.tt0 component 4
+Position ---
+       --- ra:    14:34:09.58585 +/- 0.00082 s (0.01006 arcsec along great circle)
+       --- dec: +035.34.22.55885 +/- 0.00558 arcsec
+       --- ra:  5238.780 +/- 0.101 pixels
+       --- dec: 4825.776 +/- 0.056 pixels
+
+Image component size (convolved with beam) ---
+       --- major axis FWHM:     381 +/- 24 marcsec
+       --- minor axis FWHM:     277 +/- 13 marcsec
+       --- position angle: 83.2 +/- 5.8 deg
+
+Clean beam size ---
+       --- major axis FWHM: 0.39 arcsec
+       --- minor axis FWHM: 0.23 arcsec
+       --- position angle: 73.15 deg
+Image component size (deconvolved from beam) ---
+    Component is a point source
+    It may be as large as 0.18 arcsec x 0.1 arcsec
+
+Flux ---
+       --- Integrated:   66.0 +/- 5.9 uJy
+       --- Peak:         56.2 +/- 3.0 uJy/beam
+       --- Polarization: I
+
+Spectrum ---
+      --- frequency:        5.999001 GHz (4.997373 cm)
+

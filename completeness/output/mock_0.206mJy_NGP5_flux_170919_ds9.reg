@@ -1,0 +1,12 @@
+global color=green font="helvetica 12 normal" edit=1 move=1 delete=1 include=1
+image
+polygon 31 125 37 125 37 131 31 131 31 125 # text={1}
+polygon 47 150 53 150 53 156 47 156 47 150 # text={2}
+polygon 73 166 79 166 79 172 73 172 73 166 # text={3}
+polygon 125 173 131 173 131 179 125 179 125 173 # text={4}
+polygon 67 54 73 54 73 60 67 60 67 54 # text={5}
+polygon 63 37 69 37 69 43 63 43 63 37 # text={6}
+polygon 119 136 125 136 125 142 119 142 119 136 # text={7}
+polygon 98 37 104 37 104 43 98 43 98 37 # text={8}
+polygon 156 114 162 114 162 120 156 120 156 114 # text={9}
+polygon 138 79 144 79 144 85 138 85 138 79 # text={10}

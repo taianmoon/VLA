@@ -1,0 +1,10 @@
+9.12247e-05, 3952, 6338, 1arcsec, 1arcsec, -57.2958deg
+2.35032e-05, 3548, 5964, 1arcsec, 1arcsec, -57.2958deg
+2.00003e-05, 3421, 5143, 1arcsec, 1arcsec, -57.2958deg
+1.96511e-05, 3829, 6506, 1arcsec, 1arcsec, -57.2958deg
+1.51391e-05, 2028, 6684, 1arcsec, 1arcsec, -57.2958deg
+1.2375e-05, 3559, 7983, 1arcsec, 1arcsec, -57.2958deg
+1.20805e-05, 2801, 8215, 1arcsec, 1arcsec, -57.2958deg
+1.12636e-05, 4131, 8336, 1arcsec, 1arcsec, -57.2958deg
+1.0503e-05, 1244, 8367, 1arcsec, 1arcsec, -57.2958deg
+1.04645e-05, 3479, 8371, 1arcsec, 1arcsec, -57.2958deg

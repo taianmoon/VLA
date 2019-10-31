@@ -1,0 +1,22 @@
+taskname           = "plotcal"
+caltable           =  "3c286spwall_all.B0"
+xaxis              =  "time"
+yaxis              =  "phase"
+poln               =  "R"
+field              =  ""
+antenna            =  ""
+spw                =  ""
+timerange          =  ""
+subplot            =  111
+overplot           =  False
+clearpanel         =  "Auto"
+iteration          =  "antenna"
+plotrange          =  [-1, -1, -180, 180]
+showflags          =  False
+plotsymbol         =  "o"
+plotcolor          =  "blue"
+markersize         =  5.0
+fontsize           =  10.0
+showgui            =  True
+figfile            =  ""
+#plotcal(caltable="3c286spwall_all.B0",xaxis="time",yaxis="phase",poln="R",field="",antenna="",spw="",timerange="",subplot=111,overplot=False,clearpanel="Auto",iteration="antenna",plotrange=[-1, -1, -180, 180],showflags=False,plotsymbol="o",plotcolor="blue",markersize=5.0,fontsize=10.0,showgui=True,figfile="")

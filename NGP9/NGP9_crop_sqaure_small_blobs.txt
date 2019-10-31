@@ -1,0 +1,30 @@
+# blobcat.py
+# Version 1.2 (July 2014)
+#
+# SB image = NGP9_crop_sqaure_small.fits
+# RMS image = NGP9_crop_rms_sqaure_small.fits
+# Bandwidth smearing (constant) = 1.000e+00
+# Total image size (including blanks) along dimensions (RA , Dec) = (200 , 200) pixels
+# Image projection = SIN
+# Total non-blank pixels = 40000
+# Pixel dimensions (RA , Dec) = (1.000e-01 , 1.000e-01) arcsec
+# Resolution (bmaj , bmin) = (4.100e-01 , 2.341e-01) arcsec, PA = 7.347e+01 deg
+# SNR blob detection threshold (T_d) = 5.000e+00
+# SNR blob flooding threshold (T_f)  = 2.600e+00
+#
+# Phase calibrator positional error (RA , Dec) = (1.000e-02 , 1.000e-02) arcsec
+# SELFCAL standard error of the mean (SEM) of gain phases = 5.000e-01 deg
+# Absolute surface brightness error = 5.00 %
+# Pixellation error (affects peak errors) = 2.00 %
+# Clean bias correction = 0.000e+00 Jy/beam
+# Lambda factor for resolved blob peak bias correction = 3.50
+# Blob size limits (min , max) = (5 , 100000) pixels
+# Blob size limits along dimensions (RA , Dec) = (3 , 3) pixels
+# Edge buffer for extracting blobs = 10 pixels
+#
+# Important: pixel coordinates start from 0, not 1.
+# Equinox (in years) for equatorial coordinate system = 2000.00
+#
+#     C1         C2         C3         C4              C5              C6         C7         C8             C9            C10             C11             C12        C13            C14            C15             C16             C17        C18        C19        C20        C21        C22        C23        C24      C25         C26         C27         C28            C29            C30            C31            C32            C33            C34            C35            C36            C37            C38            C39      C40         C41
+#     ID       npix        x_p        y_p            RA_p           Dec_p     RA_err    Dec_err            x_c            y_c            RA_c           Dec_c      cFlag           x_wc           y_wc           RA_wc          Dec_wc     wcFlag       xmin       xmax       ymin       ymax        rms    BWScorr        M     SNR_OBS     SNR_FIT         SNR        S_p_OBS        S_p_FIT            S_p         S_p_CB      S_p_CBBWS  S_p_CBBWS_err      S_int_OBS    S_int_OBSCB          S_int       S_int_CB   S_int_CB_err    R_EST     VisArea
+#             [pix]      [pix]      [pix]           [deg]           [deg]      [deg]      [deg]          [pix]          [pix]           [deg]           [deg]                     [pix]          [pix]           [deg]           [deg]                 [pix]      [pix]      [pix]      [pix]    [ Jy/b]                                                                 [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]           [Jy]           [Jy]           [Jy]           [Jy]           [Jy]

@@ -1,0 +1,51 @@
+2019-06-12 17:44:06	INFO	casa::::	---
+2019-06-12 17:44:06	INFO	casa::::	CASA Version 4.6.0-REL (r36590)
+2019-06-12 17:44:06	INFO	casa::::	  Tagged on: 2016-04-01 11:11:00 -0400 (Fri, 01 Apr 2016)
+2019-06-12 17:45:14	INFO	plotcal::::	
+2019-06-12 17:45:14	INFO	plotcal::::+	##########################################
+2019-06-12 17:45:14	INFO	plotcal::::+	##### Begin Task: plotcal            #####
+2019-06-12 17:45:14	INFO	plotcal::::	plotcal(caltable="3c286spwall_all.G0_all",xaxis="time",yaxis="phase",poln="R",field="",
+2019-06-12 17:45:14	INFO	plotcal::::+	        antenna="",spw="",timerange="",subplot=111,overplot=False,
+2019-06-12 17:45:14	INFO	plotcal::::+	        clearpanel="Auto",iteration="antenna",plotrange=[-1, -1, -180, 180],showflags=False,plotsymbol="o",
+2019-06-12 17:45:14	INFO	plotcal::::+	        plotcolor="blue",markersize=5.0,fontsize=10.0,showgui=True,figfile="")
+2019-06-12 17:45:14	INFO	tableplot::setgui	Switching to GUI mode. All current plots  will be reset.
+2019-06-12 17:45:14	SEVERE	plotcal::createCalTab (file /var/rpmbuild/BUILD/casa-prerelease/casa-prerelease-4.6.0/gcwrap/tools/synthesis/CalTables/PlotCal.cc, line 1201)	Calibration table 3c286spwall_all.G0_all does not exist 
+2019-06-12 17:45:14	SEVERE		Exception Reported: Table file /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/VLA/Bootes1/Bootes1_results_170209/3c286spwall_all.G0_all/table.dat does not exist
+2019-06-12 17:45:14	INFO	plotcal::::	##### End Task: plotcal              #####
+2019-06-12 17:45:14	INFO	plotcal::::+	##########################################
+2019-06-12 17:46:56	INFO	plotcal::::	
+2019-06-12 17:46:56	INFO	plotcal::::+	##########################################
+2019-06-12 17:46:56	INFO	plotcal::::+	##### Begin Task: plotcal            #####
+2019-06-12 17:46:56	INFO	plotcal::::	plotcal(caltable="3c286spwall_all.G0_all/",xaxis="time",yaxis="phase",poln="R",field="",
+2019-06-12 17:46:56	INFO	plotcal::::+	        antenna="",spw="",timerange="",subplot=111,overplot=False,
+2019-06-12 17:46:56	INFO	plotcal::::+	        clearpanel="Auto",iteration="antenna",plotrange=[-1, -1, -180, 180],showflags=False,plotsymbol="o",
+2019-06-12 17:46:56	INFO	plotcal::::+	        plotcolor="blue",markersize=5.0,fontsize=10.0,showgui=True,figfile="")
+2019-06-12 17:46:56	INFO	tableplot::setgui	Switching to GUI mode. All current plots  will be reset.
+2019-06-12 17:46:56	SEVERE	plotcal::createCalTab (file /var/rpmbuild/BUILD/casa-prerelease/casa-prerelease-4.6.0/gcwrap/tools/synthesis/CalTables/PlotCal.cc, line 1201)	Calibration table 3c286spwall_all.G0_all/ does not exist 
+2019-06-12 17:46:56	SEVERE		Exception Reported: Table file /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/VLA/Bootes1/Bootes1_results_170209/3c286spwall_all.G0_all/table.dat does not exist
+2019-06-12 17:46:56	INFO	plotcal::::	##### End Task: plotcal              #####
+2019-06-12 17:46:56	INFO	plotcal::::+	##########################################
+2019-06-12 17:47:23	INFO	plotcal::::	
+2019-06-12 17:47:23	INFO	plotcal::::+	##########################################
+2019-06-12 17:47:23	INFO	plotcal::::+	##### Begin Task: plotcal            #####
+2019-06-12 17:47:23	INFO	plotcal::::	plotcal(caltable="3c286spwall_all.G0_all",xaxis="time",yaxis="phase",poln="R",field="",
+2019-06-12 17:47:23	INFO	plotcal::::+	        antenna="",spw="",timerange="",subplot=111,overplot=False,
+2019-06-12 17:47:23	INFO	plotcal::::+	        clearpanel="Auto",iteration="antenna",plotrange=[-1, -1, -180, 180],showflags=False,plotsymbol="o",
+2019-06-12 17:47:23	INFO	plotcal::::+	        plotcolor="blue",markersize=5.0,fontsize=10.0,showgui=True,figfile="")
+2019-06-12 17:47:23	INFO	tableplot::setgui	Switching to GUI mode. All current plots  will be reset.
+2019-06-12 17:47:23	SEVERE	plotcal::createCalTab (file /var/rpmbuild/BUILD/casa-prerelease/casa-prerelease-4.6.0/gcwrap/tools/synthesis/CalTables/PlotCal.cc, line 1201)	Calibration table 3c286spwall_all.G0_all does not exist 
+2019-06-12 17:47:23	SEVERE		Exception Reported: Table file /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/VLA/Bootes1/Bootes1_results_170209/3c286spwall_all.G0_all/table.dat does not exist
+2019-06-12 17:47:23	INFO	plotcal::::	##### End Task: plotcal              #####
+2019-06-12 17:47:23	INFO	plotcal::::+	##########################################
+2019-06-12 17:47:41	INFO	plotcal::::	
+2019-06-12 17:47:41	INFO	plotcal::::+	##########################################
+2019-06-12 17:47:41	INFO	plotcal::::+	##### Begin Task: plotcal            #####
+2019-06-12 17:47:41	INFO	plotcal::::	plotcal(caltable="3c286spwall_all.B0",xaxis="time",yaxis="phase",poln="R",field="",
+2019-06-12 17:47:41	INFO	plotcal::::+	        antenna="",spw="",timerange="",subplot=111,overplot=False,
+2019-06-12 17:47:41	INFO	plotcal::::+	        clearpanel="Auto",iteration="antenna",plotrange=[-1, -1, -180, 180],showflags=False,plotsymbol="o",
+2019-06-12 17:47:41	INFO	plotcal::::+	        plotcolor="blue",markersize=5.0,fontsize=10.0,showgui=True,figfile="")
+2019-06-12 17:47:41	INFO	tableplot::setgui	Switching to GUI mode. All current plots  will be reset.
+2019-06-12 17:47:41	SEVERE	plotcal::createCalTab (file /var/rpmbuild/BUILD/casa-prerelease/casa-prerelease-4.6.0/gcwrap/tools/synthesis/CalTables/PlotCal.cc, line 1201)	Calibration table 3c286spwall_all.B0 does not exist 
+2019-06-12 17:47:41	SEVERE		Exception Reported: Table file /media/tc1815/OS/Users/USER/OneDrive/Miscillaneous/Schooling/Project_Imperial/VLA/Bootes1/Bootes1_results_170209/3c286spwall_all.B0/table.dat does not exist
+2019-06-12 17:47:41	INFO	plotcal::::	##### End Task: plotcal              #####
+2019-06-12 17:47:41	INFO	plotcal::::+	##########################################

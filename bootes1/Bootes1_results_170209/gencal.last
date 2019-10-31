@@ -1,0 +1,10 @@
+taskname           = "gencal"
+vis                =  "16B-013.sb32753521.eb33105440.57746.79002927084.ms"
+caltable           =  "bootes1.antpos"
+caltype            =  "antpos"
+infile             =  ""
+spw                =  ""
+antenna            =  ""
+pol                =  ""
+parameter          =  []
+#gencal(vis="16B-013.sb32753521.eb33105440.57746.79002927084.ms",caltable="bootes1.antpos",caltype="antpos",infile="",spw="",antenna="",pol="",parameter=[])
